@@ -1,0 +1,243 @@
+{
+  "openTicketsPage": {
+    "title": "Arbeitsaufträge",
+    "sparePartOrderCreated": "Ersatzteilanfrage erstellt!",
+    "ticketCreated": "Arbeitsauftrag erstellt!",
+    "maps": {
+      "showOnMapButton": "Auf der Karte anzeigen",
+      "showListButton": "Übersicht anzeigen",
+      "numberOfTicketsForFacility": "Für diesen Kundenstandort erstellte Arbeitsaufträge"
+    },
+    "filters": {
+      "addFilter": "Filter hinzufügen",
+      "filterBy": "Filtern nach",
+      "placeholder": "Nach einer oder mehreren Optionen suchen...",
+      "remove": "ALLE LÖSCHEN",
+      "maxLimit": "Sie haben die maximale Anzahl von aktiven Filtern erreicht",
+      "TICKET_STATUS": {
+        "title": "Status des Arbeitsauftrags",
+        "label": "Status des Arbeitsauftrags:"
+      },
+      "ASSIGNEE": {
+        "title": "Beauftragter",
+        "label": "Beauftragter:"
+      },
+      "TICKET_TYPE": {
+        "title": "Auftragstyp",
+        "label": "Auftragstyp:"
+      },
+      "FACILITY_NAME": {
+        "title": "Kundenstandort",
+        "label": "Name des Kundenstandorts:"
+      },
+      "MACHINE_NAME": {
+        "title": "Name der Maschine",
+        "label": "Name der Maschine:"
+      },
+      "DATE_RANGE": {
+        "title": "Zeitraum",
+        "label": "Wählen Sie den Zeitraum für Arbeitsaufträge",
+        "remove": "DATUM LÖSCHEN",
+        "apply": "DATUM ANWENDEN"
+      },
+      "SCHEDULED": {
+        "title": "Geplant",
+        "label": "Geplant:"
+      },
+      "installation-date": {
+        "title": "Inbetriebnahme",
+        "label": "Inbetriebnahme:"
+      }
+    },
+    "listing": {
+      "totalNumberTickets": "Arbeitsaufträge",
+      "totalNumberUnread": "Ungelesen",
+      "unreadTicketTitle": "Ungelesene Arbeitsaufträge",
+      "otherTicketTitle": "Sonstige Arbeitsaufträge"
+    },
+    "created": "Ticket wurde erstellt!",
+    "filterApplied": "Filter wurden angewendet",
+    "noTickets": "Es gibt keine offenen Arbeitsaufträge",
+    "kanbanBoard": {
+      "featureAccessDeniedAckBtnText": "Okay",
+      "featureAccessDeniedModalTitle": "Wenn Sie die Kanban Board Funktion nutzen möchten, kontaktieren Sie bitte"
+    }
+  },
+  "notAssignedLabel": "NOCH NICHT ZUGEWIESEN",
+  "ticketDetails": {
+    "notAssigned": "Noch nicht zugewiesen",
+    "ticketOverviewTab": {
+      "label": "Private Dokumente sind für den Nutzer am Kundenstandort nicht sichtbar. Bitte gehen Sie ins Maschinenprofil, um die Sichtbarkeit zu ändern.",
+      "noDocuments": "Für diese Maschine liegen keine Dokumente vor",
+      "totalTicketsRelatedToMachine": "Arbeitsauftrag für diese Maschine"
+    },
+    "internalNoteSaved": "Interne Notiz gespeichert!",
+    "titleTabs": {
+      "overview": "Auftragsübersicht",
+      "documentation": "Dokumentation",
+      "history": "Historie der Maschine",
+      "timeTracking": "Zeiterfassung"
+    },
+    "detailsListing": {
+      "date": "Erstellungsdatum",
+      "id": "Auftrags-ID",
+      "status": "STATUS",
+      "statusPlaceholder": "Status ändern",
+      "assignee": "Beauftragter",
+      "assigneePlaceholder": "Arbeitsauftag zuweisen",
+      "followers": "FOLLOWER",
+      "followersPlaceholder": "Noch nicht zugewiesen",
+      "reporter": "Ersteller",
+      "reporterPlaceholder": "Ersteller zuweisen",
+      "unAssignedTicketSchedueMessage": "Dieser Arbeitsauftrag ist nicht zugewiesen. Sie müssen diesen Auftrag erst zuweisen, um eine Zeit einzuplanen"
+    },
+    "description": {
+      "readMore": "Mehr",
+      "notes": {
+        "title": "Interne Notizen",
+        "placeholder": "Interne Notiz hinzufügen",
+        "noNotes": "Zu diesem Arbeitsauftrag gibt es keine Notizen.",
+        "mentionHeader": "Benutzer zum Markieren auswählen"
+      }
+    },
+    "noMachineHistory": "Für diese Maschine gibt es keine Maschinenhistorie."
+  },
+  "myTicketsPage": {
+    "totalTickets": {
+      "numberOpen": "Offene Arbeitsaufträge",
+      "numberClosed": "Geschlossene Arbeitsaufträge"
+    },
+    "openTicketsTitle": "Meine Aufträge",
+    "closedTicketsTitle": "Meine geschlossenen Aufträge",
+    "noOpenTickets": "Es sind keine offenen Arbeitsaufträge zugewiesen.",
+    "noClosedTickets": "Es sind keine geschlossenen Arbeitsaufträge zugewiesen.",
+    "noTickets": {
+      "message": "Es sind keine offenen oder geschlossenen Arbeitsaufträge zugewiesen.",
+      "totalTickets": "0 zugewiesene Arbeitsaufträge"
+    }
+  },
+  "closedTicketsPage": {
+    "totalTickets": "Arbeitsaufträge",
+    "noClosedTickets": "Es sind keine geschlossenen Arbeitsaufträge zugewiesen.",
+    "ticketClosed": "Arbeitsauftrag in geschlossene Aufträge verschoben!"
+  },
+  "addTicketButton": "Neuen Arbeitsauftrag hinzufügen",
+  "alertAcceptButton": "Abbrechen",
+  "alertCancelButton": "Beenden",
+  "allStaff": "Alle Mitarbeiter",
+  "assigneeAvailable": "Beauftragter wird geändert von {{}} zu ",
+  "unAssigned": "Die zugewiesene Person wird entfernt, sind Sie sicher?",
+  "unAssignReporter": "Der Reporter wird entfernt, sind Sie sicher?",
+  "changeAcceptButton": "Ja, Ändern",
+  "removeAcceptButton": "Ja, Entfernen",
+  "changeCancelButton": "Nein, Abbrechen",
+  "deletedFacility": "Kundenstandort gelöscht",
+  "deletedMachine": "Maschine gelöscht",
+  "renderSchedule": {
+    "addTextHere": "Hier Text einfügen",
+    "agentName": "Name",
+    "agentTitle": "Berufsbezeichnung",
+    "day": "Tag",
+    "notScheduled": "Noch nicht geplant",
+    "schedule": "Geplant",
+    "scheduleTicketTitle": "abc",
+    "week": "Woche",
+    "zeroByHundred": "0/100"
+  },
+  "searchStaff": "Mitarbeiter suchen",
+  "statusText": "Status",
+  "ticketCreatedForFacility": "Für diesen Kundenstandort erstellte Arbeitsaufträge",
+  "errors": {
+    "facilityRequired": "Pflichtfeld",
+    "fieldRequired": "Pflichtfeld",
+    "machineRequired": "Pflichtfeld",
+    "ticketTypeRequired": "Auftragstyp ist erforderlich",
+    "titleRequired": "Pflichtfeld"
+  },
+  "floatingButtons": {
+    "planCapacity": "Kapazität planen",
+    "showList": "Liste anzeigen",
+    "showOnMap": "Karte anzeigen"
+  },
+  "loadingPlanCapacity": "...lädt",
+  "noTicketFound": "Keine Arbeitsaufträge gefunden",
+  "ticketFollower": "Follower",
+  "ticketFollowerAddPlaceholder": "Follower hinzufügen",
+  "ticketID": "Auftrags-ID",
+  "ticketMovedToClosed": "Arbeitsauftrag in geschlossene Aufträge verschoben!",
+  "ticketQuitAlertTitle": "Verlassen ohne zu speichern?",
+  "ticketQuitAlertMessage": "Sind Sie sicher, dass Sie fortfahren möchten? Ihre Arbeit wird nicht gespeichert.",
+  "ticketScheduleUpdated": "Arbeitsauftragsplan aktualisiert",
+  "preventiveTicketTitlePart": "Wartung fällig am",
+  "ticketMovedToOpen": "Arbeitsauftrag in offene Aufträge verschoben",
+  "statusChangeAlertTitle": "Sind Sie sicher, dass Sie den Status eines abgeschlossenen Arbeitsauftrags ändern möchten?",
+  "parts": "Ersatzteile",
+  "selectPartForTicket": "Für diesen Arbeitsauftrag benötigte Ersatzteile auswählen",
+  "addPartQuantity": "Anzahl zum Arbeitsauftrag hinzufügen",
+  "quantity": "Anzahl",
+  "partRemoveAlertTitle": "Sind Sie sicher, dass Sie das Ersatzteil aus diesem Arbeitsauftrag entfernen möchten?",
+  "partRemoveSuccessMsg": "Ersatzteil erfolgreich entfernt",
+  "partRemoveFailMsg": "Ersatzteil konnte nicht aus dem Arbeitsauftrag entfernt werden",
+  "partAssignSuccessMsg": "Ersatzteil erfolgreich zugeordnet",
+  "partAssignFailMsg": "Ersatzteil konnte nicht zugeordnet werden",
+  "ticketDescAccordion": "Auftragsbeschreibung",
+  "customFieldsAccordion": "Weitere Felder",
+  "totalTimeSpent": "GESAMTZEIT",
+  "trackTicketTimeBtnText": "Zeit des Auftrags erfassen",
+  "addTimeManually": "Zeit hinzufügen",
+  "editTimeManually": "Zeit bearbeiten",
+  "timeLogRemoveAlertTitle": "Sind Sie sicher, dass Sie den Zeiterfassungseintrag aus diesem Auftrag entfernen möchten?",
+  "timeLogAddSuccess": "Zeiteingabe erfolgreich hinzugefügt",
+  "timeLogAddFailed": "Zeiteingabe konnte nicht hinzugefügt werden",
+  "timeLogUpdateSuccess": "Zeiteingabe erfolgreich aktualisiert",
+  "timeLogUpdateFailed": "Zeiteingabe konnte nicht aktualisiert werden",
+  "timeLogRemoveSuccess": "Zeiteingabe erfolgreich gelöscht",
+  "timeLogRemoveFailed": "Zeiteingabe konnte nicht gelöscht werden",
+  "editTimeInput": "Zeiteingabe bearbeiten",
+  "deleteTimeInput": "Zeiteingabe löschen",
+  "noTimeInputs": "Keine Zeiteingabe",
+  "timeTrackerAccessDeniedModalTitle": "Wenn Sie die Zeiterfassungsfunktion nutzen möchten, kontaktieren Sie bitte",
+  "addTimeTrackerDescription": "Beschreibung hinzufügen",
+  "addShortTimeTrackerDescription": "Kurze Beschreibung hinzufügen",
+  "addTicketTagLabel": "Kategorie des Auftrags",
+  "addTicketTagPlaceholder": "Auswählen",
+  "billableLable": "Rechnung",
+  "trackerEndTimeShouldBeGreater": "Die Endzeit kann nicht vor der Startzeit liegen.",
+  "preventiveEventDeletedMessage": "Vorbeugende Wartung wurde gelöscht",
+  "noDescription": "Keine Beschreibung",
+  "pageViews": {
+    "list": "Liste",
+    "board": "Board",
+    "map": "Karte",
+    "calender": "Kalender",
+    "table": "Tabelle"
+  },
+  "sparePartTicketMessage": "Ersatzteil-Aufträge können nur im Status \"Geschlossen\" und \"Offen\" gelöscht werden.",
+  "workOrderAssignee": "Beauftragter",
+  "workOrderReporter": "Auftraggeber",
+  "statusDropdownTitle": "Status des Arbeitsauftrags",
+  "search": "suchen",
+  "timeTrackerDateError": "Datum wählen",
+  "timeTrackerTimeError": "Zeit wählen",
+  "timeTrackerTagError": "Kategorie wählen",
+  "searchPlaceholder": "Titel",
+  "procedures": {
+    "sectionTitle": "Formulare",
+    "attachProcedureInastance": "Formularvorlage anhängen",
+    "attacheProcedureModalHeader": "Wählen Sie eine Vorlage",
+    "attacheProcedureDropdownLabel": "Wählen Sie ein Formualr aus, das in diesem Arbeitsauftrag verwendet werden soll:",
+    "attacheProcedurePlaceholder": "Wählen Sie",
+    "startActionText": "Formular starten",
+    "previewActionText": "Vorschau",
+    "shareActionText": "Teilen Sie",
+    "deleteActionText": "Formular löschen"
+  },
+  "workOrderName": "Name des Arbeitsauftrags",
+  "partsAdded": "Teile hinzugefügt",
+  "messaging": "Nachrichtenübermittlung",
+  "messagingTabs": {
+    "internalNotes": "Interne Anmerkungen",
+    "externalChat": "Externes Gespräch",
+    "email": "E-Mail"
+  }
+}

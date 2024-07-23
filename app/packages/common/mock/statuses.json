@@ -1,0 +1,62 @@
+[
+  {
+    "__typename":"Statuses",
+    "_id":"64d373c44c4ed3ebaccaa2d5",
+    "color":"#EE0064",
+    "label":"Open"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"64d373c44c4ed3ebaccaa2d6",
+    "color":"#00A5BC",
+    "label":"CALLBACK"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"64d373c44c4ed3ebaccaa2d7",
+    "color":"#00b09b",
+    "label":"VISIT PLANNED"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"65d61c3416735b0a70af8c14",
+    "color":"#6974fb",
+    "label":"READY FOR DEV"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"64eb3bb6a6dde661d6f671fe",
+    "color":"#172b4d",
+    "label":"SURVEY DONE"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"6532162d14fb774162ace44e",
+    "color":"#9e4b65",
+    "label":"PARTS ORDERED"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"64d373c44c4ed3ebaccaa2d8",
+    "color":"#8940e5",
+    "label":"ON HOLD"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"64db4f75b7a453ddccdea83b",
+    "color":"#FF7A00",
+    "label":"TROUBLESHOOTING"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"65f166bd6b9d3febc9ef63bd",
+    "color":"#ee0064",
+    "label":"EN-ROUTE"
+  },
+  {
+    "__typename":"Statuses",
+    "_id":"64d373c44c4ed3ebaccaa2da",
+    "color":"#00B09B",
+    "label":"Closed"
+  }
+]

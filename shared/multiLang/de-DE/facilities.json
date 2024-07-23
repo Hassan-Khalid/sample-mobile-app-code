@@ -1,0 +1,167 @@
+{
+  "totalFacilityNumber": "Kundenstandorte",
+  "searchPlaceholder": "Name",
+  "newFacilityButton": "Kundenstandort hinzufügen",
+  "id": "ID",
+  "emptyFacilityList": "Kein Kundenstandort vorhanden.",
+  "facilityDetails": {
+    "titleTabs": {
+      "userAccounts": "Nutzer Accounts",
+      "machines": "Maschinen",
+      "details": "Details des Kundenstandortes",
+      "generalInfo": "Allgemeine Informationen",
+      "productionLines": "Produktionslinien"
+    },
+    "userAccountsTab": {
+      "noInfoYet": "Noch keine Informationen",
+      "noNameYet": "Noch kein Name",
+      "updateError": "Etwas ist schiefgegangen. Nutzer konnte nicht aktualisiert werden",
+      "userAdded": "Benutzer erfolgreich hinzugefügt",
+      "userUpdated": "Benutzer erfolgreich aktualisiert",
+      "emailExistsError": "Diese E-Mail wird bereits verwendet",
+      "total": "Nutzer, die diesem Kundenstandort zugewiesen sind",
+      "type": {
+        "facility": "Nutzer des Kundenstandortes"
+      },
+      "options": {
+        "edit": "Account bearbeiten",
+        "delete": "Account löschen"
+      },
+      "deleteWindow": {
+        "title": "Sind Sie sicher, dass Sie diesen Nutzer löschen möchten?",
+        "yes": "Ja, löschen",
+        "no": "Nein, abbrechen"
+      },
+      "deleted": "Nutzer wurde von der Liste entfernt",
+      "deleteError": "Etwas ist schiefgegangen. Nicht möglich, den Nutzer zu entfernen",
+      "noUsers": "Diesem Kundenstandort sind keine Nutzer(s) zugewiesen.",
+      "searchPlaceholder": "Name"
+    },
+    "machinesTab": {
+      "total": "Maschinen, die diesem Kundenstandort zugewiesen sind",
+      "serial": "Seriennummer",
+      "added": "Maschine hinzugefügt",
+      "addTitle": "Maschinen dem Kundenstandort zuordnen",
+      "selectMachine": "Maschine auswählen",
+      "chooseMachine": "Maschine auswählen",
+      "edit": {
+        "addAnother": "Maschine hinzufügen",
+        "addMachine": {
+          "label": "Maschine zuweisen ",
+          "placeholder": "Eine Maschine auswählen"
+        },
+        "changes": {
+          "discard": "Änderungen verwerfen",
+          "discardSuccess": "Zuweisung der Maschine erfolgreich aufgehoben",
+          "discardError": "Etwas ist schiefgelaufen. Es ist nicht möglich, die Maschine zu entfernen",
+          "save": "Änderungen speichern",
+          "saveSuccess": "Maschinen erfolgreich zugewiesen",
+          "saveError": "Etwas ist schiefgelaufen. Es ist nicht möglich, die Maschinen zuzuweisen",
+          "unassignWindow": {
+            "title": "Sind Sie sicher, dass Sie die Zuordnung der Maschine zu diesem Kundenstandort aufheben möchten? (Maschine wird nicht gelöscht)",
+            "yes": "Zuordnung aufheben",
+            "no": "abbrechen"
+          }
+        }
+      },
+      "select": "Auswählen",
+      "searchPlaceholder": "Name/Seriennummer"
+    },
+    "detailsTab": {
+      "facilityRemovedSuccess": "Kundenstandort erfolgreich entfernt",
+      "unableToRemoveFacility": "Etwas ist schiefgelaufen. Kundenstandort konnte nicht entfernt werden",
+      "id": {
+        "title": "Kundenstandort ID",
+        "message": "Die ID Nummer wird automatisch generiert und kann nicht geändert werden."
+      },
+      "qrCode": {
+        "title": "Kundenstandort QR-Code Zugang:",
+        "message": "Dadurch kann die Einrichtung über den zugewiesenen QR-Code auf die App zugreifen, ohne die bereitgestellten Anmeldedaten verwenden zu müssen.",
+        "status": {
+          "disabled": "DEAKTIVIERT",
+          "enabled": "AKTIVIERT"
+        },
+        "copyUrl": "url kopieren",
+        "copyTooltip": "Kopiert"
+      },
+      "edit": {
+        "access": "Zugang",
+        "companyNameLabel": "Name des Kundenstandortes *",
+        "delete": "Kundenstandort löschen",
+        "CompanyNameError": "Der Name darf nicht mehr als 75 Zeichen haben",
+        "qrCodeMessage": "Dadurch können die Nutzer über den zugewiesenen QR-Code auf die App zugreifen, ohne die bereitgestellten Anmeldedaten verwenden zu müssen.",
+        "changes": {
+          "discard": "Änderungen verwerfen",
+          "save": "Änderungen speichern"
+        },
+        "successMsg": "Kundenstandort erfolgreich aktualisiert",
+        "qrStatusSuccessMsgStart": "QR Code des Kundenstandortes",
+        "qrStatusEnableMsg": "Aktiviert",
+        "qrStatusDisableMsg": "Deaktiviert"
+      },
+      "updated": "Details des Kundenstandortes aktualisiert",
+      "address": {
+        "label": "Adresse",
+        "placeholder": "Suche Kundenstandort"
+      },
+      "team": {
+        "label": "Mannschaft:"
+      }
+    },
+    "productionLinesTab": {
+      "assignTitle": "Produktionslinie zuordnen",
+      "noProductionLine": "Diesem Kundenstandort ist keine Produktionslinie zugeordnet.",
+      "searchPlaceHolder": "Suche nach Name/ID",
+      "assignProductionLineModal": {
+        "infoMessage": "Sie können nur Produktionslinien zuordnen, die keinem Kundenstandort zugeordnet sind.",
+        "nameTitle": "Name der Produktionslinie",
+        "idTitle": "Produktionslinien-ID",
+        "assignProductinLinesSuccess": "Erfolgreich zugewiesene Produktionslinie(n)",
+        "searchPlaceHolder": "Suche"
+      },
+      "unassignProductionLineModal": {
+      "success": "Produktionslinie nicht zugewiesen erfolgreich",
+      "error": "Etwas ist schief gelaufen. Produktionslinie kann nicht entfernt werden",
+      "unassignMessage": "Sind Sie sicher, dass Sie die Zuordnung dieser Produktionslinie zu diesem Kundenstandort aufheben wollen? (die Produktionslinie wird nicht gelöscht)"
+    }
+      
+    }
+  },
+  "created": "Kundenstandort erstellt",
+  "acceptButtonText": "Ja, abbrechen",
+  "cancelButtonText": "Nein, zurück",
+  "createdSuccess": "Kundenstandort erstellt",
+  "deleteAcceptButtonText": "Ja, löschen",
+  "deleteCancelButtonText": "Nein, abbrechen",
+  "facilityAddressQuitAlert": "Sind Sie sicher, dass Sie den Vorgang beenden möchten, ohne die Adresse des Kundenstandortes zu speichern?",
+  "facilityCreationQuitAlert": "Sind Sie sicher, dass Sie den Vorgang beenden möchten, ohne den Kundenstandort zu speichern?",
+  "facilityDeleteAlert": "Sind Sie sicher, dass Sie diesen Kundenstandort löschen möchten?",
+  "deleteFacility": "Kundenstandort löschen",
+  "facilityUpdateSuccess": "Kundenstandort erfolgreich aktualisiert",
+  "facilityUpdateFailed": "Aktualisierung des Kundenstandortes fehlgeschlagen",
+  "descriptionPlaceholder": "Beschreibung des Kundenstandortes hinzufügen",
+  "createUserBtn": "Benutzer anlegen",
+  "userListTableColumn": {
+    "name": "Name",
+    "email": "Email",
+    "jobTitle": "Berufsbezeichnung",
+    "landLine": "Festnetz",
+    "phoneNumber": "Telefonnummer",
+    "access": "Zugriff",
+    "noAccess": "Kein Zugriff"
+  },
+  "showQrCode": "QR-Code anzeigen",
+  "useFacilityQrCode": "Kundenstandort QR-Code verwenden",
+  "qrScanSignOutInfo": "Wenn Sie sich bei diesem Kundenstandort anmelden, werden Sie von dem aktuellen abgemeldet.",
+  "facilityText": "Kundenstandort",
+  "facilityNameText": "Name des Kundenstandortes",
+  "facilityAddressText": "Adresse des Kundenstandortes",
+  "facilityTeamText": "Zugewiesenes Team",
+  "pageViews": {
+    "list": "Liste",
+    "board": "Board",
+    "map": "Karte",
+    "calender": "Kalender",
+    "table": "Tabelle"
+  }
+}

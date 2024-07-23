@@ -1,0 +1,54 @@
+{
+  "welcome": "Bienvenido",
+  "subtitle": "Por favor, ingrese sus credenciales para loguearse en la plataforma.",
+  "heroTitle": "La siguiente generación de servicios posventa",
+  "heroSubtitle": "Una herramienta de supervivencia para fabricantes y distribuidores de máquinas",
+  "loginLabel": "Acceso",
+  "thanks":"Gracias",
+  "loginLabelLoading": "Acceso...",
+  "email": {
+    "label": "Email *",
+    "placeholder": "Ingrese su email",
+    "error": "No hay ningún usuario con estas credenciales.",
+    "invalidEmail": "Por favor, elegir un email"
+  },
+  "password": {
+    "label": "Contraseña *",
+    "placeholder": "Ingrese su contraseña",
+    "error": "C",
+    "invalidPassword": "Por favor, ingrese su contraseña"
+  },
+  "forgotPassword": {
+    "title": "Olvidó su contraseña?",
+    "message": "Por favor, ingrese su dirección de correo electrónico para resetear su contraseña.",
+    "email": {
+      "label": "Email *",
+      "placeholder": "Ingrese su email",
+      "inputPlaceholder": "ejemplo@mail.com",
+      "invalidEmail": "Por favor, elija un email"
+    },
+    "reset": "Resetear contraseña",
+    "resetLoading": "Resetear contraseña...",
+    "passwordChanged": "Contraseña cambiada",
+    "useOrgURL": "Por favor, use la URL proporcionada para la URL de su organización.",
+    "resetSuccess": {
+      "title": "Email enviado!",
+      "message": "Verifique su bandeja de entrada para obtener instrucciones de reinicio.",
+      "thanks": "Gracias!",
+      "resend": {
+        "didnotGet": "¿No recibiste el correo electrónico?",
+        "resendEmailHeading": "Verifique el correo electrónico para restablecer el enlace",
+        "resendEmailSubHeading": "Se ha enviado un correo electrónico a",
+        "resendEmail": "Reenviar",
+        "resendEmailLoading": "Reenviar...",
+        "resendEmailSuccess": "Un correo electrónico con instrucciones para restablecer la contraseña se ha enviado"
+      }
+    }
+  },
+  "signedOutMessage": "Inicie sesión con la URL de su organización.",
+  "poweredBy": "powered by",
+  "signIn": "Registrarse",
+  "signOut": "Salir",
+  "visitMakulaURL": "Por favor, visite la URL de su organización.",
+  "wrongCreds": "No hay ningún usuario con estas credenciales."
+}

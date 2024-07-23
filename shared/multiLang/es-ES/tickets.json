@@ -1,0 +1,243 @@
+{
+  "openTicketsPage": {
+    "title": "Órdenes de trabajo",
+    "maps": {
+      "showOnMapButton": "Mostrar en mapa",
+      "showListButton": "Mostrar en lista",
+      "numberOfTicketsForFacility": "Órdenes de trabajo creadas para esta instalación"
+    },
+    "filters": {
+      "addFilter": "Add filter",
+      "filterBy": "Filtrar por",
+      "placeholder": "Buscar una o más opciones...",
+      "remove": "REMOVE ALL",
+      "maxLimit": "Has alcanzado el número máximo de filtros activos",
+      "TICKET_STATUS": {
+        "title": "Estado de la orden de trabajo",
+        "label": "El estado de la orden de trabajo es:"
+      },
+      "ASSIGNEE": {
+        "title": "Persona asignada",
+        "label": "Persona asignada es:"
+      },
+      "TICKET_TYPE": {
+        "title": "Tipo de orden de trabajo",
+        "label": "El tipo de orden de trabajo es:"
+      },
+      "FACILITY_NAME": {
+        "title": "Nombre cliente",
+        "label": "Nombre cliente es:"
+      },
+      "MACHINE_NAME": {
+        "title": "Nombre máquina",
+        "label": "Nombre máquina es:"
+      },
+      "DATE_RANGE": {
+        "title": "Rango de fechas",
+        "label": "Seleccionar el intervalo de fechas para las órdenes de trabajo",
+        "remove": "REMOVER LAS FECHAS",
+        "apply": "APLICAR LAS FECHAS"
+      },
+      "SCHEDULED": {
+        "title": "Scheduled",
+        "label": "Scheduled ist:"
+      },
+      "installation-date": {
+        "title": "Installation date",
+        "label": "Installation date ist:"
+      }
+    },
+    "listing": {
+      "totalNumberTickets": "Órdenes de trabajo",
+      "totalNumberUnread": "No leídos",
+      "unreadTicketTitle": "Órdenes de trabajo no leídas",
+      "otherTicketTitle": "Otras órdenes de trabajo"
+    },
+    "ticketCreated": "Orden de trabajo creada!",
+    "sparePartOrderCreated": "Order de parte de repuesto creada!",
+    "filterApplied": "Filtros fueron aplicados",
+    "noTickets": "No hay órdenes de trabajo abiertas.",
+    "kanbanBoard": {
+      "featureAccessDeniedAckBtnText": "Ok",
+      "featureAccessDeniedModalTitle": "Si desea utilizar la función de tablero kanban, comuníquese con"
+    }
+  },
+  "notAssignedLabel": "NO ASIGNADO AÚN",
+  "ticketDetails": {
+    "notAssigned": "No asignado",
+    "ticketOverviewTab": {
+      "label": " Los documentos privados no son visibles para el usuario cliente. Por favor, vaya a Editar máquina para cambiar la visibilidad.",
+      "noDocuments": "No hay documentos adjuntos a esta máquina",
+      "totalTicketsRelatedToMachine": "Órdenes de trabajo para esta máquina"
+    },
+    "internalNoteSaved": "Nota interna guardada!",
+    "titleTabs": {
+      "overview": "Panorámica órdenes de trabajo",
+      "documentation": "Documentación de la máquina",
+      "history": "Historial de la máquina",
+      "timeTracking": "Medición de tiempos"
+    },
+    "detailsListing": {
+      "date": "FECHA",
+      "id": "ID orden de trabajo",
+      "status": "ESTATUS",
+      "statusPlaceholder": "Cambiar estatus",
+      "assignee": "Persona asignada",
+      "assigneePlaceholder": "Asignar orden de trabajo",
+      "followers": "SEGUIDORES",
+      "followersPlaceholder": "No asignado aún",
+      "reporter": "REPORTERO",
+      "reporterPlaceholder": "Asignar reportero",
+      "unAssignedTicketSchedueMessage": "Esta orden de trabajo no está asignada. Primero tiene que asignar esta orden de trabajo para programar una hora"
+    },
+    "description": {
+      "readMore": "Leer más",
+      "notes": {
+        "title": "Notas internas",
+        "placeholder": "Añadir notas internas",
+        "noNotes": "No hay notas añadidas para esta orden de trabajo.",
+        "mentionHeader": "Seleccionar usuario a etiquetar"
+      }
+    },
+    "noMachineHistory": "No hay historial de máquina para esta máquina."
+  },
+  "myTicketsPage": {
+    "totalTickets": {
+      "numberOpen": "Órdenes de trabajo abiertas",
+      "numberClosed": "Órdenes de trabajo cerradas"
+    },
+    "openTicketsTitle": "Mis órdenes de trabajo",
+    "closedTicketsTitle": "Mis órdenes de trabajo cerradas",
+    "noOpenTickets": "No hay órdenes de trabajo abiertas asignadas a usted.",
+    "noClosedTickets": "No hay órdenes de trabajo cerradas asignadas a usted.",
+    "noTickets": {
+      "message": "No hay órdenes de trabajo abiertas o cerradas asignadas a usted.",
+      "totalTickets": "0 órdenes de trabajo asignadas a usted"
+    }
+  },
+  "closedTicketsPage": {
+    "totalTickets": "Órdenes de trabajo",
+    "noClosedTickets": "No hay órdenes de trabajo cerradas asignadas a usted.",
+    "ticketClosed": "Orden de trabajo movida a órdenes de trabajo cerradas!"
+  },
+  "addTicketButton": "Añadir orden de trabajo",
+  "errors": {
+    "ticketTypeRequired": "El tipo de orden de trabajo es obligatorio",
+    "facilityRequired": "Cliente es requirido",
+    "machineRequired": "Máquina es requerido",
+    "titleRequired": "Este título es requerido",
+    "fieldRequired": "Este campo es requerido"
+  },
+  "floatingButtons": {
+    "showOnMap": "Mostrar en mapa",
+    "showList": "Mostrar en lista",
+    "planCapacity": "Planear capacidad"
+  },
+  "ticketQuitAlertTitle": "Quit without saving?",
+  "ticketQuitAlertMessage": "Are you sure you want to continue? Your work won’t be saved.",
+  "alertAcceptButton": "Cancel",
+  "alertCancelButton": "Quit",
+  "ticketScheduleUpdated": "Programa de la orden de trabajo actualizado",
+  "ticketMovedToClosed": "Orden de trabajo movida a órdenes de trabajo cerradas!",
+  "assigneeAvailable": "Persona asignada cambiará de {{}} a ",
+  "unAssigned": "Persona asignada será removida, estás seguro?",
+  "unAssignReporter": "El reportero será eliminado, estás seguro?",
+  "ticketID": "ID orden de trabajo",
+  "deletedFacility": "Cliente eliminado",
+  "deletedMachine": "Máquina eliminada",
+  "changeAcceptButton": "Si, Cambiar",
+  "removeAcceptButton": "Sí, Quitar",
+  "changeCancelButton": "No, Cancelar",
+  "statusText": "Status",
+  "ticketFollower": "Seguidores",
+  "ticketFollowerAddPlaceholder": "Añadir seguidores",
+  "renderSchedule": {
+    "schedule": "Agendado",
+    "notScheduled": "No agendado todavía",
+    "zeroByHundred": "0/100",
+    "addTextHere": "Añadir texto acá",
+    "scheduleTicketTitle": "abc",
+    "day": "Dia",
+    "week": "Semana",
+    "agentTitle": "Nombre del agente",
+    "agentName": "Agentes"
+  },
+  "ticketCreatedForFacility": "Órdenes de trabajo creadas para esta instalación",
+  "loadingPlanCapacity": "...cargando capacidad planeada",
+  "allStaff": "Todo el equipo",
+  "searchStaff": "Buscar dentro del equipo",
+  "noTicketFound": "No se han encontrado órdenes de trabajo",
+  "preventiveTicketTitlePart": "Mantenimiento se hará el ",
+  "ticketMovedToOpen": "Orden de trabajo movida a órdenes de trabajo abiertas!",
+  "statusChangeAlertTitle": "¿Está seguro de que desea cambiar el estado de una orden de trabajo cerrada?",
+  "parts": "Parts",
+  "selectPartForTicket": "Seleccionar las partes de repuesto necesarias para esta orden de trabajo",
+  "addPartQuantity": "Añadir cantidad a la orden de trabajo",
+  "quantity": "Quantity",
+  "partRemoveAlertTitle": "¿Está seguro de que desea eliminar la pieza de esta orden de trabajo?",
+  "partRemoveSuccessMsg": "Pieza eliminada correctamente de la orden de trabajo",
+  "partRemoveFailMsg": "No se ha podido eliminar la pieza de la orden de trabajo",
+  "partAssignSuccessMsg": "Pieza asignada correctamente a la orden de trabajo",
+  "partAssignFailMsg": "No se ha podido asignar la pieza a la orden de trabajo",
+  "ticketDescAccordion": "Descripción de la orden de trabajo",
+  "customFieldsAccordion": "Campos personalizados/internos",
+  "totalTimeSpent": "Tiempo total invertido",
+  "trackTicketTimeBtnText": "Medición del tiempo de la orden de trabajo",
+  "addTimeManually": "Añadir tiempo manualmente",
+  "editTimeManually": "Editar Tiempo Manulmente",
+  "timeLogRemoveAlertTitle": "Está seguro de que desea remover el tiempo ingresado de esta orden de trabajo?",
+  "timeLogAddSuccess": "Entrada de tiempo añadida exitosamente",
+  "timeLogAddFailed": "Error al añadir entrada de tiempo.",
+  "timeLogUpdateSuccess": "Entrada de tiempo actualizada exitosamente",
+  "timeLogUpdateFailed": "Error al actualizar entrada de tiempo.",
+  "timeLogRemoveSuccess": "Medición de tiempo borrada exitosamente",
+  "timeLogRemoveFailed": "Error al eliminar medición de tiempo.",
+  "editTimeInput": "Editar entrada de tiempo",
+  "deleteTimeInput": "Borrar entrada de tiempo",
+  "noTimeInputs": "No hay entrada de tiempo",
+  "timeTrackerAccessDeniedModalTitle": "ISi desea utilizar la función de seguimiento de tiempo, comuníquese con un agente comercial",
+  "addTimeTrackerDescription": "Añadir descipción",
+  "addShortTimeTrackerDescription": "Añadir descripción corta",
+  "addTicketTagLabel": "Tag de la orden de trabajo",
+  "addTicketTagPlaceholder": "Seleccionar",
+  "billableLable": "Facturable",
+  "trackerEndTimeShouldBeGreater": "La hora de finalización no puede ser anterior a la hora de inicio",
+  "preventiveEventDeletedMessage": "Evento de mantenimiento preventivo eliminado",
+  "noDescription": "No hay descripción",
+  "pageViews": {
+    "list": "Lista",
+    "board": "Tablero",
+    "map": "Mapa",
+    "calender": "Calendario",
+    "table": "Cuadro"
+  },
+  "sparePartTicketMessage": "La orden de trabajo de piezas de repuesto sólo puede eliminarse en estado Cerrado y Abierto.",
+  "workOrderAssignee": "Work Order Assignee",
+  "workOrderReporter": "Work Order Reporter",
+  "statusDropdownTitle": "El estado de la orden de trabajo es",
+  "search": "Recherche",
+  "timeTrackerDateError": "Seleccione una fecha ",
+  "timeTrackerTimeError": "Seleccione una hora",
+  "timeTrackerTagError": "Seleccione un tag",
+  "searchPlaceholder": "Título",
+  "procedures": {
+    "sectionTitle": "Procedimientos",
+    "attachProcedureInastance": "Adjuntar instancia de procedimiento",
+    "attacheProcedureModalHeader": "Seleccione un procedimiento",
+    "attacheProcedureDropdownLabel": "Seleccione un procedimiento para utilizar en esta orden de trabajo:",
+    "attacheProcedurePlaceholder": "Seleccione",
+    "startActionText": "Procedimiento de inicio",
+    "previewActionText": "previsualizar",
+    "shareActionText": "Compartir",
+    "deleteActionText": "Borrar procedimiento"
+  },
+  "workOrderName": "Nombre de la orden de trabajo",
+  "partsAdded": "piezas añadidas",
+  "messaging": "Mensajería",
+  "messagingTabs": {
+    "internalNotes": "Notas internas",
+    "externalChat": "Chat externo",
+    "email": "Correo electrónico"
+  },
+  "freeUsersLabel": "USUARIOS"
+}

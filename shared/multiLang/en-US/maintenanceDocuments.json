@@ -1,0 +1,25 @@
+{
+  "alertMsgSuccess": "Document has been deleted",
+  "alertMsgError": "Something went wrong",
+  "loadingDocuments": "...loading documents",
+  "confirmationAlertTitle": "Are you sure you want to delete this document?",
+  "accpetButtonText": "Yes, Delete",
+  "cancelButtonText": "No, Cancel",
+  "useTemplate": "Use Template",
+  "useTemplateDrawerTitle": "Use This Template to Create a New Document",
+  "continueButtonText": "Continue",
+  "documentInfoText": "Once you fill out the form you need to click continue and document will be automatically generated.",
+  "formLabel": {
+    "facilityLabel": "Facility Name",
+    "facilityPlaceholder": "Choose facility",
+    "machineLabel": "Machine",
+    "machinePlaceholder": "Choose machine",
+    "inspectionLabel": "Inspection Date"
+  },
+  "thankForSubmingForm": "Thank you for submitting the form",
+  "thankForSubmingFormContent": "Document has been created and published. All your files are stored in ",
+  "allDocuments": "All Documents",
+  "documents": "Documents",
+  "templates": "Templates",
+  "formErrorMsg": "Sorry, something went wrong! Please try again in a few minutes."
+}

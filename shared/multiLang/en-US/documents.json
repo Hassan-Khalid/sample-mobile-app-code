@@ -1,0 +1,15 @@
+{
+  "emptyDoc": {
+    "title": "How Does It Work?",
+    "stepCount1": "1",
+    "stepCount1Title": "Send us your paper form via pdf word etc.",
+    "stepCount2": "2",
+    "stepCount2Title": "We digitalize your form and create a digital form for you",
+    "stepCount3": "3",
+    "stepCount3Title": "You will be able to use this form on your Web and Mobile application to collect the data",
+    "stepCount4": "4",
+    "stepCount4Title": "Once you have uploaded/submitted the form, you will be able to see it in your Makula Interface"
+  },
+  "searchPlaceholder": "Search by title",
+  "templateSearchPlaceholder": "Search by title"
+}

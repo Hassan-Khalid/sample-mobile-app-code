@@ -1,0 +1,55 @@
+{
+  "editTitle": "Editar",
+  "searchComponent": "Búsqueda por nombre/ID",
+  "deleteButtonText": "Eliminar componente",
+  "imageDeleteSuccess": "Imagen de componente eliminada correctamente",
+  "descriptionPlaceholder": "Añadir descripción del componente",
+  "updateSuccess": "Componente actualizado correctamente",
+  "updateFailed": "Error al actualizar el componente",
+  "noMachineComponentsFound": "No hay ningún componente asignado a esta máquina.",
+  "noComponents": "No hay ningún componente disponible para su uso.",
+  "created": "Componente creado correctamente",
+  "creationFailed": "Error en la creación de componentes",
+  "labels": {
+    "componentId": "Componente ID",
+    "ID": "ID",
+    "machine": "Máquina"
+  },
+  "deleteAlert": {
+    "success": "Componente eliminado correctamente",
+    "title": "¿Suprimir componente?",
+    "message": "¿Está seguro de que desea eliminar este componente? ¿Esta acción no se puede anular?"
+  },
+  "unassignMessage": "¿Está seguro de que desea desasignar este componente de esta máquina? (el componente no se eliminará)",
+  "unassignSuccess": "Componente no asignado correctamente",
+  "unassignError": "Algo ha ido mal. No se puede eliminar el componente",
+  "assignComponentToMachineModal": {
+    "success": "Componente(s) asignado(s) con éxito",
+    "title": "Asignar componentes",
+    "serachComponentePlaceHolder": "Buscar en",
+    "assignButton": "Asignar componentes",
+    "labels": {
+      "componentName": "Nombre del componente",
+      "componentId": "Componente ID"
+  }
+  },
+   "noComponentPartsFound": "No hay Partes asignadas a este componente",
+  "unassignConfirmationFromComponentTitle": "¿Está seguro de que desea desasignar {{}} de este componente?",
+  "componentPartsAdded": "Piezas añadidas correctamente",
+  "componentPartsAddFailed": "No se han podido añadir piezas para este componente",
+  "componentPartRemoved": "Pieza no asignada correctamente",
+  "componentPartRemoveFailed": "Fallo al extraer piezas de este componente",
+  "assignPart": "Asignar parte",
+  "searchPartPlaceholder": "Búsqueda por nombre/artículo",
+  "assignPartToComponentModal": {
+    "title": "Asignar piezas",
+    "searchPartPlaceHolder": "Buscar en",
+    "assignButton": "Asignar piezas"
+  },
+  "tabs": {
+    "generalInfo": "Información general",
+    "parts": "Piezas"
+  },
+  "duplicateComponentIdError": "El ID del componente ya existe",
+  "noAccess": "Sin acceso"
+}

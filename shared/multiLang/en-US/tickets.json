@@ -1,0 +1,243 @@
+{
+  "openTicketsPage": {
+    "title": "Work Orders",
+    "maps": {
+      "showOnMapButton": "Show on Map",
+      "showListButton": "Show List",
+      "numberOfTicketsForFacility": "work orders created for this facility"
+    },
+    "filters": {
+      "addFilter": "Add filter",
+      "filterBy": "Filter by",
+      "placeholder": "Search for one or more options...",
+      "remove": "REMOVE ALL",
+      "maxLimit": "You've reached maximum number of active filters",
+      "TICKET_STATUS": {
+        "title": "Work order status",
+        "label": "Work order status is:"
+      },
+      "ASSIGNEE": {
+        "title": "Assignee",
+        "label": "Assignee is:"
+      },
+      "TICKET_TYPE": {
+        "title": "Work order type",
+        "label": "Work order type is:"
+      },
+      "FACILITY_NAME": {
+        "title": "Facility name",
+        "label": "Facility name is:"
+      },
+      "MACHINE_NAME": {
+        "title": "Machine name",
+        "label": "Machine name is:"
+      },
+      "DATE_RANGE": {
+        "title": "Date range",
+        "label": "Pick the date range for work orders",
+        "remove": "REMOVE THE DATES",
+        "apply": "APPLY DATES"
+      },
+      "SCHEDULED": {
+        "title": "Scheduled",
+        "label": "Scheduled ist:"
+      },
+      "installation-date": {
+        "title": "Installation date",
+        "label": "Installation date ist:"
+      }
+    },
+    "listing": {
+      "totalNumberTickets": "Work Orders",
+      "totalNumberUnread": "Unread",
+      "unreadTicketTitle": "Unread Work Orders",
+      "otherTicketTitle": "Other Work Orders"
+    },
+    "ticketCreated": "Work Order created!",
+    "sparePartOrderCreated": "Spare part order created!",
+    "filterApplied": "Filters Has Been Applied",
+    "noTickets": "There are no open work orders.",
+    "kanbanBoard": {
+      "featureAccessDeniedAckBtnText": "Okay",
+      "featureAccessDeniedModalTitle": "If you want to use the kanban board feature, please contact"
+    }
+  },
+  "notAssignedLabel": "NOT ASSIGNED YET",
+  "ticketDetails": {
+    "notAssigned": "Not assigned",
+    "ticketOverviewTab": {
+      "label": "Private documents are not visible to facility user. Please go to edit machine to change visibility.",
+      "noDocuments": "There are no documents attached for this machine",
+      "totalTicketsRelatedToMachine": "work order related to this machine"
+    },
+    "internalNoteSaved": "Internal Note Saved!",
+    "titleTabs": {
+      "overview": "Work Order Overview",
+      "documentation": "Machine Documentation",
+      "history": "Machine History",
+      "timeTracking": "Time Tracking"
+    },
+    "detailsListing": {
+      "date": "Created",
+      "id": "Work Order ID",
+      "status": "STATUS",
+      "statusPlaceholder": "Change status",
+      "assignee": "Assignee",
+      "assigneePlaceholder": "Assign Work Order",
+      "followers": "FOLLOWERS",
+      "followersPlaceholder": "Not Assigned Yet",
+      "reporter": "Reporter",
+      "reporterPlaceholder": "Assign reporter",
+      "unAssignedTicketSchedueMessage": "This work order is unassigned. You have to assign this work order first in order to schedule a time"
+    },
+    "description": {
+      "readMore": "Read More",
+      "notes": {
+        "title": "Internal Notes",
+        "placeholder": "Add your internal notes",
+        "noNotes": "There are no notes added for this work order.",
+        "mentionHeader": "Select user to tag"
+      }
+    },
+    "noMachineHistory": "There is no machine history for this machine."
+  },
+  "myTicketsPage": {
+    "totalTickets": {
+      "numberOpen": "Open Work Orders",
+      "numberClosed": "Closed Work Orders"
+    },
+    "openTicketsTitle": "My Work Orders",
+    "closedTicketsTitle": "My Closed Work Orders",
+    "noOpenTickets": "There are no open work orders assigned to you.",
+    "noClosedTickets": "There are no closed work orders assigned to you.",
+    "noTickets": {
+      "message": "There are no open or closed work orders assigned to you.",
+      "totalTickets": "0 Work Orders Assigned to You"
+    }
+  },
+  "closedTicketsPage": {
+    "totalTickets": "Work Orders",
+    "noClosedTickets": "There are no closed work orders.",
+    "ticketClosed": "Work Order moved to closed work orders!"
+  },
+  "addTicketButton": "Add New Work Order",
+  "errors": {
+    "ticketTypeRequired": "Work Order type is required",
+    "facilityRequired": "Facility is required",
+    "machineRequired": "Machine is required",
+    "titleRequired": "Title is required",
+    "fieldRequired": "This field is required"
+  },
+  "floatingButtons": {
+    "showOnMap": "Show on Map",
+    "showList": "Show List",
+    "planCapacity": "Plan Capacity"
+  },
+  "ticketQuitAlertTitle": "Quit without saving?",
+  "ticketQuitAlertMessage": "Are you sure you want to continue? Your work won’t be saved.",
+  "alertAcceptButton": "Cancel",
+  "alertCancelButton": "Quit",
+  "ticketScheduleUpdated": "Work order schedule updated",
+  "ticketMovedToClosed": "Work order moved to closed work orders",
+  "assigneeAvailable": "Assignee will change from {{}} to ",
+  "unAssigned": "Assignee will be removed, are you sure?",
+  "unAssignReporter": "Reporter will be removed, are you sure?",
+  "ticketID": "Work Order ID",
+  "deletedFacility": "Deleted Facility",
+  "deletedMachine": "Deleted Machine",
+  "changeAcceptButton": "Yes, Change",
+  "removeAcceptButton": "Yes, Remove",
+  "changeCancelButton": "No, Cancel",
+  "statusText": "Status",
+  "ticketFollower": "Work Order Followers",
+  "ticketFollowerAddPlaceholder": "Add work order followers",
+  "renderSchedule": {
+    "schedule": "Scheduled Date and time",
+    "notScheduled": "Not scheduled yet",
+    "zeroByHundred": "0/100",
+    "addTextHere": "Add text here",
+    "scheduleTicketTitle": "abc",
+    "day": "Day",
+    "week": "Week",
+    "agentTitle": "Agent Name",
+    "agentName": "Agents"
+  },
+  "ticketCreatedForFacility": "work orders created for this facility",
+  "loadingPlanCapacity": "...loading plan capacity",
+  "allStaff": "All Staff",
+  "searchStaff": "Search Staff",
+  "noTicketFound": "There are no work orders found",
+  "preventiveTicketTitlePart": "Maintenance due on",
+  "ticketMovedToOpen": "Work order moved to open work orders",
+  "statusChangeAlertTitle": "Are you sure you want to change closed work order's status?",
+  "parts": "Parts",
+  "selectPartForTicket": "Select Parts Needed for This Work Order",
+  "addPartQuantity": "Add quantity to work order",
+  "quantity": "Quantity",
+  "partRemoveAlertTitle": "Are you sure you want to remove the part from this work order?",
+  "partRemoveSuccessMsg": "Part removed from work order successfully",
+  "partRemoveFailMsg": "Failed to remove part from work order",
+  "partAssignSuccessMsg": "Part assigned to work order successfully",
+  "partAssignFailMsg": "Failed to assign part to work order",
+  "ticketDescAccordion": "Work order description",
+  "customFieldsAccordion": "Internal / Custom Fields",
+  "totalTimeSpent": "Total time spent",
+  "trackTicketTimeBtnText": "Track Work Order Time",
+  "addTimeManually": "Add Time Manually",
+  "editTimeManually": "Edit Time Manually",
+  "timeLogRemoveAlertTitle": "Are you sure you want to remove the time tracker input from this work order?",
+  "timeLogAddSuccess": "Time input added successfully",
+  "timeLogAddFailed": "Failed to add time input.",
+  "timeLogUpdateSuccess": "Time input updated successfully",
+  "timeLogUpdateFailed": "Failed to update time input.",
+  "timeLogRemoveSuccess": "Time tracker input deleted successfully",
+  "timeLogRemoveFailed": "Failed to delete time tracker input.",
+  "editTimeInput": "Edit Time Input",
+  "deleteTimeInput": "Delete Time Input",
+  "noTimeInputs": "There is no time input",
+  "timeTrackerAccessDeniedModalTitle": "If you want to use the time tracking feature, please contact",
+  "addTimeTrackerDescription": "Add description",
+  "addShortTimeTrackerDescription": "Add short description",
+  "addTicketTagLabel": "Work order tag",
+  "addTicketTagPlaceholder": "Select",
+  "billableLable": "Billable",
+  "trackerEndTimeShouldBeGreater": "End Time cannot be earlier than Start Time",
+  "preventiveEventDeletedMessage": "Preventive maintenance deleted",
+  "noDescription": "No Description",
+  "pageViews": {
+    "list": "List",
+    "board": "Board",
+    "map": "Map",
+    "calender": "Calendar",
+    "table": "Table"
+  },
+  "sparePartTicketMessage": "Spare Part Work Order can be dropped only in Closed and Open status",
+  "workOrderAssignee": "Work Order Assignee",
+  "workOrderReporter": "Work Order Reporter",
+  "statusDropdownTitle": "Work Order Status is",
+  "search": "Search",
+  "timeTrackerDateError": "Please select a date",
+  "timeTrackerTimeError": "Please select a time",
+  "timeTrackerTagError": "Please select a tag",
+  "searchPlaceholder": "Search by title",
+  "procedures": {
+    "sectionTitle": "Procedures",
+    "attachProcedureInastance": "Attach procedure instance",
+    "attacheProcedureModalHeader": "Select a procedure",
+    "attacheProcedureDropdownLabel": "Select a procedure to use in this work order:",
+    "attacheProcedurePlaceholder": "Select",
+    "startActionText": "Start procedure",
+    "previewActionText": "preview",
+    "shareActionText": "Share",
+    "deleteActionText": "Delete procedure"
+  },
+  "workOrderName": "Work order name",
+  "partsAdded": "parts added",
+  "messaging": "Messaging",
+  "messagingTabs": {
+    "internalNotes": "Internal notes",
+    "externalChat": "External chat",
+    "email": "Email"
+  },
+  "freeUsersLabel": "USERS"
+}

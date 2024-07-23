@@ -1,0 +1,248 @@
+{
+  "newUserForm": {
+    "heroTitle": "Add New User",
+    "title": "User Accounts",
+    "userNumber": "USER",
+    "name": {
+      "label": "Full Name",
+      "placeholder": "Enter full name"
+    },
+    "job": {
+      "label": "Job Title or Function",
+      "placeholder": "Enter info"
+    },
+    "email": {
+      "label": "E-Mail *",
+      "placeholder": "Enter email"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "Enter phone number",
+      "invalidFormatError": "Invalid format for phone",
+      "invalidCharacterError": "0-9 and + are allowed"
+    },
+    "landline": {
+      "label": "Landline",
+      "placeholder": "Enter landline",
+      "invalidFormatError": "Invalid format for landline",
+      "invalidCharacterError": "0-9 and + are allowed"
+    },
+    "teams": {
+      "label": "Assign to team",
+      "placeholder": "Select teams"
+    },
+    "addAnother": "Add Another User",
+    "access": "Access",
+    "notify": "Notify",
+    "message": "The password will be sent via email.",
+    "save": "Save the User"
+  },
+  "newMachineForm": {
+    "heroTitle": "Create New Machine",
+    "name": {
+      "label": "Add Machine Name",
+      "placeholder": "Add machine name",
+      "lengthError": "Name cannot be more than 75 characters"
+    },
+    "serial": {
+      "label": "Add Serial Number",
+      "labelInputting": "Serial Number *",
+      "error": "This serial number is already associated with another machine in your company",
+      "lengthError": "Serial number cannot be more than 75 characters",
+      "placeholder": "Add serial number"
+    },
+    "facility": {
+      "label": "Choose Facility",
+      "placeholder": "Choose facility"
+    },
+    "decription": {
+      "label": "Machine Description",
+      "placeholder": "Add machine description"
+    },
+    "imageUpload": {
+      "dropImage": {
+        "beforeLink": "Drop your image here, or ",
+        "link": "click to browse",
+        "afterLink": " on you computer"
+      },
+      "fileRecommendation": "1600 x 1200 (4:3) recommended, up to 10MB.",
+      "uploaded": {
+        "title": "Machine Documents",
+        "label": "Files and folders can be managed once the machine is created."
+      }
+    },
+    "exitWindow": {
+      "title": "Are you sure you want to quit without saving this new machine?",
+      "yes": "Yes, Cancel",
+      "no": "No, Go Back"
+    },
+    "submit": "Submit New Machine"
+  },
+  "newFacilityForm": {
+    "heroTitle": "Add New Facility",
+    "name": {
+      "label": "Facility Name *",
+      "placeholder": "Add facility name"
+    },
+    "user": {
+      "title": "User Accounts",
+      "userNumber": "USER",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter full name"
+      },
+      "job": {
+        "label": "Job Title or Function",
+        "placeholder": "Enter info"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "Enter e-mail"
+      },
+      "addAnother": "Add Another User",
+      "access": "Access",
+      "message": "The password will be send via email if the access is enabled."
+    },
+    "machines": {
+      "title": "Facility Machines",
+      "message": "Machine can be assigned only to one facility.",
+      "assign": {
+        "label": "Assign Machine",
+        "placeholder": "Select a machine"
+      },
+      "addAnother": "Add Another Machine"
+    },
+    "teams": {
+      "label": "Assign teams",
+      "placeholder": "Select a team",
+      "infoMessage": "All machines assigned to this facility will automatically be assigned to the team.",
+      "dropdownTitle": "Select teams"
+    },
+    "submit": "Submit the Facility"
+  },
+  "newTicketForm": {
+    "addTicketTitle": "Add New Work Order",
+    "type": {
+      "label": "Choose Work Order Type *",
+      "ServiceRequest": "Service Request",
+      "SparePartOrder": "Spare Part Order"
+    },
+    "facility": {
+      "label": "Select Facility *",
+      "placeholder": "Choose facility"
+    },
+    "machine": {
+      "label": "Select Machine *",
+      "placeholder": "Choose machine"
+    },
+    "reporter": {
+      "label": "Select Reporter",
+      "placeholder": "Choose reporter"
+    },
+    "title": {
+      "label": "Work Order Title *",
+      "placeholder": "Add work order title",
+      "lengthError": "Title cannot be more than 75 characters"
+    },
+    "description": {
+      "label": "Work Order Description",
+      "placeholder": "Add work order description"
+    },
+    "submit": "Submit work order",
+    "exit": {
+      "title": "Are you sure you want to quit without saving the work order?",
+      "yes": "Yes, Cancel",
+      "no": "No, Go Back"
+    }
+  },
+  "noOption": "No available option",
+  "productionLineForm": {
+    "title": "Add a production line",
+    "submitButtonText": "Save production line",
+    "nameField": {
+      "label": "Name *",
+      "placeholder": "Enter name",
+      "lengthError": "Name cannot be more than 75 characters"
+    },
+    "productionLineIdField": {
+      "label": "Production line ID *",
+      "placeholder": "Enter Production line ID",
+      "lengthError": "ID cannot be more than 75 characters"
+    },
+    "facility": {
+      "label": "Choose facility",
+      "placeholder": "Select facility"
+    },
+    "descriptionField": {
+      "label": "Description",
+      "placeholder": "Enter your text"
+    },
+    "teams": {
+      "label": "Assign teams",
+      "placeholder": "Select a team",
+      "dropdownTitle": "Select teams:"
+    },
+     "exitWindowTitle": "Are you sure you want to quit without saving this new production line?"
+  },
+  "componentForm": {
+    "title": "Add a component",
+    "submitButtonText": "Save component",
+    "nameField": {
+      "label": "Name *",
+      "placeholder": "Enter name",
+      "lengthError": "Name cannot be more than 75 characters"
+    },
+    "componentNumber": {
+      "label": "Component ID *",
+      "placeholder": "Enter component ID",
+      "lengthError": "Component ID cannot be more than 75 characters"
+    },
+     "machine": {
+      "label": "Machine"
+    },
+    "descriptionField": {
+      "label": "Description",
+      "placeholder": "Enter your text"
+    }, 
+    "imageField": {
+      "label": "Component image"
+    }
+  },
+  "machineTemplate": {
+    "addNewHeroTitle": "Add New Template",
+    "docUploadInfoTitle": "Template Documents",
+    "docUploadInfoDesc": "Files and folders can be managed once the template is created.",
+    "exitWindowTitle": "Are you sure you want to quit without saving this new template?",
+    "chooseTemplateText": "Choose template",
+    "chooseTemplateTypeText": "Choose template type",
+    "templateTitleText": "Template title",
+    "templateTitlePlaceholder": "Add template title",
+    "templateDescText": "Template description",
+    "templateDescWarn": "(not used for created machines)",
+    "templateDescPlaceholder": "Add template description",
+    "addTemplateBtnText": "Submit Machine Template",
+    "createFromTemplate": "Create New Machine From Template"
+  },
+  "machineNameLabelWarn": "(if left empty, template name will be used)",
+  "deleteTemplateWarn": "Template can only be deleted if all machines created from  this template are deleted first.",
+  "editFacilityUserForm": {
+    "title": "Edit User Account",
+    "name": { "label": "User Name", "placeholder": "Enter user name" },
+    "email": { "label": "User Email", "placeholder": "Enter user email" },
+    "jobTitle": { "label": "Job Title", "placeholder": "Enter job title" },
+    "access": {
+      "label": "Access",
+      "options": { "access": "Access", "noAccess": "No Access" }
+    },
+    "phone": { "label": "Phone Number", "placeholder": "Enter phone number" },
+    "landline": { "label": "Landline", "placeholder": "Enter landline" }
+  },
+  "billableOptions": {
+    "billable": "BILLABLE",
+    "nonBillable": "NON-BILLABLE"
+  }, 
+  "customField": {
+    "lengthError": "Field name cannot be more than 25 characters",
+    "alreadyOptionExists": "Value already exist!"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "totalMachineNumber": "Assets",
+  "newMachineButton": "Neue Maschine hinzufügen",
+  "noMachines": "Keine Maschine vorhanden",
+  "serialNum": "Seriennummer",
+  "kanbanSerialNum": "SN",
+  "machineDetails": {
+    "titleTabs": {
+      "details": "Details",
+      "documentation": "Dokumentation",
+      "history": "Historie",
+      "parts": "Ersatzteile",
+      "preventiveMaintenance": "Geplante Wartungen",
+      "generalInfo": "Allgemeine Informationen",
+      "components": "Komponenten"
+    },
+    "detailsTab": {
+      "qrCode": {
+        "title": "QR code Berechtigung",
+        "message": "Dies erteilt dem Anwender den Zugriff auf die Maschinendaten über den zugewiesenen QR-Code.",
+        "status": {
+          "disabled": "Deaktiviert",
+          "enabled": "Aktiviert"
+        },
+        "copyUrl": "URL kopieren",
+        "copyTooltip": "Kopiert",
+        "checkHasFacilityAssigned": "Sie müssen diese Maschine erst einem Kundenstandort zuweisen"
+      },
+      "serialNum": "Seriennummer",
+      "facility": "Kundenstandort",
+      "productionLine": "Produktionslinie",
+      "team": "Mannschaft:",
+      "installationDate": "Datum der Inbetriebnahme",
+      "descriptionLabel": "Beschreibung",
+      "empty": "Leer",
+      "edit": {
+        "access": "Zugang",
+        "labels": {
+          "nameLabel": "Name der Maschine *",
+          "nameError": "Name darf nicht länger als 75 Zeichen sein",
+          "serialNum": "Seriennummer *",
+          "serialError": "Seriennummer darf nicht länger als 75 Zeichen sein",
+          "facilityLabel": "Kundenstandort",
+          "facilityPlaceholder": "Kundenstandort",
+          "installationDate": "Datum der Inbetriebnahme",
+          "description": "Beschreibung der Maschine",
+          "descriptionPlaceholder": "Beschreibung der Maschine hinzufügen"
+        },
+        "qrStatusSuccessMsgStart": "QR Code des Kundenstandortes",
+        "qrStatusEnableMsg": "Aktiviert",
+        "qrStatusDisableMsg": "Deaktiviert",
+        "imageUpload": {
+          "dropImage": {
+            "beforeLink": "Fügen Sie Ihr Bild hier ein, oder ",
+            "link": "klicken Sie zum Durchsuchen",
+            "afterLink": " auf Ihrem Computer"
+          },
+          "fileRecommendation": "1600 x 1200 (4:3) empfohlen, bis zu 10MB.",
+          "fileTooLarge": "Bilddatei ist zu groß. Die Dateigröße sollte weniger als 10 MB sein",
+          "deleteImg": "Bild löschen",
+          "editImg": "Bild bearbeiten",
+          "replaceImg": "Bild austauschen"
+        },
+        "delete": {
+          "button": "Maschine löschen",
+          "window": {
+            "title": "Sind Sie sicher, dass Sie die Maschine löschen möchten?",
+            "yes": "Ja, löschen",
+            "no": "Nein, abbrechen"
+          }
+        },
+        "nameError": "Name der Maschine ist erforderlich",
+        "serialNumError": "Seriennummer ist erforderlich",
+        "imageUploadError": "Beim Hochladen des Bildes ist etwas schiefgegangen",
+        "imageDeleteSuccess": "Bild der Maschine gelöscht",
+        "updateSuccess": "Maschine aktualisiert",
+        "updateFailed": "Aktualisierung der Maschine fehlgeschlagen",
+        "deleteSuccess": "Maschine gelöscht"
+      }
+    },
+    "historyTab": {
+      "noHistoryMessage": "Es gibt keine Historie für diese Maschine.",
+      "ticketsRelated": "Aufträge für diese Maschine",
+      "tickedCreationDate": "Datum der Erstellung:",
+      "tickedId": "Auftrags-ID:",
+      "machineCreationDate": "Erstellungsdatum der Maschine:"
+    }
+  },
+  "created": "Maschine wurde erstellt",
+  "creationFailed": "Maschine konnte nicht erstellt werden",
+  "serialNumberExistError": "Seriennummer der Maschine existiert bereits",
+  "ticketID": "Auftrags-ID",
+  "searchPlaceholder": "Name/Seriennummer",
+  "templateSearchPlaceholder": "Titel",
+  "addNewTemplateBtn": "Neue Vorlage hinzufügen",
+  "addNewProductionLineBtn": "Hinzufügen einer Produktionslinie",
+  "addNewComponentBtn": "Eine Komponente hinzufügen",
+  "noProductionLines": "Es gibt keine Produktionslinie, die genutzt werden könnte.",
+  "noMachineTemplates": "Es sind keine Maschinenvorlagen zur Verwendung verfügbar.",
+  "machineSubNav": {
+    "machines": "Assets",
+    "allMachines": "Maschinen",
+    "machineTemplates": "Maschinen Vorlagen",
+    "productionLines": "Produktionslinien",
+    "components": "Komponenten"
+  },
+  "machineTemplateType": {
+    "machineTemplate": "Maschinen Vorlage",
+    "lineTemplate": "Produktionslinien Vorlage"
+  },
+  "machineTemplateInfo": {
+    "title": "Dies ist eine Maschinenvorlage, wenn Sie eine neue Maschine auf der Grundlage dieser Vorlage erstellen:",
+    "bullet1": "Die gesamte Dokumentation der neu erstellten Maschine wird mit der Dokumentation der Vorlage synchronisiert.",
+    "bullet2": "Bild der Maschine und Beschreibung müssen für die Maschine separat erstellt werden."
+  },
+  "lineTemplateInfo": {
+    "title": "Dies ist eine Produktionslinien Vorlage, wenn Sie eine neue Maschine auf der Grundlage dieser Vorlage erstellen:",
+    "bullet1": "Die gesamte Dokumentation der neu erstellten Maschine wird mit der Dokumentation der Vorlage synchronisiert.",
+    "bullet2": "Bild der Maschine und Beschreibung müssen für die Maschine separat erstellt werden."
+  },
+  "templateAccessDeniedModalTitle": "Wenn Sie die Funktion der Maschinenvorlage nutzen möchten, kontaktieren Sie uns bitte ",
+  "oemTemplateCreated": "Vorlage erfolgreich erstellt",
+  "oemTemplateUpdated": "Vorlage erfolgreich aktualisiert",
+  "oemTemplateCreationFaild": "Erstellung der Vorlage fehlgeschlagen",
+  "templateImageDeleteSuccess": "Bild der Vorlage gelöscht",
+  "createdMachines": "Erstellte Maschinen",
+  "templateError": "Vorlage ist erforderlich",
+  "templateDocumentation": "Dokumentation der Vorlage",
+  "templateDetails": "Details der Vorlage",
+  "externalDocuments": "Externe Dokumente",
+  "internalDocuments": "Interne Dokumente",
+  "totalMachineCreatedLabel": "Maschinen wurden aus dieser Vorlage erstellt",
+  "templateDeleteAtertText": "Sind Sie sicher, dass Sie diese Vorlage löschen möchten?",
+  "templateTitleError": "Der Titel ist erforderlich",
+  "totalPartsAdded": "hinzugefügte Ersatzteile für diese Maschine",
+  "searchMachineParts": "Suche Maschinenteile",
+  "addPartsToMachine": "Ersatzteile für diese Maschine hinzufügen",
+  "machinePartsAdded": "Ersatzteile erfolgreich hinzugefügt",
+  "machinePartsAddFailed": "Hinzufügen der Ersatzteile fehlgeschlagen",
+  "machinePartRemoved": "Ersatzteile erfolgreich entfernt",
+  "machinePartRemoveFailed": "Löschen der Ersatzteile fehlgeschlagen",
+  "noMachinePartsFound": "Dieser Maschine sind keine Ersatzteile zugewiesen.",
+  "showQrCode": "QR-Code anzeigen",
+  "useMachineQrCode": "Maschinen QR-Code verwenden",
+  "qrScanSignOutInfo": "Wenn Sie sich bei diesem Kundenstandort anmelden, werden Sie von dem aktuellen abgemeldet.",
+  "machineText": "Maschine",
+  "machineNameText": "Name der Maschine",
+  "templateText": "Vorlage"
+}

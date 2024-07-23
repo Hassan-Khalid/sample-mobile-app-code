@@ -1,0 +1,55 @@
+{
+  "addFilter": "Filter hinzufügen",
+  "filterBy": "Filtern nach",
+  "sortBy": "Sortieren nach",
+  "placeholder": "Nach einer oder mehreren Optionen suchen...",
+  "remove": "ALLE LÖSCHEN",
+  "maxLimit": "Sie haben die maximale Anzahl von aktiven Filtern erreicht",
+  "WORK_ORDER": "Arbeitsaufträge",
+  "MACHINES": "Maschinen",
+  "FACILITES": "Kundenstandorte",
+  "TICKET_STATUS": {
+    "title": "Status des Arbeitsauftrags",
+    "label": "Status des Arbeitsauftrags:"
+  },
+  "ASSIGNEE": {
+    "title": "Beauftragter",
+    "label": "Beauftragter:"
+  },
+  "TICKET_TYPE": {
+    "title": "Auftragstyp",
+    "label": "Auftragstyp:"
+  },
+  "FACILITY_NAME": {
+    "title": "Kundenstandort",
+    "label": "Name des Kundenstandortes:"
+  },
+  "MACHINE_NAME": {
+    "title": "Name der Maschine",
+    "label": "Name der Maschine:"
+  },
+  "DATE_RANGE": {
+    "title": "Zeitraum",
+    "labelStart": "Wählen",
+    "labelJoiner": "für",
+    "label": "Wählen Sie den Zeitraum für Arbeitsaufträge",
+    "remove": "DATUM LÖSCHEN",
+    "apply": "DATUM ANWENDEN"
+  },
+  "SCHEDULED": {
+    "title": "Geplant",
+    "label": "Geplant:"
+  },
+  "installation-date": {
+    "title": "Inbetriebnahme",
+    "label": "Inbetriebnahme:"
+  },
+  "MACHINE_ASSIGNED": {
+    "title": "Machine zugewiesen",
+    "label": "Machine zugewiesen:"
+  },
+  "MACHINE_QR_CODE_ACCESS": {
+    "title": "QR-Code aktiviert",
+    "label": "QR-Code aktiviert:"
+  }
+}

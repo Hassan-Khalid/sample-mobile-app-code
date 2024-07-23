@@ -1,0 +1,51 @@
+{
+  "noProductionLineMachinesFound": "No hay máquinas asignadas a esta línea de producción.",
+  "assignMachinesSuccess": "Máquina(s) asignada(s) correctamente",
+  "created": "Línea de producción creada con éxito",
+  "creationFailed": "Fallo en la creación de la línea de producción",
+  "updateSuccess": "La línea de producción se actualiza con éxito",
+  "updateFailed": "Fallo al actualizar la línea de producción",
+  "searchPlaceholder": "Búsqueda por nombre/ID",
+  "deleteButtonText": "Suprimir la línea de producción",
+  "id": "ID",
+  "facility": "Instalación",
+  "team": "Equipo:",
+  "name": "Nombre",
+  "descriptionPlaceholder": "Añadir descripción de la línea de producción",
+  "tabs": {
+    "generalInfo": {
+      "title":  "Información general"
+    },
+    "machines":{
+      "title":  "Máquinas",
+      "unassignMessage": "¿Está seguro de que desea desasignar esta máquina de esta línea de producción? (la máquina no se borrará)"
+    }
+  },
+  "assignMachineToProductionLineModal": {
+    "title": "Asignar máquinas",
+    "serachMachinePlaceHolder": "Buscar en",
+    "assignButton": "Asignar máquinas",
+    "infoMessage": "Sólo puede asignar máquinas que no estén asignadas a ninguna instalación o línea de producción. Si una máquina está asignada a una instalación pero necesita ser asignada a una línea de producción, desasígnela primero de la instalación.",
+    "labels": {
+      "machineName": "Nombre de la máquina",
+      "serialNumber": "Número de serie"
+  }
+  },
+  "editProductionLineModal": {
+    "title": "Editar ",
+    "facilityPlaceholder": "Seleccionar instalación",
+    "labels": {
+      "id": "Identificación de la línea de producción",
+      "facility": "Instalación",
+      "name": "Nombre de la línea de producción"
+    }
+  },
+  "deleteProductionLineModal": {
+    "title": "¿Suprimir la línea de producción?",
+    "message": "Está a punto de borrar esta línea de producción. Al borrarla, todas las máquinas quedarán sin asignar y podrá encontrarlas en la pestaña Máquinas. ¿Desea continuar?",
+    "facilityAssignedMessage": "Va a eliminar una línea de producción asignada a una instalación. Al borrarla, se desasignarán todas las máquinas de la línea de producción de la instalación. ¿Desea continuar?",
+    "success": "Línea de producción eliminada con éxito"
+  },
+  "assignMachine": "Asignar máquina",
+  "duplicateProductionLineIdError": "La identificación de la línea de producción ya existe"
+}

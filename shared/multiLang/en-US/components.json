@@ -1,0 +1,55 @@
+{
+  "editTitle": "Edit",
+  "searchComponent": "Search by name/ID",
+  "deleteButtonText": "Delete component",
+  "imageDeleteSuccess": "Component image deleted successfully",
+  "descriptionPlaceholder": "Add component description",
+  "updateSuccess": "Component updated successfully",
+  "updateFailed": "Failed to update component",
+  "noMachineComponentsFound": "There is no component assigned to this machine.",
+  "noComponents": "There is no component available for use.",
+  "created": "Component created successfully",
+  "creationFailed": "Component creation failed",
+  "labels": {
+    "componentId": "Component ID",
+    "ID": "ID",
+    "machine": "Machine"
+  },
+  "deleteAlert": {
+    "success": "Component deleted successfully",
+    "title": "Delete component?",
+    "message": "Are you sure you want to delete this component? This action cannot be reversed?"
+  },
+  "unassignMessage": "Are you sure you want to unassign this component from this machine? (component will not be deleted)",
+  "unassignSuccess": "Component unassigned successfully",
+  "unassignError": "Something went wrong. Unable to remove component",
+  "assignComponentToMachineModal": {
+    "success": "Component(s) assigned successfully",
+    "title": "Assign components",
+    "serachComponentePlaceHolder": "Search",
+    "assignButton": "Assign components",
+    "labels": {
+      "componentName": "Component name",
+      "componentId": "Component ID"
+  }
+  },
+   "noComponentPartsFound": "There are no parts assigned to this component",
+  "unassignConfirmationFromComponentTitle": "Are you sure you want to unassign {{}} from this component?",
+  "componentPartsAdded": "Parts added successfully",
+  "componentPartsAddFailed": "Failed to add parts for this component",
+  "componentPartRemoved": "Part unassigned successfully",
+  "componentPartRemoveFailed": "Failed to remove parts from this component",
+  "assignPart": "Assign Part",
+  "searchPartPlaceholder": "Search by name/article",
+  "assignPartToComponentModal": {
+    "title": "Assign parts",
+    "searchPartPlaceHolder": "Search",
+    "assignButton": "Assign parts"
+  },
+  "tabs": {
+    "generalInfo": "General Information",
+    "parts": "Parts"
+  },
+  "duplicateComponentIdError": "Component ID already exists",
+  "noAccess": "No access"
+}

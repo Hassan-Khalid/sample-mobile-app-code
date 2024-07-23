@@ -1,0 +1,53 @@
+{
+  "noPreventiveMaintenanceTitle": "There are no Preventive Maintenance Events Scheduled For This Machine",
+  "noPreventiveMaintenanceContent": "Add events for the machine, automated work orders will be created on time for so you don't miss preventive maintenance and part service.",
+  "noPreventiveMaintenanceAddButton": "Add Events",
+  "noPMAlertTitle": "If you want to use the preventive maintenance feature, please contact",
+  "noPMAlertTitleEmail": "support@makula.io",
+  "noPMAlertOkayButton": "Okay",
+  "createEventButtonText": "Create Event",
+  "repeatEvery": "Repeat Every",
+  "maintenanceOn": "Next Maintenance on",
+  "frequency": {
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  },
+  "drawerTitle": "Add New Event",
+  "createButton": "Create Event",
+  "form": {
+    "eventName": "Event Name",
+    "eventNamePlaceholder": "Describe event",
+    "eventDate": "Start Date",
+    "startDatePlaceholder": "Add Event Date",
+    "frequencyLabel": "Frequency: ",
+    "frequencyRepeat": "Repeat",
+    "frequencyNoRepeat": "Do Not Repeat",
+    "description": "Event Description",
+    "descriptionPlaceholder": "Add Event Desciption",
+    "ticketCreationInfo": "Automatically Create Work Order {{}} Before Event: ",
+    "repeatEventEvery": "Repeat Event every:"
+  },
+  "previewEvent": {
+    "ticketCreationText": "Automatic Work Order Creation",
+    "ticketCreationEnd": "before event",
+    "ticketCreationDate": "Next work order will automatically be created on ",
+    "ticketBeforeCreationDate": "Work order was automatically created on ",
+    "viewTicket": "View Work Order",
+    "buttonDelete": "Delete",
+    "buttonEdit": "Edit"
+  },
+  "eventNameCharacterLimitError": "Event name cannot be more than 75 characters",
+  "editEventTitleText": "Edit Preventive Maintenace",
+  "buttonCancelText": "Cancel",
+  "buttonUpdateText": "Update",
+  "error": {
+    "invalidTicketCreationDate": "You can't select work order creation date today or before today",
+    "zeroOrEmptyNotAllowed": "Zero or empty is not allowed"
+  },
+  "eventProgressText": "Progress",
+  "deleteModalAcceptBtnText": "Yes, Delete",
+  "deleteModalCancelBtnText": "No, Cancel",
+  "deleteModalTitle": "Are you sure you want to delete this preventive maintenance event? This action cannot be reversed."
+}

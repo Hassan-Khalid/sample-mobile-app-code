@@ -1,0 +1,9 @@
+{
+  "messageHint": "Escriba mensaje...",
+  "clickToPlayVideo": "Click para reproducir video",
+  "mediaNotFound": "Archivo multimedia no encontrado",
+  "clickToPlayAudio": "Click para reproducir audio",
+  "uploadingFile": "Subiendo archivo...",
+  "today": "Hoy",
+  "connectingToStream": "Conexión al Chat Stream"
+}

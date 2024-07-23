@@ -1,0 +1,54 @@
+{
+  "noPreventiveMaintenanceTitle": "No hay eventos de Mantenimiento Preventivo agendados para esta máquina",
+  "noPreventiveMaintenanceContent": "Añadir eventos para la máquina, se crearán órdenes de trabajo automatizadas a tiempo para que no se pierda el mantenimiento preventivo y el servicio de partes de repuesto.",
+  "noPreventiveMaintenanceAddButton": "Añadir eventos",
+  "noPMAlertTitle": "Si quiere usar la funcionalidad de mantenimiento preventivo, por favor contacte a su administrador de cuenta",
+  "noPMAlertTitleEmail": "support@makula.io",
+  "noPMAlertOkayButton": "OK",
+  "createEventButtonText": "Crear evento",
+  "totalPreventiveEventCount": "Eventos de mantenimiento preventivo",
+  "repeatEvery": "Repetir cada",
+  "maintenanceOn": "Próximo mantenimiento en",
+  "frequency": {
+    "day": "Día",
+    "week": "Semana",
+    "month": "Mes",
+    "year": "Año"
+  },
+  "drawerTitle": "Añadir nuevo evento",
+  "createButton": "Crear Evento",
+  "form": {
+    "eventName": "Nombre del evento",
+    "eventNamePlaceholder": "Descripción del evento",
+    "eventDate": "Fecha de comienzo",
+    "startDatePlaceholder": "Añadir fecha de evento",
+    "frequencyLabel": "Frecuencia: ",
+    "frequencyRepeat": "Repetir",
+    "frequencyNoRepeat": "No repetir",
+    "description": "Descripción del evento",
+    "descriptionPlaceholder": "Añadir descripción del evento",
+    "ticketCreationInfo": "Crear automáticamente la orden de trabajo {{}} antes del evento: ",
+    "repeatEventEvery": "Repetir evento cada:"
+  },
+  "previewEvent": {
+    "ticketCreationText": "Creación automática de órdenes de trabajo",
+    "ticketCreationEnd": "Antes del evento",
+    "ticketCreationDate": "La siguiente orden de trabajo se creará automáticamente el",
+    "ticketBeforeCreationDate": "La orden de trabajo se creó automáticamente el",
+    "viewTicket": "Ver orden de trabajo",
+    "buttonDelete": "Eliminar",
+    "buttonEdit": "Editar"
+  },
+  "eventNameCharacterLimitError": "Nombre del evento no puede tener más de 75 caracteres",
+  "editEventTitleText": "Editar Mantenimiento preventivo",
+  "buttonCancelText": "Cancelar",
+  "buttonUpdateText": "Actualizar",
+  "error": {
+    "invalidTicketCreationDate": "No se puede seleccionar la fecha de creación de la orden de trabajo hoy o antes de hoy",
+    "zeroOrEmptyNotAllowed": "Zero or empty is not allowed"
+  },
+  "eventProgressText": "En progreso",
+  "deleteModalAcceptBtnText": "Sí, borrar",
+  "deleteModalCancelBtnText": "No, Cancelar",
+  "deleteModalTitle": "Estás seguro de que deseas eliminar este evento de mantenimiento preventivo? Esta acción no puede revertirse."
+}

@@ -1,0 +1,147 @@
+{
+  "totalMachineNumber": "Activos",
+  "searchPlaceholder": "nombre/número de serie",
+  "newMachineButton": "Agregar nueva máquina",
+  "noMachines": "No hay máquinas.",
+  "serialNum": "Número de serie",
+  "kanbanSerialNum": "NDS",
+  "machineDetails": {
+    "titleTabs": {
+      "details": "Detalles de máquina",
+      "documentation": "Documentación de máquina",
+      "history": "Historial de máquina",
+      "parts": "Parts",
+      "preventiveMaintenance": "Mantenimiento preventivo",
+      "generalInfo": "Información general",
+      "components": "Componentes"
+    },
+    "detailsTab": {
+      "qrCode": {
+        "title": "Acceso al Código QR de la máquina:",
+        "message": "Esto permite al usuario acceder a los datos de la máquina usando el Código QR asignado en vez de las credenciales",
+        "status": {
+          "disabled": "DESACTIVADO",
+          "enabled": "ACTIVADO"
+        },
+        "copyUrl": "Copiar url",
+        "copyTooltip": "Copiada",
+        "checkHasFacilityAssigned": "Tiene que asignar esta máquina a una fábrica primero"
+      },
+      "serialNum": "Número de Serie",
+      "facility": "Fabrica",
+      "productionLine": "Línea de producción",
+      "team": "Equipo:",
+      "installationDate": "Fecha de instalación",
+      "descriptionLabel": "Descripción",
+      "empty": "Vacío",
+      "edit": {
+        "access": "Access",
+        "labels": {
+          "nameLabel": "Nombre de máquina *",
+          "nameError": "Nombre no puede ser más de 75 caracteres",
+          "serialNum": "Número de Serie*",
+          "serialError": "Número de Serie no puede ser más de 75 caracteres",
+          "facilityLabel": "Fábrica",
+          "facilityPlaceholder": "Fábrica",
+          "installationDate": "Fecha de instalación",
+          "description": "Descripción de máquina",
+          "descriptionPlaceholder": "Añadir descripción de máquina"
+        },
+        "qrCodeMessage": "Esto permite a los creadores de un ticket abrir la app escaneando el código QR en vez de usar las credenciales de login.",
+        "qrStatusEnableMsg": "Activado",
+        "qrStatusDisableMsg": "Desactivado",
+        "imageUpload": {
+          "dropImage": {
+            "beforeLink": "Deje su imagen aquí o",
+            "link": "click para seleccionar archivo",
+            "afterLink": " en tu computadora"
+          },
+          "fileRecommendation": "1600 x 1200 (4:3) recomendado, hasta 10MB.",
+          "deleteImg": "Eliminar imagen",
+          "editImg": "Editar Imagen",
+          "fileTooLarge": "La Imagen es muy grande. El tamaño de la imagen debe ser menor a 10MB"
+        },
+        "delete": {
+          "button": "Eliminar la imagen",
+          "window": {
+            "title": "Está seguro que desea eliminar la imagen?",
+            "yes": "Si, eliminar",
+            "no": "No, Cancelar"
+          }
+        },
+        "nameError": "Nombre de la máquina es requerido",
+        "serialNumError": "Número de serie es requerido",
+        "imageUploadError": "Algo salió mal con la carga de la imagen",
+        "imageDeleteSuccess": "Nombre de la máquina eliminado exitosamente",
+        "updateSuccess": "Máquina cargada exitosamente",
+        "deleteSuccess": "Máquina eliminada exitosamente"
+      }
+    },
+    "historyTab": {
+      "noHistoryMessage": "No hay historial de máquina para esta máquina.",
+      "ticketsRelated": "Órdenes relativas a esta máquina",
+      "tickedCreationDate": "creation date:",
+      "tickedId": "ID orden de trabajo:",
+      "machineCreationDate": "Machine Creation Date:"
+    }
+  },
+  "created": "Máquina creada exitosamente",
+  "creationFailed": "Creación de máquina no se pudo realizar",
+  "serialNumberExistError": "Número de serie de máquina ya existe",
+  "ticketID": "ID orden de trabajo",
+  "templateSearchPlaceholder": "Título",
+  "addNewTemplateBtn": "Añadir nuevo modelo de máquina",
+  "addNewProductionLineBtn": "Añadir una línea de producción",
+  "addNewComponentBtn": "Añadir un componente",
+  "noProductionLines": "No hay ninguna línea de producción disponible para su uso.",
+  "noMachineTemplates": "No hay modelos de máquinas disponibles para usar.",
+  "machineSubNav": {
+    "machines": "Activos",
+    "allMachines": "Todas las máquinas",
+    "machineTemplates": "Plantillas de máquinas",
+    "productionLines": "Líneas de producción",
+    "components": "Componentes"
+  },
+  "machineTemplateType": {
+    "machineTemplate": "Modelo de máquina",
+    "lineTemplate": "Modelo de línea de máquinas"
+  },
+  "machineTemplateInfo": {
+    "title": "Esto es un modelo de máquina. Si crea una máquina basada en este modelo:",
+    "bullet1": "Todos los documentos the la nueva máquina creada serán sincronizados con los documentos del modelo de la máquina.",
+    "bullet2": "La imagen de perfil y la descripción de la máquina serán sincronizados con la imagen de perfil del modelo de la máquina."
+  },
+  "lineTemplateInfo": {
+    "title": "Esto es un modelo de línea. Si crea una nueva máquina en base a este modelo:",
+    "bullet1": "Todos los documentos de la nueva máquina creada serán sincronizados con los documentos del modelo de línea.",
+    "bullet2": "La imagen de perfil y la descripción de la máquina deberán ser creadas para cada máquina por separado."
+  },
+  "templateAccessDeniedModalTitle": "Si quiere usar esta funcionalidad, por favor contacte a su asesor comercial",
+  "oemTemplateCreated": "Modelo creado exitosamente",
+  "oemTemplateUpdated": "Modelo actualizado exitosamente",
+  "oemTemplateCreationFaild": "Creación del modelo falló",
+  "templateImageDeleteSuccess": "Nombre de la modelo eliminado exitosamente",
+  "createdMachines": "Máquinas creadas",
+  "templateError": "Modelo es requerido",
+  "templateDocumentation": "Documentos del modelo",
+  "templateDetails": "Detalles del modelo",
+  "externalDocuments": "Documentos externos",
+  "internalDocuments": "Documentos internos",
+  "totalMachineCreatedLabel": "Máquinas han sido creadas desde este modelo",
+  "templateDeleteAtertText": "Estás seguro que deseas eliminar este modelo?",
+  "templateTitleError": "Título es requerido",
+  "totalPartsAdded": "Partes asignadas a esta máquina",
+  "searchMachineParts": "Buscar partes de máquina",
+  "addPartsToMachine": "Añadir partes a esta máquina",
+  "machinePartsAdded": "Partes añadidas exitosamente",
+  "machinePartsAddFailed": "Error al intentar añadir partes a esta máquina",
+  "machinePartRemoved": "Partes eliminadas exitosamente",
+  "machinePartRemoveFailed": "Error al intentar eliminar partes a esta máquina",
+  "noMachinePartsFound": "No hay partes asignadas a esta máquina.",
+  "showQrCode": "Ver Código QR",
+  "useMachineQrCode": "Usar Código QR",
+  "qrScanSignOutInfo": "Al iniciar sesión es esta fábrica, la sesión en la fábrica actual se cerrará.",
+  "machineText": "Máquina",
+  "machineNameText": "Nombre de máquina",
+  "templateText": "Plantilla"
+}

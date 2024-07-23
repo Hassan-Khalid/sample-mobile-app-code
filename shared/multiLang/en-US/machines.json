@@ -1,0 +1,149 @@
+{
+  "totalMachineNumber": "Assets",
+  "newMachineButton": "Add a Machine",
+  "noMachines": "There is no machine added.",
+  "serialNum": "Serial Number",
+  "kanbanSerialNum": "SN",
+  "machineDetails": {
+    "titleTabs": {
+      "details": "Details",
+      "documentation": "Documentation",
+      "history": "History",
+      "parts": "Parts",
+      "preventiveMaintenance": "Preventive Maintenance",
+      "generalInfo": "General Information",
+      "components": "Components"
+    },
+    "detailsTab": {
+      "qrCode": {
+        "title": "Machine QR code access",
+        "message": "This allows the user to access the machine data using the assigned QR code instead of the login credentials provided.",
+        "status": {
+          "disabled": "DISABLED",
+          "enabled": "ENABLED"
+        },
+        "copyUrl": "Copy URL",
+        "copyTooltip": "Copied",
+        "checkHasFacilityAssigned": "You have to assign this machine to a facility first"
+      },
+      "serialNum": "Serial number",
+      "facility": "Facility",
+      "productionLine": "Production line",
+      "team": "Team:",
+      "installationDate": "Installation date",
+      "descriptionLabel": "Description",
+      "empty": "Empty",
+      "edit": {
+        "access": "Access",
+        "labels": {
+          "nameLabel": "Machine Name *",
+          "nameError": "Name can not be more than 75 characters",
+          "serialNum": "Serial Number *",
+          "serialError": "Serial number can not be more than 75 characters",
+          "facilityLabel": "Facility",
+          "facilityPlaceholder": "Facility",
+          "installationDate": "Installation Date",
+          "description": "Machine Description",
+          "descriptionPlaceholder": "Add machine description"
+        },
+        "qrCodeMessage": "This allows reporters to open an app with scanning the machine QR code instead using sing in credentials.",
+        "qrStatusEnableMsg": "Enabled",
+        "qrStatusDisableMsg": "Disbaled",
+        "imageUpload": {
+          "dropImage": {
+            "beforeLink": "Drop your image here, or ",
+            "link": "click to browse",
+            "afterLink": " on your computer"
+          },
+          "fileRecommendation": "1600 x 1200 (4:3) recommended, up to 10MB.",
+          "deleteImg": "Delete Image",
+          "editImg": "Edit Image",
+          "replaceImg": "Replace Image",
+          "fileTooLarge": "Image is too large. Image size should be less than 10MB"
+        },
+        "delete": {
+          "button": "Delete Machine",
+          "window": {
+            "title": "Are you sure you want to delete this machine? This action cannot be reversed",
+            "yes": "Yes, Delete",
+            "no": "No, Cancel"
+          }
+        },
+        "nameError": "Machine Name is required",
+        "serialNumError": "Serial Number is required",
+        "imageUploadError": "Something went wrong with image upload",
+        "imageDeleteSuccess": "Machine image deleted successfully",
+        "updateSuccess": "Machine updated successfully",
+        "updateFailed": "Failed to update machine",
+        "deleteSuccess": "Machine deleted successfully"
+      }
+    },
+    "historyTab": {
+      "noHistoryMessage": "There is no machine history for this machine.",
+      "ticketsRelated": "work orders related to this machine",
+      "tickedCreationDate": "creation date:",
+      "tickedId": "Work Order ID:",
+      "machineCreationDate": "Machine Creation Date:"
+    }
+  },
+  "created": "Machine created successfully",
+  "creationFailed": "Machine creation failed",
+  "serialNumberExistError": "Machine serial number already exist",
+  "ticketID": "Work Order ID",
+  "searchPlaceholder": "Search by name/Sr. No.",
+  "templateSearchPlaceholder": "Search by title",
+  "addNewTemplateBtn": "Add a Template",
+  "addNewProductionLineBtn": "Add a production line",
+  "addNewComponentBtn": "Add a component",
+  "noProductionLines": "There is no production line available for use.",
+  "noMachineTemplates": "There is no machine template available for use.",
+  "machineSubNav": {
+    "machines": "Assets",
+    "allMachines": "Machines",
+    "machineTemplates": "Machine templates",
+    "productionLines": "Production lines",
+    "components": "Components"
+  },
+  "machineTemplateType": {
+    "machineTemplate": "Machine Template",
+    "lineTemplate": "Line Template"
+  },
+  "machineTemplateInfo": {
+    "title": "This is a machine template, if you create a new machine based on this template:",
+    "bullet1": "All documentation of the newly created machine will be synced with the documentation from the template.",
+    "bullet2": "The machine picture and description will be synced with the picture from the template."
+  },
+  "lineTemplateInfo": {
+    "title": "This is a line template, if you create a new machine based on this template:",
+    "bullet1": "All documentation of the newly created machine will be synced with the documentation from the template.",
+    "bullet2": "Machine picture and description have to be created for the machine separately."
+  },
+  "templateAccessDeniedModalTitle": "If you want to use the machine template feature, please contact",
+  "oemTemplateCreated": "Template created successfully",
+  "oemTemplateUpdated": "Template updated successfully",
+  "oemTemplateCreationFaild": "Template creation failed",
+  "templateImageDeleteSuccess": "Template image deleted successfully",
+  "createdMachines": "Created machines",
+  "templateError": "Template is required",
+  "templateDocumentation": "Template documentation",
+  "templateDetails": "Template details",
+  "externalDocuments": "External documents",
+  "internalDocuments": "Internal documents",
+  "totalMachineCreatedLabel": "machines have been created from this template",
+  "templateDeleteAtertText": "Are you sure you want to delete this template?",
+  "templateTitleError": "Title is required",
+  "totalPartsAdded": "parts added for this machine",
+  "searchMachineParts": "Search machine parts",
+  "addPartsToMachine": "Add Parts To Machine",
+  "machinePartsAdded": "Parts added successfully",
+  "machinePartsAddFailed": "Failed to add parts for this machine",
+  "machinePartRemoved": "Parts removed successfully",
+  "machinePartRemoveFailed": "Failed to remove parts from this machine",
+  "noMachinePartsFound": "There is no parts assigned to this machine.",
+  "showQrCode": "Show QR code",
+  "useMachineQrCode": "Use machine QR Code ",
+  "qrScanSignOutInfo": "By signing in to this facility, you will be signed out from the current one.",
+  "machineText": "Machine",
+  "machineNameText": "Machine name",
+  "templateText": "Template"
+}

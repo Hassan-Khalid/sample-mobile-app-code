@@ -1,0 +1,15 @@
+{
+  "emptyDoc": {
+    "title": "Wie es funktioniert",
+    "stepCount1": "1",
+    "stepCount1Title": "Senden Sie uns ihr Formular via pdf word etc.",
+    "stepCount2": "2",
+    "stepCount2Title": "Wir digitalisieren ihr Formular und erstellen ein digitales Formular für Sie",
+    "stepCount3": "3",
+    "stepCount3Title": "Sie können dieses Formular in Ihrer Web- und Mobilanwendung verwenden, um die Daten zu erfassen",
+    "stepCount4": "4",
+    "stepCount4Title": "Sobald Sie das Formular hochgeladen/abgesendet haben, können Sie es in Ihrem Makula-Interface sehen"
+  },
+  "searchPlaceholder": "Titel",
+  "templateSearchPlaceholder": "Titel"
+}

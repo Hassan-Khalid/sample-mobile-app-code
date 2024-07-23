@@ -1,0 +1,12 @@
+{
+  "orgOverview": "Vista de la organización",
+  "avgRespTime": "Tiempo de respuesta promedio",
+  "numberOfAgents": "Número de agentes dentro de organización",
+  "numberOfFacilities": "Número de fábricas clientes",
+  "numberOfMachines": "Número de máquinas",
+  "ticketVolume": "Volumen de órdenes",
+  "top10Facilities": "Top 10 fábricas clientes",
+  "numberSingOfTickets": "# Número de órdenes de trabajo",
+  "coloredLegend": "legenda colorida",
+  "analyticsAccessDeniedModalTitle": "Si quiere usar este feature, por favor contacte a un asesor de ventas"
+}

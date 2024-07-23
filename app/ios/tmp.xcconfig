@@ -1,0 +1,3 @@
+TARGET=OEM
+MODE=Staging
+API_END_POINT=https:/$()/oem-alpha.makula.io/graphql

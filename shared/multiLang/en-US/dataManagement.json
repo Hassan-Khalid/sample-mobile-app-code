@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Data Management",
+  "uploadDataBtnText": "Upload Data",
+  "dataManagementAccessDeniedModalTitle": "If you want to use the data management feature, please contact",
+  "nextBtnText": "Next",
+  "cancelBtnText": "Cancel",
+  "chooseDataTypeText": "Choose the type of data you wish to upload",
+  "machineCardTitle": "Machine",
+  "facilityCardTitle": "Facility",
+  "userCardTitle": "Facility User",
+  "machineCardBodyText": "Upload all your Machines data. Only CSV and XLXS files are supported.",
+  "facilityCardBodyText": "Upload all your customers facilities. Only CSV and XLXS files are supported.",
+  "userCardBodyText": "Upload all your customers facility user's information. Only CSV and XLXS files are supported.",
+  "inventoryPartCardTitle": "Parts",
+  "inventoryPartCardBodyText": "Upload all machine parts. Only CSV and XLXS files are supported.",
+  "machineUploadModalTitle": "Upload Machine Data",
+  "machineUploadModalContent": {
+    "head": "Please note the following things before proceeding further:",
+    "note1": "The file cannot contain duplicated Machine ID's and it must be unique.",
+    "note2": "The Machine ID is a required field and cannot be empty.",
+    "note3": "The Machine ID should not already exist in the platform.",
+    "note4": "Machine name is a required field and cannot be empty",
+    "note5": "If Facility ID is missing, machine will be added but will not be assigned to any Facility."
+  },
+  "facilityUploadModalTitle": "Upload Facility Data",
+  "facilityUploadModalContent": {
+    "head": "Please note the following things before proceeding further:",
+    "note1": "The file cannot contain duplicated Facility ID's and it must be unique.",
+    "note2": "The facility ID is a required field and cannot be empty.",
+    "note3": "The facility name is required, and duplicate values are allowed.",
+    "note4": "The street, city and postal code values will be combined into a single Address - (Optional)"
+  },
+  "facilityUserUploadModalTitle": "Upload Facility User Data",
+  "facilityUserUploadModalContent": {
+    "head": "Please note the following things before proceeding further:",
+    "note1": "The Facility ID is a required field and cannot be empty.",
+    "note2": "Duplicated Facility IDs are allowed.",
+    "note3": "The facility users email addresses should be unique i.e., no two users can have same email address.",
+    "note4": "The facility user email address is a required field and cannot be empty.",
+    "note5": "Facility user’s first and last name is required and cannot be empty",
+    "note6": "Facilities will be added first on the platform followed by one of the following in any order, Machines and Facility Users."
+  },
+  "inventoryPartsUploadModalTitle": "Upload Machine Parts Data",
+  "inventoryPartsUploadModalContent": {
+    "head": "Please note the following things before proceeding further:",
+    "note1": "The \"Article Number\" is a required field and cannot be empty.",
+    "note2": "The \"Part Name\" is required.",
+    "note3": "The \"Machine Serial Number\" is required."
+  },
+  "uploadingData": "Uploading Data",
+  "dataUploaded": "Data successfully uploaded",
+  "dataUploadFailed": "Failed to upload data",
+  "pleaseWaitTitle": "Please do not leave or reload the page while we are processing your request...",
+  "pleaseWaitSubTitle": "Please do not leave or reload the page."
+}

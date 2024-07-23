@@ -1,0 +1,16 @@
+export const WORK_ORDER_TYPE_ICONS = {
+  SERVICE_REQUEST: "service-request",
+  SPARE_PART_ORDER: "spare-part-order",
+  PREVENTIVE_MAINTENANCE: "preventive-maintenance",
+  OPEN_FOLDER: "open-folder",
+  BROKEN_LINK: "broken-link",
+  ENERGY: "energy",
+  INSPECTION: "inspection",
+  PREVENTIVE: "preventive",
+  SPANNERS: "spanners",
+  ICE_CRYSTAL: "ice-crystal",
+  LIGHT_BULB: "light-bulb",
+  SHIELD: "shield",
+  PROCEDURE: "procedure",
+  FORM_SUBMISSION: "form-submission",
+};

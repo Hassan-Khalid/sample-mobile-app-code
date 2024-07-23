@@ -1,0 +1,54 @@
+{
+  "welcome": "Welcome",
+  "subtitle": "Please enter your credentials to log in.",
+  "heroTitle": "The Next Generation of After - Sales Services",
+  "heroSubtitle": "A survival tool for machine manufacturers and distributors",
+  "loginLabel": "Sign In",
+  "thanks":"Thank you",
+  "loginLabelLoading": "Sign In...",
+  "email": {
+    "label": "Email *",
+    "placeholder": "Enter your email",
+    "error": "There is no user with these credentials.",
+    "invalidEmail": "Please enter a valid email"
+  },
+  "password": {
+    "label": "Password *",
+    "placeholder": "Enter your password",
+    "error": "Wrong password",
+    "invalidPassword": "Password is required"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password?",
+    "message": "Please enter your email address to reset your password.",
+    "email": {
+      "label": "Email *",
+      "placeholder": "Enter your email",
+      "inputPlaceholder": "example@mail.com",
+      "invalidEmail": "Please enter a valid email"
+    },
+    "reset": "Reset Password",
+    "resetLoading": "Reset Password...",
+    "passwordChanged": "Password changed",
+    "useOrgURL": "Please, use the given url for your Makula organization URL.",
+    "resetSuccess": {
+      "title": "Email Sent!",
+      "message": "Please check your inbox for reset instructions.",
+      "thanks": "Thank You!",
+      "resend": {
+        "didnotGet": "Didn't get the email?",
+        "resendEmailSubHeading": "An email has been sent to",
+        "resendEmailHeading": "check email for reset link",
+        "resendEmail": "Resend",
+        "resendEmailLoading": "Resend...",
+        "resendEmailSuccess": "An email with reset password instructions has been sent"
+      }
+    }
+  },
+  "signedOutMessage": "Please log in with your Makula organization URL.",
+  "poweredBy": "powered by",
+  "signIn": "Sign In",
+  "signOut": "Sign Out",
+  "visitMakulaURL": "Please visit your Makula organization URL.",
+  "wrongCreds": "There is no user with these credentials"
+}

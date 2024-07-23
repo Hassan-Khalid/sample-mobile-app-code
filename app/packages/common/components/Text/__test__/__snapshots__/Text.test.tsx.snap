@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Component renders correctly empty 1`] = `
+<Text
+  style={
+    {
+      "color": {
+        "dynamic": {
+          "dark": "#172B4D",
+          "highContrastDark": undefined,
+          "highContrastLight": undefined,
+          "light": "#172B4D",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Text Component should render with child 1`] = `
+<Text
+  style={
+    {
+      "color": {
+        "dynamic": {
+          "dark": "#172B4D",
+          "highContrastDark": undefined,
+          "highContrastLight": undefined,
+          "light": "#172B4D",
+        },
+      },
+    }
+  }
+>
+  'hello'
+</Text>
+`;

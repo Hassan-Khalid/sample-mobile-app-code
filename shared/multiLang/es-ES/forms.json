@@ -1,0 +1,248 @@
+{
+  "newUserForm": {
+    "heroTitle": "Añadir nuevo usuario",
+    "title": "Cuentas de usuarios",
+    "userNumber": "USUARIO",
+    "name": {
+      "label": "Nombre completo",
+      "placeholder": "Ingresar nombre completo"
+    },
+    "job": {
+      "label": "Puesto de trabajo",
+      "placeholder": "Ingresar información"
+    },
+    "email": {
+      "label": "E-Mail *",
+      "placeholder": "Ingresar email"
+    },
+    "phone": {
+      "label": "Número de teléfono",
+      "placeholder": "Ingresar teléfono",
+      "invalidFormatError": "Formato de número de teléfono no válido",
+      "invalidCharacterError": "0-9 y + son admitidos"
+    },
+    "landline": {
+      "label": "Línea",
+      "placeholder": "Ingresar línea",
+      "invalidFormatError": "Formato de número de teléfono fijo no válido ",
+      "invalidCharacterError": "0-9 y + son admitidos"
+    },
+    "teams": {
+      "label": "Asignar al equipo",
+      "placeholder": "Seleccionar equipos"
+    },
+    "addAnother": "Añadir otro usuario",
+    "access": "Acceso",
+    "notify": "Notificar",
+    "message": "La contraseña será enviada por mail.",
+    "save": "Guardar el usuario"
+  },
+  "newMachineForm": {
+    "heroTitle": "Crear nueva máquina",
+    "name": {
+      "label": "Nombre de máquina *",
+      "placeholder": "Añadir nombre de máquina",
+      "lengthError": "Nombre no puede tener más de 75 caracteres"
+    },
+    "serial": {
+      "label": "Número de serie * (tiene que ser único en tu organización)",
+      "labelInputting": "Número de serie *",
+      "error": "Este número de serie está asociado a otra máquina en tu organización",
+      "lengthError": "Número de serie no puede tener más de 75 caracteres",
+      "placeholder": "Añadir número de serie"
+    },
+    "facility": {
+      "label": "Cliente",
+      "placeholder": "Elegir cliente"
+    },
+    "decription": {
+      "label": "Descripción de máquina",
+      "placeholder": "Añadir descripción de máquina"
+    },
+    "imageUpload": {
+      "dropImage": {
+        "beforeLink": "Suelta tu imagen acá, o ",
+        "link": "click para ver archivos",
+        "afterLink": " en tu computadora"
+      },
+      "fileRecommendation": "1600 x 1200 (4:3) recomendado, hasta 10MB.",
+      "uploaded": {
+        "title": "Documentación de máquina",
+        "label": "Los archivos y carpetas se pueden administrar una vez que se crea la máquina."
+      }
+    },
+    "exitWindow": {
+      "title": "¿Está seguro de que desea salir sin guardar esta nueva máquina?",
+      "yes": "Sí, Cancelar",
+      "no": "No, Volver"
+    },
+    "submit": "Enviar nueva máquina"
+  },
+  "newFacilityForm": {
+    "heroTitle": "Añadir nuevo cliente",
+    "name": {
+      "label": "Nombre de cliente *",
+      "placeholder": "Añadir nombre de cliente"
+    },
+    "user": {
+      "title": "Cuentas de usuarios",
+      "userNumber": "USUARIO",
+      "name": {
+        "label": "Nombre completo",
+        "placeholder": "Ingresar nombre completo"
+      },
+      "job": {
+        "label": "Puesto de trabajo",
+        "placeholder": "Ingresar información"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "Ingresar e-mail"
+      },
+      "addAnother": "Añadir otro usuario",
+      "access": "Acceso",
+      "message": "La contraseña se enviará por correo electrónico si el acceso está habilitado.."
+    },
+    "machines": {
+      "title": "Máquinas de cliente",
+      "message": "La máquina solo se puede asignar a un cliente.",
+      "assign": {
+        "label": "Asignar Máquina",
+        "placeholder": "Seleccionar una máquina"
+      },
+      "addAnother": "Añadir otra máquina"
+    },
+    "teams": {
+      "label": "Asignar equipos",
+      "placeholder": "Seleccione un equipo",
+      "infoMessage": "Todas las máquinas asignadas a esta instalación se asignarán automáticamente al equipo.",
+      "dropdownTitle": "Seleccionar equipos"
+    },
+    "submit": "Ingresar el cliente"
+  },
+  "newTicketForm": {
+    "addTicketTitle": "Añadir orden de trabajo",
+    "type": {
+      "label": "Seleccionar el tipo de orden de trabajo *",
+      "serviceRequest": "Pedido de servicio",
+      "SparePartOrder": "Oden de parte de repuesto"
+    },
+    "facility": {
+      "label": "Seleccionar cliente *",
+      "placeholder": "Seleccionar cliente"
+    },
+    "machine": {
+      "label": "Seleccionar máquina *",
+      "placeholder": "Seleccionar máquina"
+    },
+    "reporter": {
+      "label": "Seleccionar persona",
+      "placeholder": "Seleccionar persona"
+    },
+    "title": {
+      "label": "Título de la orden de trabajo *",
+      "placeholder": "Añadir título de orden de trabajo",
+      "lengthError": "Título de ticket no puede tener más de 75 caracteres"
+    },
+    "description": {
+      "label": "Descripción de la orden de trabajo",
+      "placeholder": "Añadir descripción de la orden de trabajo"
+    },
+    "submit": "Enviar la orden de trabajo",
+    "exit": {
+      "title": "¿Está seguro de que desea salir sin guardar la orden de trabajo?",
+      "yes": "Sí, Cancelar",
+      "no": "No, Volver"
+    }
+  },
+  "noOption": "No hay opciones disponibles",
+  "productionLineForm": {
+    "title": "Añadir una línea de producción",
+    "submitButtonText": "Salvar la línea de producción",
+    "nameField": {
+      "label": "Nombre *",
+      "placeholder": "Introduzca el nombre",
+      "lengthError": "El nombre no puede tener más de 75 caracteres"
+    },
+    "productionLineIdField": {
+      "label": "Identificación de la línea de producción *",
+      "placeholder": "Introduzca el ID de la línea de producción",
+      "lengthError": "El ID no puede tener más de 75 caracteres"
+    },
+    "facility": {
+      "label": "Elegir instalación",
+      "placeholder": "Seleccionar instalación"
+    },
+    "descriptionField": {
+      "label": "Descripción",
+      "placeholder": "Introduzca su texto"
+    },
+    "teams": {
+      "label": "Asignar equipos",
+      "placeholder": "Seleccione un equipo",
+      "dropdownTitle": "Seleccionar equipos:"
+    },
+     "exitWindowTitle": "¿Estás seguro de que quieres dejarlo sin salvar esta nueva línea de producción?"
+  },
+  "componentForm": {
+    "title": "Añadir un componente",
+    "submitButtonText": "Guardar componente",
+    "nameField": {
+      "label": "Nombre *",
+      "placeholder": "Introduzca el nombre",
+      "lengthError": "El nombre no puede tener más de 75 caracteres"
+    },
+    "componentNumber": {
+      "label": "Componente ID *",
+      "placeholder": "Introduzca el ID del componente",
+      "lengthError": "El ID del componente no puede tener más de 75 caracteres"
+    },
+     "machine": {
+      "label": "Máquina"
+    },
+    "descriptionField": {
+      "label": "Descripción",
+      "placeholder": "Introduzca su texto"
+    }, 
+    "imageField": {
+      "label": "Imagen del componente"
+    }
+  },
+  "machineTemplate": {
+    "addNewHeroTitle": "Añadir nuevo modelo",
+    "docUploadInfoTitle": "Documentos del modelo",
+    "docUploadInfoDesc": "Archivos y carpetas pueden ser manejados una vez el modelo sea creado.",
+    "exitWindowTitle": "Estás seguro de que deseas irte sin guardar este nuevo modelo?",
+    "chooseTemplateText": "Elegir modelo",
+    "chooseTemplateTypeText": "Elegir tipo de modelo",
+    "templateTitleText": "Título del modelo",
+    "templateTitlePlaceholder": "Añadir título del modelo",
+    "templateDescText": "Descripción del modelo",
+    "templateDescWarn": "(no usado para máquinas creadas)",
+    "templateDescPlaceholder": "Añadir descripción del modelo",
+    "addTemplateBtnText": "Guardar modelo de la máquina",
+    "createFromTemplate": "Crear una nueva máquina a partir de un modelo"
+  },
+  "machineNameLabelWarn": "(si se deja vacío, el modelo será usado)",
+  "deleteTemplateWarn": "Modelo puede eliminarse únicamente si todas las máquinas creadas a partir de este modelo se eliminan primero.",
+  "editFacilityUserForm": {
+    "title": "Editar cuenta de usuario",
+    "name": { "label": "Nombre de usuario", "placeholder": "Ingresar nombre de usuario" },
+    "email": { "label": "Email de usuario", "placeholder": "Ingresar email de usuario" },
+    "jobTitle": { "label": "Título de trabajador", "placeholder": "Ingresar título de trabajador" },
+    "access": {
+      "label": "Acceso",
+      "options": { "access": "Acceso", "noAccess": "Sin acceso" }
+    },
+    "phone": { "label": "Número de teléfono", "placeholder": "Ingresar teléfono" },
+    "landline": { "label": "Línea", "placeholder": "Ingresar línea" }
+  },
+  "billableOptions": {
+    "billable": "Facturable",
+    "nonBillable": "No facturable"
+  },
+  "customField": {
+    "lengthError": "El nombre del campo no puede tener más de 25 caracteres",
+    "alreadyOptionExists": "¡El valor ya existe!"
+  }
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "__typename":"Ticket",
+    "_id":"65cb48445dd3c53387eda52f",
+    "assignee":{
+      "__typename":"User",
+      "_id":"6495373a7e82cd34e891601e",
+      "name":"Haider"
+    },
+    "createdAt":"2024-02-13T10:45:24.014Z",
+    "customFields":[
+
+    ],
+    "facility":{
+      "__typename":"Customer",
+      "_id":"65c3930802d30daea1780038",
+      "customFields":[
+
+      ],
+      "name":"Argentina Customer"
+    },
+    "followers":[
+
+    ],
+    "hasOriginalEventBeenDeleted":null,
+    "machine":{
+      "__typename":"Machine",
+      "_id":"65c3933a02d30daea17805cb",
+      "name":"Argentina Machine",
+      "serialNumber":"A-machine"
+    },
+    "maintenanceOn":null,
+    "procedures":[
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      },
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      },
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      },
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      }
+    ],
+    "schedule":null,
+    "status":"64d373c44c4ed3ebaccaa2d7",
+    "ticketChatChannels":[
+      "channel-62e105dcd5a3225312eebebf-65c3930802d30daea1780038-65cb48445dd3c53387eda52f"
+    ],
+    "ticketId":"HGE2K5VS2R",
+    "ticketInternalNotesChatChannels":[
+      "channel-62e105dcd5a3225312eebebf-65cb48445dd3c53387eda52f-internal-notes"
+    ],
+    "ticketType":{
+      "__typename":"TicketType",
+      "_id":"65defbdfa8c55aca2c8dedd1",
+      "color":"#0517f8",
+      "icon":"service-request",
+      "name":"Service Request"
+    },
+    "title":"Testing 13.02.24",
+    "unread":true,
+    "updatedAt":"2024-02-28T09:24:47.552Z",
+    "user":null
+  },
+  {
+    "__typename":"Ticket",
+    "_id":"65cb48445dd3c53387eda52f",
+    "assignee":null,
+    "createdAt":"2024-02-13T10:45:24.014Z",
+    "customFields":[
+
+    ],
+    "facility":{
+      "__typename":"Customer",
+      "_id":"65c3930802d30daea1780038",
+      "customFields":[
+
+      ],
+      "name":"Argentina Customer"
+    },
+    "followers":[
+
+    ],
+    "hasOriginalEventBeenDeleted":null,
+    "machine":{
+      "__typename":"Machine",
+      "_id":"65c3933a02d30daea17805cb",
+      "name":"Argentina Machine",
+      "serialNumber":"A-machine"
+    },
+    "maintenanceOn":null,
+    "procedures":[
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      },
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      },
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      },
+      {
+        "__typename":"TicketProcedure",
+        "procedure":[
+          "Object"
+        ]
+      }
+    ],
+    "schedule":null,
+    "status":"64d373c44c4ed3ebaccaa2d7",
+    "ticketChatChannels":[
+      "channel-62e105dcd5a3225312eebebf-65c3930802d30daea1780038-65cb48445dd3c53387eda52f"
+    ],
+    "ticketId":"HGE2K5VS2R",
+    "ticketInternalNotesChatChannels":[
+      "channel-62e105dcd5a3225312eebebf-65cb48445dd3c53387eda52f-internal-notes"
+    ],
+    "ticketType":{
+      "__typename":"TicketType",
+      "_id":"65defbdfa8c55aca2c8dedd1",
+      "color":"#0517f8",
+      "icon":"service-request",
+      "name":"Service Request"
+    },
+    "title":"Testing 13.02.24",
+    "unread":true,
+    "updatedAt":"2024-02-28T09:24:47.552Z",
+    "user":null
+  }
+]
+

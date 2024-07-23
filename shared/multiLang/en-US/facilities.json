@@ -1,0 +1,167 @@
+{
+  "totalFacilityNumber": "Facilities",
+  "searchPlaceholder": "Search by name",
+  "newFacilityButton": "Add a Facility",
+  "id": "ID",
+  "emptyFacilityList": "There is no facility.",
+  "facilityDetails": {
+    "titleTabs": {
+      "userAccounts": "User Accounts",
+      "machines": "Machines",
+      "details": "Facility Details",
+      "generalInfo": "General Information",
+      "productionLines": "Production Lines"
+    },
+    "userAccountsTab": {
+      "userAdded": "User added successfully",
+      "noNameYet": "No name yet",
+      "noInfoYet": "No info yet",
+      "userUpdated": "User updated successfully",
+      "emailExistsError": "This email is already in use",
+      "total": "Users assigned to this facility",
+      "type": {
+        "facility": "Facility User"
+      },
+      "options": {
+        "edit": "Edit Account",
+        "delete": "Delete Account"
+      },
+      "deleteWindow": {
+        "title": "Are you sure you want to delete this user?",
+        "yes": "Yes, Delete",
+        "no": "No, Cancel"
+      },
+      "deleted": "User has been removed from the list",
+      "deleteError": "Something went wrong. Unable to remove user",
+      "updateError": "Something went wrong. Unable to update user",
+      "noUsers": "There are no user(s) assigned to this facility.",
+      "searchPlaceholder": "Search by name"
+    },
+    "machinesTab": {
+      "total": "Machines assigned to this facility",
+      "serial": "Serial Number",
+      "added": "Machine added",
+      "addTitle": "Assign Machine(s) to Facility",
+      "selectMachine": "Select Machine",
+      "chooseMachine": "Choose machine",
+      "edit": {
+        "addAnother": "Add machine",
+        "addMachine": {
+          "label": "Assign Machine",
+          "placeholder": "Select a machine"
+        },
+        "changes": {
+          "discard": "Discard Changes",
+          "discardSuccess": "Machine unassigned successfully",
+          "discardError": "Something went wrong. Unable to remove machine",
+          "save": "Save Changes",
+          "saveSuccess": "Machines assigned successfully",
+          "saveError": "Something went wrong. Unable to assign machines",
+          "unassignWindow": {
+            "title": "Are you sure you want to unassign this machine from this facility? (machine will not be deleted)",
+            "yes": "Unassign",
+            "no": "Cancel"
+          }
+        }
+      },
+      "select": "Select",
+      "searchPlaceholder": "Search by name/Sr. No."
+    },
+    "detailsTab": {
+      "id": {
+        "title": "Facility ID",
+        "message": "The ID number is generated automatically and cannot be changed."
+      },
+      "qrCode": {
+        "title": "Facility QR code access",
+        "message": "This allows the facility to access the app using the assigned QR code instead of the login credentials provided.",
+        "status": {
+          "disabled": "DISABLED",
+          "enabled": "ENABLED"
+        },
+        "copyUrl": "Copy URL",
+        "copyTooltip": "Copied"
+      },
+      "edit": {
+        "access": "Access",
+        "companyNameLabel": "Facility Name *",
+        "delete": "Delete the facility",
+        "CompanyNameError": "Name can not be more than 75 characters",
+        "qrCodeMessage": "This allows reporters to open an app with scanning the machine QR code instead using sing in credentials.",
+        "changes": {
+          "discard": "Discard Changes",
+          "save": "Save Changes"
+        },
+        "successMsg": "Facility updated successfully",
+        "qrStatusSuccessMsgStart": "Facility QR Code",
+        "qrStatusEnableMsg": "Enabled",
+        "qrStatusDisableMsg": "Disbaled"
+      },
+      "updated": "Facility details updated",
+      "address": {
+        "label": "Address",
+        "placeholder": "Search Facility Location"
+      },
+      "team": {
+        "label": "Team:"
+      },
+      "facilityRemovedSuccess": "Facility removed successfully",
+      "unableToRemoveFacility": "Something went wrong. Unable to remove facility"
+    },
+    "productionLinesTab": {
+      "assignTitle": "Assign production line",
+      "noProductionLine": "There is no production line assigned to this facility.",
+      "searchPlaceHolder": "Search by name/ID",
+      "assignProductionLineModal": {
+        "infoMessage": "You can only assign production lines that are not assigned to any facility.",
+        "nameTitle": "Production line name",
+        "idTitle": "Production line ID",
+        "assignProductinLinesSuccess": "Production line(s) assigned successfully",
+        "searchPlaceHolder": "Search"
+      },
+      "unassignProductionLineModal": {
+      "success": "Production line unassigned successfully",
+      "error": "Something went wrong. Unable to remove production line",
+      "unassignMessage": "Are you sure you want to unassign this production line from this facility? (production line will not be deleted)"
+    }
+      
+    }
+  },
+  "created": "Facility created",
+  "createdSuccess": "Facility created",
+  "facilityCreationQuitAlert": "Are you sure you want to quit without saving the facility?",
+  "facilityAddressQuitAlert": "Are you sure you want to quit without saving the address of facility?",
+  "acceptButtonText": "Yes, Cancel",
+  "cancelButtonText": "No, Go Back",
+  "facilityDeleteAlert": "Are you sure you want to delete this facility?",
+  "deleteAcceptButtonText": "Yes, Delete",
+  "deleteCancelButtonText": "No, Cancel",
+  "deleteFacility": "Delete facility",
+  "facilityUpdateSuccess": "Facility updated successfully",
+  "facilityUpdateFailed": "Failed to update facility",
+  "descriptionPlaceholder": "Add facility description",
+  "createUserBtn": "Create a User",
+  "userListTableColumn": {
+    "name": "Name",
+    "email": "Email",
+    "jobTitle": "Job Title",
+    "landLine": "Landline",
+    "phoneNumber": "Phone Number",
+    "access": "Access",
+    "noAccess": "No Access"
+  },
+  "showQrCode": "Show QR code",
+  "useFacilityQrCode": "Use facility QR Code ",
+  "qrScanSignOutInfo": "By signing in to this facility, you will be signed out from the current one.",
+  "facilityText": "Facility",
+  "facilityNameText": "Facility name",
+  "facilityAddressText": "Facility address",
+  "facilityTeamText": "Assigned team",
+  "pageViews": {
+    "list": "List",
+    "board": "Board",
+    "map": "Map",
+    "calender": "Calendar",
+    "table": "Table"
+  }
+}

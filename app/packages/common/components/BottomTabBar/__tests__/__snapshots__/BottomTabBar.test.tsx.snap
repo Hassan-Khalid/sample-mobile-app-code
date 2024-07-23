@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomTabBar component renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": {
+        "dynamic": {
+          "dark": "#FFF",
+          "highContrastDark": undefined,
+          "highContrastLight": undefined,
+          "light": "#FFFFFF",
+        },
+      },
+      "borderTopColor": {
+        "dynamic": {
+          "dark": "#25292c",
+          "highContrastDark": undefined,
+          "highContrastLight": undefined,
+          "light": "#e9edf1",
+        },
+      },
+      "borderTopWidth": 1,
+      "bottom": 1,
+      "height": 82,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "width": 750,
+      "zIndex": 999999,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+      }
+    }
+    data={
+      [
+        "WORK_ORDER",
+        "MY_WORK_ORDER",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={false}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignContent": "center",
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                {
+                  "testUri": "../../../packages/common/assets/Images/common/ic_WO_grey.png",
+                }
+              }
+            />
+            <Text
+              style={
+                {
+                  "color": {
+                    "dynamic": {
+                      "dark": "#748094",
+                      "highContrastDark": undefined,
+                      "highContrastLight": undefined,
+                      "light": "#8798ad",
+                    },
+                  },
+                  "fontSize": 14,
+                  "margin": 4,
+                }
+              }
+            >
+              tickets.closedTicketsPage.totalTickets
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "alignContent": "center",
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                {
+                  "testUri": "../../../packages/common/assets/Images/common/ic_myWO_grey.png",
+                }
+              }
+            />
+            <Text
+              style={
+                {
+                  "color": {
+                    "dynamic": {
+                      "dark": "#748094",
+                      "highContrastDark": undefined,
+                      "highContrastLight": undefined,
+                      "light": "#8798ad",
+                    },
+                  },
+                  "fontSize": 14,
+                  "margin": 4,
+                }
+              }
+            >
+              tickets.myTicketsPage.openTicketsTitle
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

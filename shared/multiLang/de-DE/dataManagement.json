@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Datenmanagement",
+  "uploadDataBtnText": "Daten hochladen",
+  "dataManagementAccessDeniedModalTitle": "Wenn Sie die Datenmanagement Funktion nutzen möchten, kontaktieren Sie bitte",
+  "nextBtnText": "Weiter",
+  "cancelBtnText": "Abbrechen",
+  "chooseDataTypeText": "Wählen Sie die Dateitypen, die Sie hochladen möchten",
+  "machineCardTitle": "Maschine",
+  "facilityCardTitle": "Kundenstandort",
+  "userCardTitle": "Nutzer",
+  "machineCardBodyText": "Laden Sie alle Maschinendaten hoch. Es werden nur CSV- und XLXS-Dateien unterstützt.",
+  "facilityCardBodyText": "Laden Sie alle Kundenstandorte hoch. Es werden nur CSV- und XLXS-Dateien unterstützt.",
+  "userCardBodyText": "Laden Sie alle Benutzerinformationen Ihrer Kundenstandorte hoch. Es werden nur CSV- und XLXS-Dateien unterstützt.",
+  "inventoryPartCardTitle": "Ersatzteile",
+  "inventoryPartCardBodyText": "Laden Sie alle Maschinenersatzteile hoch. Es werden nur CSV- und XLXS-Dateien unterstützt.",
+  "machineUploadModalTitle": "Maschinendaten hochladen",
+  "machineUploadModalContent": {
+    "head": "Bitte beachten Sie die folgenden Punkte, bevor Sie fortfahren:",
+    "note1": "Die Datei darf keine doppelten Maschinen-IDs enthalten. Diese müssen eindeutig sein.",
+    "note2": "Die Maschinen-ID ist ein Pflichtfeld und darf nicht leer sein.",
+    "note3": "Die Maschinen-ID darf nicht bereits auf der Plattform vorhanden sein.",
+    "note4": "Der Maschinenname ist ein Pflichtfeld und darf nicht leer sein.",
+    "note5": "Fehlt die Kunden-ID, wird die Maschine zwar hinzugefügt, aber keinem Kundenstandort zugewiesen."
+  },
+  "facilityUploadModalTitle": "Kundenstandorte hochladen",
+  "facilityUploadModalContent": {
+    "head": "Bitte beachten Sie die folgenden Punkte, bevor Sie fortfahren:",
+    "note1": "Die Datei darf keine doppelten Kunden-IDs enthalten. Diese müssen eindeutig sein.",
+    "note2": "Die Kunden-ID ist ein Pflichtfeld und darf nicht leer sein.",
+    "note3": "Der Name des Kundenstandortes ist erforderlich, doppelte Werte sind zulässig.",
+    "note4": "Die Eingaben für Straße, Ort und Postleitzahl werden zu einer einzigen Adresse kombiniert - (optional)"
+  },
+  "facilityUserUploadModalTitle": "Benutzerdaten des Kundenstandortes hochladen",
+  "facilityUserUploadModalContent": {
+    "head": "Bitte beachten Sie die folgenden Punkte, bevor Sie fortfahren:",
+    "note1": "Die Kunden-ID ist ein Pflichtfeld und darf nicht leer sein.",
+    "note2": "Doppelte Kunden-IDs sind zulässig.",
+    "note3": "Die E-Mail-Adressen der Benutzer am Kundenstandort sollten eindeutig sein, d. h. keine zwei Benutzer können dieselbe E-Mail-Adresse haben.",
+    "note4": "Die E-Mail-Adresse des Benutzers am Kundenstandort ist ein Pflichtfeld und darf nicht leer sein.",
+    "note5": "Vor- und Nachname des Nutzers der Einrichtung sind erforderlich und dürfen nicht leer sein.",
+    "note6": "Kundenstandorte werden zuerst auf der Plattform hinzugefügt, gefolgt von den folgenden Daten in beliebiger Reihenfolge: Maschinen und Benutzer am Kundenstandort."
+  },
+  "inventoryPartsUploadModalTitle": "Ersatzteile der Maschine hochladen",
+  "inventoryPartsUploadModalContent": {
+    "head": "Bitte beachten Sie die folgenden Punkte, bevor Sie fortfahren:",
+    "note1": "Die \"Artikelnummer\" ist ein Pflichtfeld und darf nicht leer bleiben.",
+    "note2": "Die \"Ersatzteil Bezeichnung\" ist erforderlich.",
+    "note3": "Die \"Maschinenseriennummer\" ist erforderlich."
+  },
+  "uploadingData": "Daten hochladen",
+  "dataUploaded": "Daten erfolgreich hochgeladen",
+  "dataUploadFailed": "Hochladen der Daten fehlgeschlagen",
+  "pleaseWaitTitle": "Bitte verlassen Sie die Seite nicht und laden Sie sie nicht neu, während wir Ihre Anfrage bearbeiten...",
+  "pleaseWaitSubTitle": "Bitte verlassen Sie die Seite nicht und laden Sie sie nicht neu."
+}

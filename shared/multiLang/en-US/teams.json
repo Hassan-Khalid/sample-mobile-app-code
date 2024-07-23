@@ -1,0 +1,138 @@
+{
+  "welcomeTitle": "Welcome to Teams!",
+  "welcomeParagraph1": "Declutter work for your service and maintenance teams around the world. Give them access only to those customers and assets that they should be responsible for by grouping them into teams with specific assignments.",
+  "welcomeParagraph2": "Selling through dealers? Group them into teams and assign them to specific customers and assets so they only view and work on what’s important for them.",
+  "welcomeWorkingTitle": "How does it work?",
+  "welcomeWorkingPoints": [
+    "Create a team and assign members to it",
+    "Assign customers and assets they should have access to"
+  ],
+  "welcomeWorkingDescription": "Now start creating work orders for customers this team is responsible for. These work orders will only be visible to this team (or any others that are assigned to the specific customer the work order is for) and to any users who are not part of any team.",
+  "createTeamButton": "Create new team",
+  "addTeamButton": "Add new team",
+  "createTeamDrawer": {
+    "title": "Add new team",
+    "submitButton": "Add team",
+    "teamTitlePlaceholder": "Add team name",
+    "colorSelectorTitle": "Select a colour",
+    "titleLimitError": "Maximum character limit is {{}} characters",
+    "titleLabel": "Team name*",
+    "descriptionLabel": "Team description",
+    "descriptionPlaceholder": "Type here",
+    "selectFacility": {
+      "label": "Assign facilities",
+      "placeholder": "Select a facility",
+      "dropdownTitle": "Select facility:",
+      "infoMessageWithoutProductionLine": "All machines assigned to this facility will automatically be assigned to the team too",
+      "infoMessageWithProductionLine": "All the production lines and machines of the facilities will be assigned to the team too."
+    },
+    "selectMachine": {
+      "label": "Assign machines",
+      "placeholder": "Select machines",
+      "dropdownTitle": "Select machine:"
+    },
+    "selectProductionLine": {
+      "label": "Assign production lines",
+      "placeholder": "Select production lines",
+      "dropdownTitle": "Select production line:",
+      "infoMessage": "All the machines of the production line will be assigned to the team"
+    },
+    "selectMember": {
+      "label": "Assign members",
+      "placeholder": "Select members",
+      "dropdownTitle": "Select member:"
+    }
+  },
+  "teamListHeaderLabels": {
+    "name": "Name",
+    "description": "Description",
+    "teamMembers": "Team members"
+  },
+  "singleTeam": {
+    "tabs": {
+      "teamMembers": "Team members",
+      "facilities": "Facilities",
+      "productionLines": "Production lines",
+      "machines": "Machines"
+    },
+    "teamMembersTab": {
+      "assignButton": "Assign member",
+      "unassignTitle": "Are you sure you want to remove this member?",
+      "unassignAcceptButton": "Remove",
+      "listHeaderLabels": {
+        "name": "Name",
+        "jobTitle": "Job title",
+        "accessLevel": "Access level"
+      }, 
+      "assignDrawer": {
+        "dropdownTitle": "Team members:",
+        "submitButton": "Add member",
+        "title":  "Assign member"
+      }
+    },
+    "facilitiesTab": {
+      "assignButton": "Assign facility",
+      "unassignTitle": "Unassign facility?",
+      "unassignMessage": "Are you sure you want to unassign {{}} from this team?",
+      "assignDrawer": {
+        "title":  "Assign facility",
+        "placeholder": "Select facility",
+        "submitButton": "Add facility"
+      }
+    },
+    "productionLinesTab": {
+      "assignButton": "Assign production line",
+      "unassignTitle": "Unassign production line?",
+      "unassignMessage": "Are you sure you want to unassign {{}} from this team?",
+      "unassignAcceptButton": "Unassign",
+      "assignDrawer": {
+        "submitButton": "Add production line",
+        "title":  "Assign production line",
+        "label": "Assign production line",
+        "placeholder": "Select production line"
+      }
+    },
+    "machinesTab": {
+      "serialNumber": "SN",
+      "assignButton": "Assign machine",
+      "unassignTitle": "Unassign machine?",
+      "unassignMessage": "Are you sure you want to unassign {{}} from this team?",
+      "unassignAcceptButton": "Unassign",
+      "assignDrawer": {
+        "submitButton": "Add machine",
+        "title":  "Assign machine",
+        "placeholder": "Select machine"
+      }
+    },
+    "actions": {
+      "edit": "Edit team",
+      "delete": "Delete team"
+    }, 
+    "deleteAlert": {
+      "title": "Delete team?",
+      "message1": "Are you sure you want to you want to delete {{}} team?",
+      "message2": "Once deleted, all users of {{}} team will have access to all work orders, machines and facilities."
+    }
+  },
+  "createTeamSuccess": "Team added successfully",
+  "createTeamError": "Team creation failed",
+  "teamDeleteSuccess": "Team deleted successfully!",
+  "updateSuccess": "Team updated successfully",
+  "updateFailed": "Failed to update team",
+  "unassignMachineSuccess": "Machine unassigned successfully",
+  "unassignMachineFail": "Failed to unassign machine",
+  "unassignProductionLineSuccess": "Production line unassigned successfully",
+  "unassignProductionLineFail": "Failed to unassign production line",
+  "unassignFacilitySuccess": "Facility unassigned successfully",
+  "unassignFacilityFail": "Failed to unassign facility",
+  "unassignMemberSuccess": "Member removed successfully!",
+  "unassignMemberFail": "Failed to remove member",
+  "memberAssignedSuccess": "One or more new members are assigned!",
+  "memberAssignedFailed": "Failed to assign member",
+  "facilityAssignedSuccess": "One or more new facilities are assigned!",
+  "facilityAssignedFailed": "Failed to assign facility",
+  "machineAssignedSuccess": "One or more new machines are assigned!",
+  "machineAssignedFailed": "Failed to assign machine",
+  "productionLineAssignedSuccess": "One or more new production lines are assigned!",
+  "productionLineAssignedFailed": "Failed to assign production line"
+}

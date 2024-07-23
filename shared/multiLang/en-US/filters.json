@@ -1,0 +1,55 @@
+{
+  "addFilter": "Add filter",
+  "filterBy": "Filter by",
+  "sortBy": "Sort by",
+  "placeholder": "Search for one or more options...",
+  "remove": "REMOVE ALL",
+  "maxLimit": "You've reached maximum number of active filters",
+  "WORK_ORDER": "work orders",
+  "MACHINES": "machines",
+  "FACILITES": "facilities",
+  "TICKET_STATUS": {
+    "title": "Work order status",
+    "label": "Work order status is:"
+  },
+  "ASSIGNEE": {
+    "title": "Assignee",
+    "label": "Assignee is:"
+  },
+  "TICKET_TYPE": {
+    "title": "Work order type",
+    "label": "Work order type is:"
+  },
+  "FACILITY_NAME": {
+    "title": "Facility name",
+    "label": "Facility name is:"
+  },
+  "MACHINE_NAME": {
+    "title": "Machine name",
+    "label": "Machine name is:"
+  },
+  "DATE_RANGE": {
+    "title": "Date range",
+    "labelStart": "Pick the",
+    "labelJoiner": "for",
+    "label": "Pick the date range for work orders",
+    "remove": "REMOVE THE DATES",
+    "apply": "APPLY DATES"
+  },
+  "SCHEDULED": {
+    "title": "Scheduled",
+    "label": "Scheduled ist:"
+  },
+  "installation-date": {
+    "title": "Installation date",
+    "label": "Installation date ist:"
+  },
+  "MACHINE_ASSIGNED": {
+    "title": "Machine assigned",
+    "label": "Machine assigned:"
+  },
+  "MACHINE_QR_CODE_ACCESS": {
+    "title": "QR code enabled",
+    "label": "QR code enabled:"
+  }
+}

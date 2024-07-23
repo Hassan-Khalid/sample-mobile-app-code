@@ -1,0 +1,55 @@
+{
+  "pageTitle": "Manejo de data",
+  "uploadDataBtnText": "Cargar datos",
+  "dataManagementAccessDeniedModalTitle": "If you want to use the data management feature, please contact",
+  "nextBtnText": "Next",
+  "cancelBtnText": "Cancel",
+  "chooseDataTypeText": "Elija el tipo de datos que desea cargar",
+  "machineCardTitle": "Máquina",
+  "facilityCardTitle": "Fábrica cliente",
+  "userCardTitle": "Usuario cliente",
+  "machineCardBodyText": "Cargue todos los datos de sus Máquinas. Sólo se admiten archivos CSV y XLXS.",
+  "facilityCardBodyText": "Suba todas las fábricas de tus clientes. Sólo se admiten archivos CSV y XLXS.",
+  "userCardBodyText": "Cargue toda la información de los usuarios de las fábricas de sus clientes. Sólo se admiten archivos CSV y XLXS.",
+  "inventoryPartCardTitle": "Partes",
+  "inventoryPartCardBodyText": "Sube todas las piezas de la máquina. Sólo se admiten archivos CSV y XLXS.",
+  "machineUploadModalTitle": "Subir datos de máquina",
+  "machineUploadModalContent": {
+    "head": "Tenga en cuenta lo siguiente antes de continuar:",
+    "note1": "El archivo no puede contener ID de máquinas duplicadas y debe ser único.",
+    "note2": "El ID de máquina es un campo obligatorio y no puede estar vacío.",
+    "note3": "El ID de la máquina no debería existir ya en la plataforma.",
+    "note4": "El nombre de la máquina es un campo obligatorio y no puede estar vacío",
+    "note5": "Si falta el ID del cliente, la máquina se agregará pero no se asignará a ningun cliente."
+  },
+  "facilityUploadModalTitle": "Subir datos de cliente",
+  "facilityUploadModalContent": {
+    "head": "Tenga en cuenta lo siguiente antes de continuar:",
+    "note1": "El archivo no puede contener ID de clientes duplicados y debe ser único.",
+    "note2": "El ID del cliente es un campo obligatorio y no puede estar vacío.",
+    "note3": "El nombre del cliente es obligatorio y se permiten valores duplicados.",
+    "note4": "Los valores de calle, ciudad y código postal se combinarán en una sola dirección (opcional)"
+  },
+  "facilityUserUploadModalTitle": "Cargar datos de usuario de la instalación",
+  "facilityUserUploadModalContent": {
+    "head": "Tenga en cuenta lo siguiente antes de continuar:",
+    "note1": "El ID del cliente es un campo obligatorio y no puede estar vacío.",
+    "note2": "Se permiten identificaciones de clientes duplicadas.",
+    "note3": "Las direcciones de correo electrónico de los usuarios de los clientes deben ser únicas, es decir, dos usuarios no pueden tener la misma dirección de correo electrónico.",
+    "note4": "La dirección de correo electrónico del usuario de un cliente es un campo obligatorio y no puede estar vacío.",
+    "note5": "El nombre y apellidos del usuario de la instalación son obligatorios y no pueden estar vacíos",
+    "note6": "Los clientes se agregarán primero en la plataforma, seguidas de una de las siguientes en cualquier orden: Máquinas y Usuarios de los clientes."
+  },
+  "inventoryPartsUploadModalTitle": "Cargar datos de piezas de máquina",
+  "inventoryPartsUploadModalContent": {
+    "head": "Tenga en cuenta lo siguiente antes de continuar:",
+    "note1": "El \"Número de artículo\" es un campo obligatorio y no puede estar vacío.",
+    "note2": "El Nombre de la parte es obligatorio.",
+    "note3": "Se requiere el \"Número de serie de la máquina\"."
+  },
+  "uploadingData": "Subiendo datos",
+  "dataUploaded": "Datos cargados con éxito",
+  "dataUploadFailed": "Error al subir datos",
+  "pleaseWaitTitle": "No abandone ni vuelva a cargar la página mientras procesamos su solicitud.",
+  "pleaseWaitSubTitle": "Por favor, no abandones ni recargues la página."
+}

@@ -1,0 +1,374 @@
+{
+  "heroTitle": "Main Settings",
+  "companyTitle": "Company Settings",
+  "personalTitle": "Personal Settings",
+  "removeAll": "Remove all",
+  "tabTitles": {
+    "general": "General Settings",
+    "timeTracker": "Time Tracker",
+    "notifications": "Notifications",
+    "fields": "Customize Fields",
+    "userAccounts": "Users & Teams",
+    "dataManagement": "Data Management",
+    "branding": "Branding",
+    "accessPermissions": "Access and Permissions",
+    "statusCustomization": "Status customization",
+    "emailConfiguration": "Email configuration"
+  },
+  "companyTabs": {
+    "general": {
+      "companyInfo": {
+        "title": "Company Info",
+        "nameLabel": "Company Name",
+        "urlLabel": "Facility URL for the web application.",
+        "logo": "Company Logo",
+        "noLogo": "No logo",
+        "imageSizeError": "Image size should be less than 1mb",
+        "imageFormatError": "The file you selected wrong format",
+        "imageSaveSuccess": "Logo has been saved!"
+      },
+      "appearance": {
+        "title": "Application Appearance",
+        "backgroundColorLabel": "Company Background Color",
+        "textColorLabel": "Company Text Color",
+        "sample": "Appearance Sample"
+      }
+    },
+    "notifications": {
+      "title": "Work Orders",
+      "emailSectionTitle": "Email notifications",
+      "internalEmail": {
+        "title": "New work order created (Internal email notification)",
+        "message": "Select the person who should receive a notification when a new work order is created.",
+        "searchPlaceholderEmpty": "Search",
+        "searchPlaceholderFilled": "Search by help text",
+        "userAddSuccess": "User added successfully",
+        "userRemoveSuccess": "User removed successfully",
+        "apiError": "Something went wrong!"
+      },
+      "externalEmail": {
+        "title": "New work order created (External email notification)",
+        "message": "Select the person who should receive a notification, outside of your organization, when a new work order is created.",
+        "addEmail": {
+          "label": "Add Email",
+          "placeholder": "Enter email for sending the notifications",
+          "new": "Add New Email"
+        }
+      },
+      "unassignedWoMsgNotificationSettingsTitle": "New message from the facility for unassigned work orders",
+      "unassignedWoMsgNotificationSettingsSubTitle": "Select a person who should receive a notification when there is a message from facility.",
+      "unassignedWoCreateNotificationSettingsTitle": "New work order created",
+      "unassignedWoCreateNotificationSettingsSubTitle": "Select the person who should receive a notification when a new ticket is created.",
+      "maintenanceWoCreateNotificationSettingsTitle": "New maintenance work order created",
+      "maintenanceWoCreateNotificationSettingsSubTitle": "Select a person who should receive a notification when a maintenance work order is created.",
+      "emailNotificationOffAlertTitle": "Are you sure you want to turn off email notifications?",
+      "notificationSettingsUpdatedText": "Successfully updated"
+    },
+    "userAccounts": {
+      "userAddedSuccess": "User added successfully",
+      "userDeletedSuccess": "User deleted successfully",
+      "userUpdatedSuccess": "User updated successfully",
+      "unableUpdateUser": "Something went wrong! Unable to update user",
+      "total": "OEM User Accounts",
+      "addNewButton": "Add New User",
+      "owner": "Account owner",
+      "agent": "Agent",
+      "facilityUser": "Facility User",
+      "moreTeams": "more",
+      "assignedTeamsPopupTitle": "Assigned teams",
+      "tableHeadings": {
+        "name": "Name",
+        "access": "Access level",
+        "assignedTeam": "Assigned team",
+        "actions": "Actions",
+        "job": "Job title"
+      },
+      "options": {
+        "edit": "Edit Account",
+        "delete": "Delete Account"
+      },
+      "delete": {
+        "title": "Are you sure you want to delete this account?",
+        "yes": "Yes, Delete",
+        "no": "No, Cancel"
+      },
+      "admin": "Admin",
+      "adminRoleInfo": "Can change company settings and invite new members to the workspace",
+      "member": "Member",
+      "memberRoleInfo": "Cannot change company settings or invite new members to the workspace"
+    },
+    "customizeFields": {
+      "empty": "Empty",
+      "addCustomField": "Add Custom Field",
+      "additionalFieldsTitle": "Additional Fields",
+      "deleteSuccess": "Custom field deleted successfully",
+      "addedSuccess": "Custom field created!",
+      "updateSuccess": "Custom field updated successfully",
+      "showFieldsOn": {
+        "facilities": "Select the additional fields that you want to show in facilities details tab",
+        "machines": "Select the additional fields that you want to show in machine details tab",
+        "tickets": "Select the additional fields that you want to show in work orders details tab",
+        "productionLines": "Select the additional fields that you want to show in production line details tab"
+      },
+      "enabled": "enabled",
+      "disabled": "disabled",
+      "chooseFieldType": "Choose Field Type",
+      "tabTitles": {
+        "facilities": "Facilities",
+        "productionLine": "Production Lines",
+        "machines": "Machines",
+        "tickets": "Work Orders",
+        "parts": "Inventory"
+      },
+      "customFields": {
+        "title": "Custom Fields",
+        "editTitle": "Edit custom field",
+        "addFieldLabel": "Add New Field",
+        "addFieldDrawerLabel": "Add a custom field",
+        "addFieldSaveText": "Save field",
+        "addFieldNameInput": {
+          "label": "Field name",
+          "placeholder": "Add name"
+        },
+        "addSelectFieldColorTitle": "Select a colour",
+        "addSelectOptionField": {
+          "label": "Add an option",
+          "placeholder": "Add value"
+        },
+        "defaultFieldName": "Property",
+        "options": {
+          "edit": "Edit Property",
+          "delete": "Delete Property"
+        },
+        "dropdownOptions": {
+          "text": "Text Field",
+          "number": "Number",
+          "date": "Date",
+          "singleSelect": "Single Select"
+        },
+        "dataTypesDropdown": {
+          "label": "Choose the property type for the property field.",
+          "text": "Text Field",
+          "number": "Number",
+          "date": "Date",
+          "update": "Save",
+          "add": "Add",
+          "discard": "Discard",
+          "singleSelect": {
+            "name": "Single Select",
+            "addValue": {
+              "placeholder": "Add Value",
+              "dropDown": {
+                "placeholder": "Add New Value",
+                "label": "Create new value"
+              },
+              "options": {
+                "delete": "Delete",
+                "colors": {
+                  "lightGray": "Light gray",
+                  "gray": "Gray",
+                  "brown": "Brown",
+                  "yellow": "Yellow",
+                  "orange": "Orange",
+                  "green": "Green",
+                  "blue": "Blue",
+                  "purple": "Purple",
+                  "pink": "Pink",
+                  "red": "Red"
+                }
+              }
+            }
+          }
+        }
+      },
+      "additionalFields": {
+        "labels": {
+          "installation-date": "Installation date",
+          "address-of-facility": "Address of facility"
+        },
+        "dropdownOptions": {
+          "address": "Address",
+          "date": "Date"
+        }
+      },
+      "colors": [
+        {
+          "colorName": "Light gray"
+        },
+        {
+          "colorName": "Gray"
+        },
+        {
+          "colorName": "Brown"
+        },
+        {
+          "colorName": "Yellow"
+        },
+        {
+          "colorName": "Orange"
+        },
+        {
+          "colorName": "Green"
+        },
+        {
+          "colorName": "Blue"
+        },
+        {
+          "colorName": "Purple"
+        },
+        {
+          "colorName": "Pink"
+        },
+        {
+          "colorName": "Red"
+        }
+      ],
+      "facilitiesTab": {
+        "additionalFields": {
+          "label": "Select the additional fields that you want to show in Facility Details tab",
+          "additionalFieldText": "You will be able to see all work orders on a map by entering the facility address and country.",
+          "addressTitle": "Address of Facility",
+          "dataType": "Text Field"
+        },
+        "customFieldsLabel": "Define custom fields for facilities by choosing text, number, date or select type."
+      },
+      "machinesTab": {
+        "additionalFields": {
+          "label": "Select the additional fields that you want to show in Machine Details tab",
+          "installDateTitle": "Installation Date",
+          "dataType": "Date"
+        },
+        "customFieldsLabel": "Define custom fields for machines by choosing text, number, date or select type."
+      },
+      "ticketsTab": {
+        "customFieldsLabel": "Define custom fields for work orders by choosing text, number, date or select type."
+      },
+      "partsTab": {
+        "customFieldsLabel": "Define custom fields for inventory by choosing text, number, date or select type."
+      },
+      "productionLinesTab": {
+        "customFieldsLabel": "Define custom fields for production lines by choosing text, number, date or select type."
+      }
+    },
+    "accessPermissions": {
+      "allowFollowersWorkOrders": {
+        "title": "Work orders access",
+        "message": "Followers can view the work orders they are following on the My Work Order page"
+      }
+    },
+    "statusCustomization": {
+      "statusCustomizationSectionSubtitle": "Custom work order statuses can help manage your work orders workflows, as well as indicate a more meaningful work order status to your business and end users.",
+      "addNewStatusCtaText": "New label",
+      "selectColorText": "Select colour",
+      "pleaseWait": "Please wait...",
+      "deletingStatus": "Deleting status...",
+      "updatingTicketStatus": "Updating work order status...",
+      "statusDeletedSuccess": "Status deleted successfully",
+      "deleteStatusAlertTitle": "Delete label?",
+      "deleteStatusAlertInfoText1": "Some work orders are already marked by this status label.",
+      "deleteStatusAlertInfoText2": "Before continuing, please select status replacement that will be applied to all work orders marked by the status that is to be deleted.",
+      "changeStatusDropdownTitle": "Change work order status to",
+      "changeStatusDropdownPlaceholder": "Select label",
+      "confirmButtonText": "Confirm",
+      "deletingAndReassignStatus": "Please wait while work orders are reassigned.",
+      "deleteAndReassignSuccess": "Status deleted. Work orders are reassigned.",
+      "stausMaxCharacterLimitErrorText": "Maximum character limit is {num} characters"
+    },
+    "emailConfiguration": {
+      "emailConfigurationSectionSubTitle": "Configure your email address to access emails from your Makula account",
+      "unlink": "Unlink",
+      "unlinkAlertTitle": "Are you sure you want to unlink this email?"
+    },
+    "saveChanges": "All changes have been saved!",
+    "companyName": "Enter company name",
+    "alertTitle": "Are you sure you want to delete this field?"
+  },
+  "personalTabs": {
+    "general": {
+      "info": {
+        "title": "Personal Info",
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Enter full name"
+        }
+      },
+      "password": {
+        "title": "Password",
+        "old": {
+          "label": "Old Password *",
+          "placeholder": "Enter old password"
+        },
+        "new": {
+          "label": "New Password *",
+          "placeholder": "Enter new password"
+        },
+        "re_type": {
+          "label": "Re-type New Password *",
+          "placeholder": "Re-type new password"
+        }
+      },
+      "language": {
+        "title": "Language",
+        "label": "Application Language"
+      }
+    },
+    "notifications": {
+      "tickets": {
+        "title": "Work Orders",
+        "label": "New work orders assigned to me",
+        "message": "You will get email notification when new work order is assigned to you."
+      },
+      "internalNotes": {
+        "title": "Internal Notes",
+        "someoneMentions": {
+          "label": "Someone mentions me",
+          "message": "You will get email notification when someone mentions you in internal notes."
+        },
+        "someonePostNotes": {
+          "label": "Someone makes a post in a work order assigned to me",
+          "message": "You will get email notification when someone post notes in a work order assigned to you."
+        }
+      },
+      "workOrderAssigned": "Work order assigned",
+      "workOrderAssignedInfoText": "Receive an email notification when a work order is assigned to you.",
+      "workOrderUpdated": "Work order updated",
+      "workOrderUpdatedInfoText": "Receive an email notification when a status changes on a work order assigned to you.",
+      "workOrderFollower": "Work order follower",
+      "workOrderFollowerInfoText": "Receive an email notification when added as a follower on a work order.",
+      "workOrderInternalNotes": "Internal notes",
+      "workOrderInternalNotesInfoText": "Receive an email notifications when internal notes are added on a work order assigned to you.",
+      "workOrderInternalNotesMention": "Internal notes mention",
+      "workOrderInternalNotesMentionInfoText": "Receive an email when you are mentioned in an internal note on a work order.",
+      "facilityChatMsg": "Facility chat message",
+      "facilityChatMsgInfoText": "Receive an email notification when the facility send a chat message on a work order assigned to you.",
+      "emailSectionTitle": "Email notifications"
+    },
+    "profileUpdatedAlert": "Profile updated successfully",
+    "profileNameAlert": "Name updated successfully",
+    "passwordAlert": "Password updated successfully"
+  },
+  "changes": {
+    "discard": "Discard Changes",
+    "save": "Save Changes",
+    "updated": "Changes updated"
+  },
+  "timeTrackerTags": {
+    "allTags": "All Tags",
+    "allTagsSecSubTitle1": "Add new or edit existing tags for time tracking.",
+    "allTagsSecSubTitle2": "Tags are used to closer explain time spent on each work order.",
+    "addNewTag": "Add New Tag",
+    "editTag": "Edit Tag",
+    "deleteTag": "Delete Tag",
+    "tagCreated": "Tag created successfully",
+    "tagCreationFailed": "Tag creation failed",
+    "tagUpdated": "Tag updated successfully",
+    "tagUpdateFailed": "Tag updation failed",
+    "tagDeleted": "Tag deleted successfully",
+    "tagDeleteFailed": "Tag deletion failed",
+    "tagDeleteWarningText": "Are you sure you want to delete the tag from the list?"
+  },
+  "userSettingsTabs": {
+    "userAccounts": "User Accounts",
+    "teams": "Teams"
+  }
+}

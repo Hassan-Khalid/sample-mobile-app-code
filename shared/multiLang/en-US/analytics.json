@@ -1,0 +1,12 @@
+{
+  "orgOverview": "Organization Overview",
+  "avgRespTime": "Average Response Time",
+  "numberOfAgents": "Number of OEM Agents",
+  "numberOfFacilities": "Number of Facilities",
+  "numberOfMachines": "Number of Machines",
+  "ticketVolume": "Work Order Volume",
+  "top10Facilities": "Top 10 Facilities",
+  "numberSingOfTickets": "# of Work Orders",
+  "coloredLegend": "color legend",
+  "analyticsAccessDeniedModalTitle": "If you want to use the analytics feature, please contact"
+}

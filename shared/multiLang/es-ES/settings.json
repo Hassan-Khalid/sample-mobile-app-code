@@ -1,0 +1,365 @@
+{
+  "heroTitle": "Configuración principal",
+  "companyTitle": "Configuración de la empresa",
+  "personalTitle": "Configuración personal",
+  "removeAll": "Remover todos",
+  "tabTitles": {
+    "general": "Configuración general",
+    "timeTracker": "Medición de tiempos",
+    "notifications": "Notificaciones",
+    "fields": "Campos personalizados",
+    "userAccounts": "Usuarios y equipos",
+    "dataManagement": "Manejo de data",
+    "branding": "Marcas",
+    "accessPermissions": "Acceso y permisos",
+    "statusCustomization": "Personalización del estado",
+    "emailConfiguration": "Configuración del correo electrónico"
+  },
+  "companyTabs": {
+    "general": {
+      "companyInfo": {
+        "title": "Información de empresa",
+        "nameLabel": "Nombre de empresa",
+        "urlLabel": "URL de la fábrica para la aplicación web.",
+        "logo": "Logo de la empresa",
+        "noLogo": "No hay logo",
+        "imageSizeError": "El tamaño de la imagen debe ser menos a 1mb",
+        "imageFormatError": "El archivo que seleccionaste tiene un formato incompatible",
+        "imageSaveSuccess": "El logo fue guardado!"
+      },
+      "appearance": {
+        "title": "Apariencia de la aplicación",
+        "backgroundColorLabel": "Color de fondo de la empresa",
+        "textColorLabel": "Color del texto",
+        "sample": "Prueba de apariencia"
+      }
+    },
+    "notifications": {
+      "title": "Órdenes de trabajo",
+      "emailSectionTitle": "Notificaciones por correo electrónico",
+      "internalEmail": {
+        "title": "Nueva orden de trabajo (Notificación de email interna)",
+        "message": "Seleccionar a la persona que debe recibir una notificación cuando se crea una nueva orden de trabajo.",
+        "searchPlaceholderEmpty": "Buscar",
+        "searchPlaceholderFilled": "Buscar con texto de ayuda",
+        "userAddSuccess": "Usuario añadido exitosamente",
+        "userRemoveSuccess": "Usuario removido exitosamente",
+        "apiError": "Ups, algo salió mail!"
+      },
+      "externalEmail": {
+        "title": "Nueva orden de trabajo creada (notificación externa por email)",
+        "message": "Seleccionar a la persona externa a su organización que debe recibir una notificación cuando se crea una orden de trabajo.",
+        "addEmail": {
+          "label": "Añadir dirección de Email",
+          "placeholder": "Ingresar direcciones de emails para enviar notificaciones",
+          "new": "Añadir nuevo Email"
+        }
+      },
+      "unassignedWoMsgNotificationSettingsTitle": "Nuevo mensaje de la instalación para órdenes de trabajo no asignadas",
+      "unassignedWoMsgNotificationSettingsSubTitle": "Seleccione la persona que debe recibir una notificación cuando haya un mensaje de la instalación.",
+      "unassignedWoCreateNotificationSettingsTitle": "Nueva orden de trabajo creada",
+      "unassignedWoCreateNotificationSettingsSubTitle": "Seleccione la persona que debe recibir una notificación cuando se crea un nuevo ticket.",
+      "maintenanceWoCreateNotificationSettingsTitle": "Nueva orden de trabajo de mantenimiento creada",
+      "maintenanceWoCreateNotificationSettingsSubTitle": "Seleccione la persona que debe recibir una notificación cuando se crea una orden de trabajo de mantenimiento.",
+      "emailNotificationOffAlertTitle": "¿Estás seguro de que quieres desactivar las notificaciones por correo electrónico?",
+      "notificationSettingsUpdatedText": "Actualizado correctamente"
+    },
+    "userAccounts": {
+      "userAddedSuccess": "Usuario añadido exitosamente",
+      "userDeletedSuccess": "Usuario eliminado exitosamente",
+      "userUpdatedSuccess": "Usuario actualizado exitosamente",
+      "unableUpdateUser": "Ups, algo salió mal! No se puede actualizar el usuario",
+      "total": "Cuentas de usuarios del proveedor de maquinaria",
+      "addNewButton": "Añadir nuevo usuario",
+      "owner": "Dueño de la cuenta",
+      "agent": "Agente",
+      "facilityUser": "Usuario de la fábrica",
+      "moreTeams": "más",
+      "assignedTeamsPopupTitle": "Equipos asignados",
+      "tableHeadings": {
+        "name": "Nombre",
+        "access": "Nivel de acceso",
+        "assignedTeam": "Equipo asignado",
+        "actions": "Acciones",
+         "job": "Título laboral"
+      },
+      "options": {
+        "edit": "Editar Cuenta",
+        "delete": "Eliminar Cuenta"
+      },
+      "delete": {
+        "title": "Estás seguro que deseas eliminar esta cuenta?",
+        "yes": "Sí, eliminar",
+        "no": "No, Cancelar"
+      },
+      "admin": "Admin",
+      "adminRoleInfo": "Puede cambiar la configuración de la empresa e invitar a nuevos miembros al espacio de trabajo",
+      "member": "Miembro",
+      "memberRoleInfo": "No Puede cambiar la configuración de la empresa e invitar a nuevos miembros al espacio de trabajo"
+    },
+    "customizeFields": {
+      "empty": "Vacío",
+      "addCustomField": "Agregar campo personalizado",
+      "additionalFieldsTitle": "Agregar campo personalizado",
+      "deleteSuccess": "Campo personalizado borrado exitosamente",
+      "addedSuccess": "¡Campo personalizado creado!",
+      "updateSuccess": "Campo personalizado actualizado exitosamente",
+      "showFieldsOn": {
+        "facilities": "Seleccione más campos que quiere mostrar en los detalles de la fábricas clientes",
+        "machines": "Seleccione más campos que quiere mostrar en los detalles de la máquinas",
+        "tickets": "Seleccione más campos que quiere mostrar en los detalles de la orden de trabajo",
+        "productionLines": "Seleccione los campos adicionales que desea mostrar en la pestaña de detalles de la línea de producción"
+      },
+      "enabled": "Actiado",
+      "disabled": "Desactivado",
+      "chooseFieldType": "Elegir tipo de archivo",
+      "tabTitles": {
+        "facilities": "Fábricas clientes",
+        "productionLine": "Líneas de producción",
+        "machines": "Máquinas",
+        "tickets": "Órdenes de trabajo",
+        "parts": "Inventario"
+      },
+      "customFields": {
+        "title": "Campos personalizados",
+        "editTitle": "Editar campo personalizado",
+        "addFieldLabel": "Añadir nuevo campo",
+        "addFieldDrawerLabel": "Añadir un campo personalizado",
+        "addFieldSaveText": "Guardar campo",
+        "addFieldNameInput": {
+          "label": "Nombre del campo",
+          "placeholder": "Añadir nombre"
+        },
+        "addSelectFieldColorTitle": "Seleccione un color",
+        "addSelectOptionField": {
+          "label": "Añadir una opción",
+          "placeholder": "Añadir valor"
+        },
+        "defaultFieldName": "Propiedad",
+        "options": {
+          "edit": "Editar Propiedad",
+          "delete": "Borrar Propiedad"
+        },
+        "dataTypesDropdown": {
+          "label": "Elegir el tipo de propiedad.",
+          "text": "Texto",
+          "number": "Número",
+          "add": "Añadir",
+          "date": "Fecha",
+          "update": "Actualizar campo",
+          "discard": "Dercartar",
+          "singleSelect": {
+            "name": "Selección única",
+            "addValue": {
+              "placeholder": "Añadir valor",
+              "dropDown": {
+                "placeholder": "Añadir nuevo valor",
+                "label": "Crear nuevo valor"
+              },
+              "options": {
+                "delete": "Eliminar",
+                "colors": {
+                  "lightGray": "Gris claro",
+                  "gray": "Gris",
+                  "brown": "Marrón",
+                  "yellow": "Amarillo",
+                  "orange": "Naranja",
+                  "green": "Verde",
+                  "blue": "Azul",
+                  "purple": "Violeta",
+                  "pink": "Rosa",
+                  "red": "Rojo"
+                }
+              }
+            }
+          }
+        }
+      },
+      "additionalFields": {
+        "labels": {
+          "installation-date": "Instalation date",
+          "address-of-facility": "Address of facility"
+        },
+        "dropdownOptions": {
+          "address": "Address",
+          "date": "Date"
+        }
+      },
+      "colors": [
+        {
+          "colorName": "Light gray"
+        },
+        {
+          "colorName": "Gray"
+        },
+        {
+          "colorName": "Brown"
+        },
+        {
+          "colorName": "Yellow"
+        },
+        {
+          "colorName": "Orange"
+        },
+        {
+          "colorName": "Green"
+        },
+        {
+          "colorName": "Blue"
+        },
+        {
+          "colorName": "Purple"
+        },
+        {
+          "colorName": "Pink"
+        },
+        {
+          "colorName": "Red"
+        }
+      ],
+      "facilitiesTab": {
+        "additionalFields": {
+          "label": "Seleccione los campos adicionales que desea mostrar en la pestaña Detalles de la instalación",
+          "additionalFieldText": "Puede visualizar todas las órdenes de trabajo en un mapa introduciendo la dirección y el país de la instalación.",
+          "addressTitle": "Address of Facility",
+          "dataType": "Campo de texto"
+        },
+        "customFieldsLabel": "Defina campos personalizados para las instalaciones eligiendo texto, número, fecha o tipo de selección."
+      },
+      "machinesTab": {
+        "additionalFields": {
+          "label": "Seleccione los campos adicionales que desea mostrar en la pestaña Detalles de la máquina",
+          "installDateTitle": "Fecha de instalación",
+          "dataType": "Fecha"
+        },
+        "customFieldsLabel": "Defina campos personalizados para máquinas eligiendo texto, número, fecha o seleccione el tipo."
+      },
+      "partsTab": {
+        "customFieldsLabel": "Definir los campos personalizados para las órdenes de trabajo eligiendo texto, número, fecha o seleccionar el tipo."
+      },
+      "productionLinesTab": {
+        "customFieldsLabel": "Defina campos personalizados para las líneas de producción eligiendo texto, número, fecha o tipo de selección."
+      }
+    },
+    "accessPermissions": {
+      "allowFollowersWorkOrders": {
+        "title": "Acceso a las órdenes de trabajo",
+        "message": "Los seguidores pueden ver las órdenes de trabajo que están siguiendo en la página Mi orden de trabajo"
+      }
+    },
+    "statusCustomization": {
+      "statusCustomizationSectionSubtitle": "Los estados personalizados de las órdenes de trabajo pueden ayudar a gestionar los flujos de trabajo de las órdenes de trabajo, así como indicar un estado más significativo de la orden de trabajo a su empresa y a los usuarios finales.",
+      "addNewStatusCtaText": "Nueva etiqueta",
+      "selectColorText": "Seleccionar color",
+      "pleaseWait": "Por favor, espere...",
+      "deletingStatus": "Borrando estado...",
+      "updatingTicketStatus": "Actualización del estado de las órdenes de trabajo...",
+      "statusDeletedSuccess": "Estado borrado con éxito",
+      "deleteStatusAlertTitle": "¿Borrar etiqueta?",
+      "deleteStatusAlertInfoText1": "Algunas órdenes de trabajo ya están marcadas por esta etiqueta de estado.",
+      "deleteStatusAlertInfoText2": "Antes de continuar, seleccione la sustitución de estado que se aplicará a todos los órdenes de trabajo marcados por el estado que se desea eliminar.",
+      "changeStatusDropdownTitle": "Cambiar estado de orden de trabajo a",
+      "changeStatusDropdownPlaceholder": "Seleccionar etiqueta",
+      "confirmButtonText": "Confirmar",
+      "deletingAndReassignStatus": "Espere mientras se reasignan las órdenes de trabajo.",
+      "deleteAndReassignSuccess": "Estado borrado. Las órdenes de trabajo se reasignan.",
+      "stausMaxCharacterLimitErrorText": "El límite máximo de caracteres es {num} caracteres"
+    },
+    "emailConfiguration": {
+      "emailConfigurationSectionSubTitle": "Configure su dirección de correo electrónico para acceder a los mensajes de su cuenta Makula",
+      "unlink": "Desvincular",
+      "unlinkAlertTitle": "¿Está seguro de que desea desvincular este correo electrónico?"
+    },
+    "saveChanges": "Todos los cambios han sido guardados!",
+    "companyName": "Ingresar nombre de empresa",
+    "alertTitle": "¿Está seguro de que desea eliminar este campo?"
+  },
+  "personalTabs": {
+    "general": {
+      "info": {
+        "title": "Información personal",
+        "name": {
+          "label": "Nombre y apellido",
+          "placeholder": "Ingresar nombre y apellido"
+        }
+      },
+      "password": {
+        "title": "Contraseña",
+        "old": {
+          "label": "Contraseña vieja *",
+          "placeholder": "Ingresar Contraseña vieja"
+        },
+        "new": {
+          "label": "Nueva Contraseña *",
+          "placeholder": "Ingresar nueva Contraseña"
+        },
+        "re_type": {
+          "label": "Re-escriba nueva Contraseña *",
+          "placeholder": "Re-escriba nueva Contraseña"
+        }
+      },
+      "language": {
+        "title": "Idioma",
+        "label": "Idioma de la aplicación"
+      }
+    },
+    "notifications": {
+      "tickets": {
+        "title": "Órdenes de trabajo",
+        "label": "Nuevas órdenes asignadas a mí",
+        "message": "Recibirá una notificación por email cuando se le asigne una nueva orden de trabajo."
+      },
+      "internalNotes": {
+        "title": "Notas internas",
+        "someoneMentions": {
+          "label": "Alguien me menciona",
+          "message": "Recibirás una notificación por correo electrónico cuando alguien te mencione en notas internas."
+        },
+        "someonePostNotes": {
+          "label": "Alguien comenta una orden de trabajo asignada a mí",
+          "message": "Recibirá una notificación cuando alguien escriba un comentario en una orden de trabajo asignada a usted."
+        }
+      },
+      "workOrderAssigned": "Orden de trabajo asignada",
+      "workOrderAssignedInfoText": "Reciba una notificación por correo electrónico cuando se le asigne una orden de trabajo.",
+      "workOrderUpdated": "Orden de trabajo actualizada",
+      "workOrderUpdatedInfoText": "Reciba una notificación por correo electrónico cuando cambie el estado de una orden de trabajo asignada a usted.",
+      "workOrderFollower": "Seguidor de órdenes de trabajo",
+      "workOrderFollowerInfoText": "Reciba una notificación por correo electrónico cuando se añada como seguidor en una orden de trabajo.",
+      "workOrderInternalNotes": "Notas internas",
+      "workOrderInternalNotesInfoText": "Reciba notificaciones por correo electrónico cuando se añadan notas internas a una orden de trabajo asignada a usted.",
+      "workOrderInternalNotesMention": "Las notas internas mencionan",
+      "workOrderInternalNotesMentionInfoText": "Reciba un correo electrónico cuando se le mencione en una nota interna de una orden de trabajo.",
+      "facilityChatMsg": "Mensaje de chat de la instalación",
+      "facilityChatMsgInfoText": "Reciba una notificación por correo electrónico cuando la instalación envíe un mensaje de chat sobre una orden de trabajo asignada a usted.",
+      "emailSectionTitle": "Notificaciones por correo electrónico"
+    },
+    "profileUpdatedAlert": "Perfil actualizado correctamente",
+    "profileNameAlert": "Nombre actualizado correctamente",
+    "passwordAlert": "Contraseña actualizada correctamente"
+  },
+  "changes": {
+    "discard": "Descartar cambios",
+    "save": "Guardar cambios",
+    "updated": "Cambios actualizados"
+  },
+  "timeTrackerTags": {
+    "allTags": "All Tags",
+    "allTagsSecSubTitle1": "Add new or edit existing tags for time tracking.",
+    "allTagsSecSubTitle2": "Los tags se utilizan para explicar mejor el tiempo dedicado a cada orden.",
+    "addNewTag": "Add New Tag",
+    "editTag": "Edit Tag",
+    "deleteTag": "Delete Tag",
+    "tagCreated": "Tag created successfully",
+    "tagCreationFailed": "Tag creation failed",
+    "tagUpdated": "Tag updated successfully",
+    "tagUpdateFailed": "Tag updation failed",
+    "tagDeleted": "Tag deleted successfully",
+    "tagDeleteFailed": "Tag deletion failed",
+    "tagDeleteWarningText": "Are you sure you want to delete the tag from the list?"
+  },
+  "userSettingsTabs": {
+    "userAccounts": "Cuentas de usuario",
+    "teams": "Equipos"
+  }
+}

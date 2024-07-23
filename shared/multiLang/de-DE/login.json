@@ -1,0 +1,54 @@
+{
+  "welcome": "Willkommen",
+  "subtitle": "Bitte geben Sie Ihre Anmeldedaten ein.",
+  "heroTitle": "Die nächste Generation des After-Sales-Service",
+  "heroSubtitle": "Ein Überlebenswerkzeug für Maschinenhersteller und -händler",
+  "forgotpassword": "Passwort vergessen",
+  "loginLabel": "Anmelden",
+  "loginLabelLoading": "Anmeldung läuft...",
+  "wrongCreds": "Es gibt keinen Nutzer mit diesen Anmeldedaten.",
+  "visitMakulaURL": "Bitte verwenden Sie die angegebene URL für Ihre Makula-Organisation",
+  "email": {
+    "label": "E-mail-Adresse *",
+    "placeholder": "Geben Sie Ihre E-mail-Adresse ein",
+    "error": "Es gibt keinen Nutzer mit diesen Anmeldedaten.",
+    "invalidEmail": "Bitte wählen Sie eine andere E-mail-Adresse aus"
+  },
+  "password": {
+    "label": "Passwort *",
+    "placeholder": "Geben Sie Ihr Passwort ein",
+    "error": "Falsches Passwort",
+    "invalidPassword": "Bitte Passwort eingeben"
+  },
+  "forgotPassword": {
+    "title": "Passwort vergessen?",
+    "message": "Bitte geben Sie Ihre E-Mail-Adresse ein, um Ihr Passwort zurückzusetzen.",
+    "email": {
+      "label": "E-mail *",
+      "placeholder": "Geben Sie Ihre E-mail-Adresse ein",
+      "inputPlaceholder": "beispiel@mail.com",
+      "invalidEmail": "Bitte wählen Sie eine E-mail-Adresse aus"
+    },
+    "reset": "Passwort zurücksetzen",
+    "passwordChanged": "Passwort geändert",
+    "resetLoading": "Passwort wird geändert...",
+    "resetSuccess": {
+      "title": "E-mail gesendet!",
+      "message": "Bitte prüfen Sie Ihren Posteingang auf Anweisungen zum Zurücksetzen des Passworts.",
+      "thanks": "Vielen Dank!",
+      "resend": {
+        "didnotGet": "E-mail nicht erhalten?",
+        "resendEmail": "Erneut senden",
+        "resendEmailSubHeading": "Eine email wurde gesendet an",
+        "resendEmailHeading": "Überprüfen Sie die E-Mail auf den Link zum Zurücksetzen",
+        "resendEmailLoading": "Wird gesendet...",
+        "resendEmailSuccess": "Eine E-Mail mit Anweisungen zum Zurücksetzen des Passworts wurde versandt"
+      }
+    },
+    "useOrgURL": "Bitte verwenden Sie die angegebene URL für Ihre Makula-Organisation."
+  },
+  "signedOutMessage": "Bitte melden Sie sich mit der URL Ihrer Makula-Organisation an.",
+  "poweredBy": "unterstützt von",
+  "signIn": "Anmelden",
+  "signOut": "Ausloggen"
+}

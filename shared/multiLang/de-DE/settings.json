@@ -1,0 +1,374 @@
+{
+  "heroTitle": "Einstellungen",
+  "companyTitle": "Firmeneinstellungen",
+  "personalTitle": "Persönliche Einstellungen",
+  "removeAll": "Alles entfernen",
+  "tabTitles": {
+    "general": "Allgemeine Einstellungen",
+    "timeTracker": "Zeiterfassung",
+    "notifications": "Benachrichtigungen",
+    "fields": "Weitere Felder",
+    "userAccounts": "Benutzer und Teams",
+    "dataManagement": "Datenmanagement",
+    "branding": "Branding",
+    "accessPermissions": "Zugang und Berechtigungen",
+    "statusCustomization": "Statusanpassung",
+    "emailConfiguration": "E-Mail Konfiguration"
+  },
+  "companyTabs": {
+    "alertTitle": "Sind Sie sich sicher, dass Sie dieses Feld löschen möchten?",
+    "companyName": "Unternehmensnamen eingeben",
+    "saveChanges": "Alle Änderungen wurden gespeichert!",
+    "general": {
+      "companyInfo": {
+        "title": "Allgemeine Informationen",
+        "nameLabel": "Name des Unternehmens",
+        "urlLabel": "URL für die Webanwendung Kundenportal",
+        "logo": "Firmenlogo",
+        "noLogo": "Kein Logo",
+        "imageSizeError": "Die Bildgröße sollte weniger als 1 MB betragen.",
+        "imageFormatError": "Sie haben ein falsches Dateiformat gewählt",
+        "imageSaveSuccess": "Das Logo wurde gespeichert!"
+      },
+      "appearance": {
+        "title": "Anwendung Erscheinungsbild",
+        "backgroundColorLabel": "Hintergrundfarbe des Unternehmens",
+        "textColorLabel": "Textfarbe des Unternehmens",
+        "sample": "Erscheinungsbild Beispiel"
+      }
+    },
+    "notifications": {
+      "title": "Arbeitsaufträge",
+      "emailSectionTitle": "E-Mail-Benachrichtigungen",
+      "internalEmail": {
+        "title": "Neuer Arbeitsauftrag erstellt (interne E-Mail-Benachrichtigung)",
+        "message": "Wählen Sie die Person aus, die eine Benachrichtigung erhalten soll, wenn ein neuer Arbeitsauftrag erstellt wird.",
+        "searchPlaceholderEmpty": "Suche",
+        "searchPlaceholderFilled": "Suche über Hilfetext",
+        "userAddSuccess": "Nutzer wurde hinzugefügt",
+        "userRemoveSuccess": "Nutzer wurde entfernt",
+        "apiError": "Etwas ist schiefgegangen!"
+      },
+      "externalEmail": {
+        "title": "Neuer Arbeitsauftrag erstellt (externe E-Mail-Benachrichtigung)",
+        "message": "Wählen Sie die Person aus, die außerhalb Ihrer Organisation eine Benachrichtigung erhalten soll, wenn ein neuer Arbeitsauftrag erstellt wird.",
+        "addEmail": {
+          "label": "Fügen Sie eine E-mail hinzu",
+          "placeholder": "E-Mail für den Versand der Benachrichtigungen eingeben",
+          "new": "Neue E-mail hinzufügen"
+        }
+      },
+      "unassignedWoMsgNotificationSettingsTitle": "Neue Meldung des Kundenstandortes für nicht zugewiesene Arbeitsaufträge",
+      "unassignedWoMsgNotificationSettingsSubTitle": "Wählen Sie eine Person aus, die eine Benachrichtigung erhalten soll, wenn eine Nachricht von dem Kundenstandort eingeht.",
+      "unassignedWoCreateNotificationSettingsTitle": "Neuer Arbeitsauftrag erstellt",
+      "unassignedWoCreateNotificationSettingsSubTitle": "Wählen Sie die Person, die eine Benachrichtigung erhalten soll, wenn ein neuer Arbeitsauftrag erstellt wird.",
+      "maintenanceWoCreateNotificationSettingsTitle": "Neuer Arbeitsauftrag erstellt",
+      "maintenanceWoCreateNotificationSettingsSubTitle": "Wählen Sie eine Person aus, die eine Benachrichtigung erhalten soll, wenn ein Arbeitsauftrag erstellt wird.",
+      "emailNotificationOffAlertTitle": "Sind Sie sicher, dass Sie die E-Mail-Benachrichtigungen deaktivieren möchten?",
+      "notificationSettingsUpdatedText": "Erfolgreich aktualisiert"
+    },
+    "userAccounts": {
+      "total": "OEM Nutzer Accounts",
+      "addNewButton": "Neuen Nutzer hinzufügen",
+      "owner": "Kontoinhaber",
+      "agent": "Ansprechpartner",
+      "moreTeams": "weitere",
+      "assignedTeamsPopupTitle": "Zugewiesene Teams",
+      "admin": "Administrator",
+      "adminRoleInfo": "Kann Unternehmenseinstellungen ändern und neue Mitglieder einladen",
+      "facilityUser": "Nutzer auf Kundenseite",
+      "member": "Mitglied",
+      "memberRoleInfo": "Kann keine Unternehmenseinstellungen ändern oder neue Mitglieder einladen",
+      "unableUpdateUser": "Etwas ist schiefgelaufen! Benutzer kann nicht aktualisiert werden",
+      "userAddedSuccess": "Benutzer erfolgreich hinzugefügt",
+      "userDeletedSuccess": "Benutzer erfolgreich entfernt",
+      "userUpdatedSuccess": "Benutzer erfolgreich aktualisiert",
+      "tableHeadings": {
+        "name": "Name",
+        "access": "Zugangsebene",
+        "assignedTeam": "Zugewiesenes Team",
+        "actions": "Aktivitäten",
+        "job": "Berufsbezeichnung"
+      },
+      "options": {
+        "edit": "Account bearbeiten",
+        "delete": "Account löschen"
+      },
+      "delete": {
+        "title": "Sind Sie sicher, dass Sie dieses Konto löschen möchten?",
+        "yes": "Ja, löschen",
+        "no": "Nein, abbrechen"
+      }
+    },
+    "customizeFields": {
+      "empty": "Leere",
+      "additionalFieldsTitle": "Weitere Felder",
+      "addCustomField": "Benutzerdefiniertes Feld hinzufügen",
+      "addedSuccess": "Benutzerdefiniertes Feld erstellt!",
+      "chooseFieldType": "Wählen Sie Feldtyp",
+      "tabTitles": {
+        "facilities": "Kunden",
+        "productionLine": "Produktionslinien",
+        "machines": "Maschinen",
+        "tickets": "Arbeitsaufträge",
+        "parts": "Ersatzteile"
+      },
+      "customFields": {
+        "title": "Benutzerdefinierte Felder",
+        "editTitle": "Benutzerdefiniertes Feld bearbeiten",
+        "addFieldLabel": "Neues Feld hinzufügen",
+        "addFieldDrawerLabel": "Ein benutzerdefiniertes Feld hinzufügen",
+        "addFieldSaveText": "Feld speichern",
+        "addFieldNameInput": {
+          "label": "Name des Feldes",
+          "placeholder": "Name hinzufügen"
+        },
+        "addSelectFieldColorTitle": "Wählen Sie eine Farbe",
+        "addSelectOptionField": {
+          "label": "Eine Option hinzufügen",
+          "placeholder": "Wert hinzufügen"
+        },
+        "defaultFieldName": "Eigentum",
+        "options": {
+          "edit": "Eigentumsrechte ändern",
+          "delete": "Eigentumsrechte löschen"
+        },
+        "dropdownOptions": {
+          "text": "Textfeld",
+          "number": "Zahl",
+          "date": "Datum",
+          "singleSelect": "Einzelauswahl"
+        },
+        "dataTypesDropdown": {
+          "add": "Hinzufügen",
+          "update": "Speichern",
+          "discard": "Verwerfen",
+          "label": "Wählen Sie den Eigentumstypen für das Eigentumsfeld.",
+          "text": "Textfeld",
+          "number": "Nummer",
+          "date": "Datum",
+          "singleSelect": {
+            "name": "Einzelauswahl",
+            "addValue": {
+              "placeholder": "Wert hinzufügen",
+              "dropDown": {
+                "placeholder": "Neuen Wert hinzufügen",
+                "label": "Neuen Wert hinzufügen"
+              },
+              "options": {
+                "delete": "Löschen",
+                "colors": {
+                  "lightGray": "Hellgrau",
+                  "gray": "Grau",
+                  "brown": "Braun",
+                  "yellow": "Gold",
+                  "orange": "Orange",
+                  "green": "Grün",
+                  "blue": "Blau",
+                  "purple": "Lila",
+                  "pink": "Pink",
+                  "red": "Rot"
+                }
+              }
+            }
+          }
+        }
+      },
+      "additionalFields": {
+        "labels": {
+          "installation-date": "Datum der Inbetriebnahme",
+          "address-of-facility": "Adresse des Kundenstandortes"
+        },
+        "dropdownOptions": {
+          "address": "Adresse",
+          "date": "Datum"
+        }
+      },
+      "colors": [
+        {
+          "colorName": "Hellgrau"
+        },
+        {
+          "colorName": "Grau"
+        },
+        {
+          "colorName": "Braun"
+        },
+        {
+          "colorName": "Gold"
+        },
+        {
+          "colorName": "Orange"
+        },
+        {
+          "colorName": "Grün"
+        },
+        {
+          "colorName": "Blau"
+        },
+        {
+          "colorName": "Lila"
+        },
+        {
+          "colorName": "Pink"
+        },
+        {
+          "colorName": "Rot"
+        }
+      ],
+      "deleteSuccess": "Benutzerdefiniertes Feld erfolgreich gelöscht",
+      "disabled": "Deaktiviert",
+      "enabled": "Aktiviert",
+      "facilitiesTab": {
+        "additionalFields": {
+          "additionalFieldText": "Sie können alle Arbeitsaufträge auf einer Karte sehen, indem Sie die Adresse des Kundenstandortes angeben.",
+          "label": "Wählen Sie zusätzliche Felder aus, die Sie bei den Details des Kundenstandortes anzeigen möchten.",
+          "addressTitle": "Adresse des Kundenstandortes",
+          "dataType": "Textfeld"
+        },
+        "customFieldsLabel": "Definieren Sie benutzerdefinierte Felder für Kundenstandorte, indem Sie Text, Zahl, Datum oder einen Auswahltyp wählen."
+      },
+      "machinesTab": {
+        "additionalFields": {
+          "label": "Wählen Sie zusätzliche Felder, die Sie bei den Maschinendetails anzeigen möchten",
+          "installDateTitle": "Datum der Inbetriebnahme",
+          "dataType": "Datum"
+        },
+        "customFieldsLabel": "Definieren Sie zusätzliche Felder für Maschinen, indem Sie ein Text-, Datums- oder Einzelauswahlfeld wählen."
+      },
+      "partsTab": {
+        "customFieldsLabel": "Definieren Sie benutzerdefinierte Felder für das Inventar, indem Sie ein Text-, Datums- oder Einzelauswahlfeld wählen."
+      },
+      "productionLinesTab": {
+        "customFieldsLabel": "Definieren Sie benutzerdefinierte Felder für Produktionslinien, indem Sie ein Text-, Datums- oder Einzelauswahlfeld wählen."
+      },
+      "ticketsTab": {
+        "customFieldsLabel": "Definieren Sie eigene Felder für Arbeitsaufträge, indem Sie ein Text-, Zahl-, Datums- oder Einzelauswahlfeld wählen."
+      },
+      "showFieldsOn": {
+        "facilities": "Wählen Sie die Felder, die Sie in den Details des Kunden anzeigen möchten",
+        "machines": "Wählen Sie die Felder, die Sie in den Details der Maschine anzeigen möchten",
+        "tickets": "Wählen Sie die Felder, die Sie in den Details des Arbeitsauftrags anzeigen möchten",
+        "productionLines": "Wählen Sie die zusätzlichen Felder aus, die Sie auf der Registerkarte Details der Produktionslinie anzeigen möchten"
+      },
+      "updateSuccess": "Benutzerdefiniertes Feld erfolgreich aktualisiert"
+    },
+    "accessPermissions": {
+      "allowFollowersWorkOrders": {
+        "title": "Zugang Arbeitsaufträge ",
+        "message": "Follower können die Arbeitsaufträge, denen sie folgen, in \"Meine Arbeitsaufträge\" einsehen."
+      }
+    },
+    "statusCustomization": {
+      "statusCustomizationSectionSubtitle": "Benutzerdefinierter Arbeitsauftragsstatus kann die Verwaltung Ihrer Arbeitsauftragsprozesse erleichtern und Ihrem Unternehmen und den Mitarbeitern einen aussagekräftigeren Arbeitsauftragsstatus anzeigen.",
+      "addNewStatusCtaText": "Neuer Status",
+      "selectColorText": "Farbe wählen",
+      "pleaseWait": "Bitte warten...",
+      "deletingStatus": "Status wird gelöscht...",
+      "updatingTicketStatus": "Aktualisierung von Arbeitsaufträgen...",
+      "statusDeletedSuccess": "Status erfolgreich gelöscht",
+      "deleteStatusAlertTitle": "Status löschen?",
+      "deleteStatusAlertInfoText1": "Einige Arbeitsaufträge sind bereits mit diesem Status gekennzeichnet.",
+      "deleteStatusAlertInfoText2": "Bevor Sie fortfahren, wählen Sie bitte einen Statusersatz, der auf alle Arbeitsaufträge angewendet wird, die mit dem zu löschenden Status gekennzeichnet sind.",
+      "changeStatusDropdownTitle": "Arbeitsauftragsstatus ändern in",
+      "changeStatusDropdownPlaceholder": "Status auswählen",
+      "confirmButtonText": "Bestätigen Sie",
+      "deletingAndReassignStatus": "Bitte warten Sie, während Arbeitsaufträge neu zugewiesen werden.",
+      "deleteAndReassignSuccess": "Status gelöscht. Arbeitsaufträge werden neu zugewiesen.",
+      "stausMaxCharacterLimitErrorText": "Maximale Zeichenbegrenzung ist {num} Zeichen"
+    },
+    "emailConfiguration": {
+      "emailConfigurationSectionSubTitle": "Konfigurieren Sie Ihre E-Mail-Adresse für den Zugriff auf E-Mails von Ihrem Makula-Konto",
+      "unlink": "Aufheben der Verknüpfung",
+      "unlinkAlertTitle": "Sind Sie sicher, dass Sie die Verknüpfung zu dieser E-Mail aufheben möchten?"
+    }
+  },
+  "personalTabs": {
+    "general": {
+      "info": {
+        "title": "Persönliche Information",
+        "name": {
+          "label": "Vollständiger Name",
+          "placeholder": "Vollständigen Namen eingeben"
+        }
+      },
+      "password": {
+        "title": "Passwort",
+        "old": {
+          "label": "Altes Passwort *",
+          "placeholder": "Altes Passwort eingeben"
+        },
+        "new": {
+          "label": "Neues Passwort *",
+          "placeholder": "Neues Passwort eingeben"
+        },
+        "re_type": {
+          "label": "Neues Passwort erneut eingeben *",
+          "placeholder": "Neues Passwort erneut eingeben"
+        }
+      },
+      "language": {
+        "title": "Sprache",
+        "label": "Anwendungssprache"
+      }
+    },
+    "notifications": {
+      "tickets": {
+        "title": "Arbeitsaufträge",
+        "label": "Mir zugewiesene neue Arbeitsaufträge",
+        "message": "Sie erhalten eine E-Mail-Benachrichtigung, wenn Ihnen ein neuer Arbeitsauftrag zugewiesen wird."
+      },
+      "internalNotes": {
+        "title": "Interne Notizen",
+        "someoneMentions": {
+          "label": "Jemand hat mich erwähnt",
+          "message": "Sie erhalten eine E-Mail-Benachrichtigung, wenn jemand Sie in den internen Notizen erwähnt."
+        },
+        "someonePostNotes": {
+          "label": "Jemand schreibt einen Kommentar in einem mir zugewiesenen Arbeitsauftrag",
+          "message": "Sie erhalten eine E-Mail-Benachrichtigung, wenn jemand Notizen in einem Ihnen zugewiesenen Arbeitsauftrag einfügt."
+        }
+      },
+      "workOrderAssigned": "Zugewiesener Arbeitsauftrag",
+      "workOrderAssignedInfoText": "Sie erhalten eine E-Mail-Benachrichtigung, wenn Ihnen ein Arbeitsauftrag zugewiesen wird.",
+      "workOrderUpdated": "Arbeitsauftrag aktualisiert",
+      "workOrderUpdatedInfoText": "Sie erhalten eine E-Mail-Benachrichtigung, wenn sich der Status eines Ihnen zugewiesenen Arbeitsauftrags ändert.",
+      "workOrderFollower": "Follower für Arbeitsaufträge",
+      "workOrderFollowerInfoText": "Erhalten Sie eine E-Mail-Benachrichtigung, wenn Sie einem Arbeitsauftrag als Follower hinzugefügt werden.",
+      "workOrderInternalNotes": "Interne Notizen",
+      "workOrderInternalNotesInfoText": "Sie erhalten eine E-Mail-Benachrichtigung, wenn interne Notizen zu einem Ihnen zugewiesenen Arbeitsauftrag hinzugefügt werden.",
+      "workOrderInternalNotesMention": "Interne Notizen Erwähnung",
+      "workOrderInternalNotesMentionInfoText": "Sie erhalten eine E-Mail, wenn Sie in einer internen Notiz zu einem Arbeitsauftrag erwähnt werden.",
+      "facilityChatMsg": "Chat-Nachricht des Kundenstandortes",
+      "facilityChatMsgInfoText": "Sie erhalten eine E-Mail-Benachrichtigung, wenn der Kundenstandort eine Chat-Nachricht zu einem Ihnen zugewiesenen Arbeitsauftrag sendet.",
+      "emailSectionTitle": "E-Mail-Benachrichtigungen"
+    },
+    "profileUpdatedAlert": "Profil erfolgreich aktualisiert",
+    "profileNameAlert": "Name erfolgreich aktualisiert",
+    "passwordAlert": "Passwort erfolgreich aktualisiert"
+  },
+  "changes": {
+    "discard": "Änderungen verwerfen",
+    "save": "Änderungen speichern",
+    "updated": "Änderungen aktualisieren"
+  },
+  "timeTrackerTags": {
+    "allTags": "Alle Kategorien",
+    "allTagsSecSubTitle1": "Fügen Sie neue Kategorien für die Zeiterfassung hinzu oder bearbeiten Sie bestehende.",
+    "allTagsSecSubTitle2": "Mithilfe von Kategorien wird die für jeden Arbeitsauftrag aufgewendete Zeit näher erläutert.",
+    "addNewTag": "Neue Kategorie hinzufügen",
+    "editTag": "Kategorie bearbeiten",
+    "deleteTag": "Kategorie löschen",
+    "tagCreated": "Kategorie erfolgreich erstellt",
+    "tagCreationFailed": "Kategorie konnte nicht erstellt werden",
+    "tagUpdated": "Kategorie erfolgreich aktualisiert",
+    "tagUpdateFailed": "Kategorie konnte nicht aktualisiert werden",
+    "tagDeleted": "Kategorie erfolgreich gelöscht",
+    "tagDeleteFailed": "Kategorie konnte nicht gelöscht werden",
+    "tagDeleteWarningText": "Sind Sie sicher, dass Sie die Kategorie löschen möchten?"
+  },
+  "userSettingsTabs": {
+    "userAccounts": "Benutzerkonten",
+    "teams": "Mannschaften"
+  }
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Component should render container 1`] = `
+<View
+  style={
+    {
+      "borderColor": {
+        "dynamic": {
+          "dark": "#172B4D",
+          "highContrastDark": undefined,
+          "highContrastLight": undefined,
+          "light": "#172B4D",
+        },
+      },
+      "flexGrow": 1,
+    }
+  }
+/>
+`;

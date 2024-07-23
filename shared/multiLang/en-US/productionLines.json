@@ -1,0 +1,51 @@
+{
+  "noProductionLineMachinesFound": "There are no machines assigned to this production line.",
+  "assignMachinesSuccess": "Machine(s) assigned successfully",
+  "created": "Production line created successfully",
+  "creationFailed": "Production line creation failed",
+  "updateSuccess": "Production line updated successfully",
+  "updateFailed": "Failed to update production line",
+  "searchPlaceholder": "Search by name/ID",
+  "deleteButtonText": "Delete production line",
+  "id": "ID",
+  "facility": "Facility",
+  "team": "Team:",
+  "name": "Name",
+  "descriptionPlaceholder": "Add production line description",
+  "tabs": {
+    "generalInfo": {
+      "title":  "General Information"
+    },
+    "machines":{
+      "title":  "Machines",
+      "unassignMessage": "Are you sure you want to unassign this machine from this production line? (machine will not be deleted)"
+    }
+  },
+  "assignMachineToProductionLineModal": {
+    "title": "Assign machines",
+    "serachMachinePlaceHolder": "Search",
+    "assignButton": "Assign machines",
+    "infoMessage": "You can only assign machines that are not assigned to any facility or production line. If a machine is assigned to a facility but needs to be assigned to a production line, first unassign it from the facility.",
+    "labels": {
+      "machineName": "Machine name",
+      "serialNumber": "Serial number"
+  }
+  },
+  "editProductionLineModal": {
+    "title": "Edit ",
+    "facilityPlaceholder": "Select Facility",
+    "labels": {
+      "name": "Production line name",
+      "facility": "Facility",
+      "id": "Production line ID"
+    }
+  },
+  "deleteProductionLineModal": {
+    "title": "Delete production line?",
+    "message": "You’re about to delete this production line. By deleting it, all machines will be unassigned and you can find them in the Machines tab. Do you want to continue?",
+    "facilityAssignedMessage": "You’re about to delete a production line assigned to a facility. By deleting it, all the production line machines will be unassigned from the facility. Do you want to continue?",
+    "success": "Production line deleted successfully"
+  },
+  "assignMachine": "Assign machine",
+  "duplicateProductionLineIdError": "Production line ID already exists"
+}

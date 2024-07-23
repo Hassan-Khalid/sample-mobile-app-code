@@ -1,0 +1,138 @@
+{
+  "welcomeTitle": "Bienvenidos a los equipos",
+  "welcomeParagraph1": "Despeje el trabajo de sus equipos de servicio y mantenimiento en todo el mundo. Deles acceso solo a los clientes y activos de los que deben ser responsables agrupándolos en equipos con asignaciones específicas.",
+  "welcomeParagraph2": "¿Vende a través de concesionarios? Agrúpelos en equipos y asígneles clientes y activos específicos para que sólo vean y trabajen en lo que es importante para ellos.",
+  "welcomeWorkingTitle": "¿Cómo funciona?",
+  "welcomeWorkingPoints": [
+    "Crear un equipo y asignarle miembros",
+    "Asignar clientes y activos a los que deben tener acceso"
+  ],
+  "welcomeWorkingDescription": "Ahora comience a crear órdenes de trabajo para los clientes de los que este equipo es responsable. Estas órdenes de trabajo sólo serán visibles para este equipo (o cualquier otro que esté asignado al cliente específico para el que es la orden de trabajo) y para cualquier usuario que no forme parte de ningún equipo.",
+  "createTeamButton": "Crear un nuevo equipo",
+  "addTeamButton": "Añadir nuevo equipo",
+  "createTeamDrawer": {
+    "title": "Añadir nuevo equipo",
+    "submitButton": "Añadir equipo",
+    "teamTitlePlaceholder": "Añadir el nombre del equipo",
+    "colorSelectorTitle": "Seleccione un color",
+    "titleLimitError": "El límite máximo de caracteres es de {{}} caracteres",
+    "titleLabel": "Nombre del equipo*",
+    "descriptionLabel": "Descripción del equipo",
+    "descriptionPlaceholder": "Escriba aquí",
+    "selectFacility": {
+      "label": "Asignar instalaciones",
+      "placeholder": "Seleccione una instalación",
+      "dropdownTitle": "Seleccione la instalación:",
+      "infoMessageWithoutProductionLine": "Todas las máquinas asignadas a esta instalación se asignarán automáticamente al equipo.",
+      "infoMessageWithProductionLine": "También se asignarán al equipo todas las líneas de producción y las máquinas de las instalaciones."
+    },
+    "selectMachine": {
+      "label": "Asignar máquinas",
+      "placeholder": "Seleccionar máquinas",
+      "dropdownTitle": "Seleccione la máquina:"
+    },
+    "selectProductionLine": {
+      "label": "Asignar líneas de producción",
+      "placeholder": "Seleccionar líneas de producción",
+      "dropdownTitle": "Seleccione la línea de producción:",
+      "infoMessage": "Todas las máquinas de la línea de producción se asignarán al equipo"
+    },
+    "selectMember": {
+      "label": "Asignar miembros",
+      "placeholder": "Seleccionar miembros",
+      "dropdownTitle": "Seleccione miembro:"
+    }
+  },
+  "teamListHeaderLabels": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "teamMembers": "Miembros del equipo"
+  },
+  "singleTeam": {
+    "tabs": {
+      "teamMembers": "Miembros del equipo",
+      "facilities": "Instalaciones",
+      "productionLines": "Líneas de producción",
+      "machines": "Máquinas"
+    },
+    "teamMembersTab": {
+      "assignButton": "Asignar miembro",
+      "unassignTitle": "¿Estás seguro de que quieres eliminar a este miembro?",
+      "unassignAcceptButton": "Eliminar",
+      "listHeaderLabels": {
+        "name": "Nombre",
+        "jobTitle": "Puesto",
+        "accessLevel": "Nivel de acceso"
+      }, 
+      "assignDrawer": {
+        "dropdownTitle": "Miembros del equipo:",
+        "submitButton": "Añadir miembro",
+        "title":  "Asignar miembro"
+      }
+    },
+    "facilitiesTab": {
+      "assignButton": "Asignar instalación",
+      "unassignTitle": "¿Desasignar instalación?",
+      "unassignMessage": "¿Estás seguro de que quieres desasignar a {{}} de este equipo?",
+      "assignDrawer": {
+        "title":  "Asignar instalación",
+        "placeholder": "Seleccionar instalación",
+        "submitButton": "Añadir instalación"
+      }
+    },
+    "productionLinesTab": {
+      "assignButton": "Asignar línea de producción",
+      "unassignTitle": "¿Desasignar línea de producción?",
+      "unassignMessage": "¿Estás seguro de que quieres desasignar a {{}} de este equipo?",
+      "unassignAcceptButton": "Desasignar",
+      "assignDrawer": {
+        "submitButton": "Añadir línea de producción",
+        "title":  "Asignar línea de producción",
+        "label": "Asignar línea de producción",
+        "placeholder": "Seleccionar línea de producción"
+      }
+    },
+    "machinesTab": {
+      "serialNumber": "SN",
+      "assignButton": "Asignar máquina",
+      "unassignTitle": "¿Desasignar máquina?",
+      "unassignMessage": "¿Estás seguro de que quieres desasignar a {{}} de este equipo?",
+      "unassignAcceptButton": "Desasignar",
+      "assignDrawer": {
+        "submitButton": "Añadir máquina",
+        "title":  "Asignar máquina",
+        "placeholder": "Seleccionar máquina"
+      }
+    },
+    "actions": {
+      "edit": "Editar equipo",
+      "delete": "Borrar equipo"
+    }, 
+    "deleteAlert": {
+      "title": "¿Borrar equipo?",
+      "message1": "¿Seguro que quieres eliminar el equipo {{}}?",
+      "message2": "Una vez eliminado, todos los usuarios del equipo {{}} tendrán acceso a todas las órdenes de trabajo, máquinas e instalaciones."
+    }
+  },
+  "createTeamSuccess": "Equipo añadido con éxito",
+  "createTeamError": "Falló la creación del equipo",
+  "teamDeleteSuccess": "¡Equipo eliminado con éxito!",
+  "updateSuccess": "Equipo actualizado correctamente",
+  "updateFailed": "Error al actualizar el equipo",
+  "unassignMachineSuccess": "Máquina desasignada con éxito",
+  "unassignMachineFail": "Error al desasignar la máquina",
+  "unassignProductionLineSuccess": "Línea de producción no asignada con éxito",
+  "unassignProductionLineFail": "Fallo al desasignar línea de producción",
+  "unassignFacilitySuccess": "Instalación no asignada con éxito",
+  "unassignFacilityFail": "Fallo al desasignar la instalación",
+  "unassignMemberSuccess": "¡Miembro eliminado con éxito!",
+  "unassignMemberFail": "No se ha podido eliminar el miembro",
+  "memberAssignedSuccess": "¡Se asignan uno o más nuevos miembros!",
+  "memberAssignedFailed": "No se ha podido asignar el miembro",
+  "facilityAssignedSuccess": "Se asignan una o varias instalaciones nuevas.",
+  "facilityAssignedFailed": "No se ha podido asignar la instalación",
+  "machineAssignedSuccess": "Se asignan una o varias máquinas nuevas.",
+  "machineAssignedFailed": "No se ha podido asignar la máquina",
+  "productionLineAssignedSuccess": "Se asignan una o varias líneas de producción nuevas.",
+  "productionLineAssignedFailed": "Fallo en la asignación de la línea de producción"
+}

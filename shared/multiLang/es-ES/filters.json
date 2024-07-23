@@ -1,0 +1,55 @@
+{
+  "addFilter": "Add filter",
+  "filterBy": "Filtrar por",
+  "sortBy": "Ordenar por",
+  "placeholder": "Buscar una o más opciones...",
+  "remove": "REMOVE ALL",
+  "maxLimit": "Has alcanzado el número máximo de filtros activos",
+  "WORK_ORDER": "Orden de trabajo",
+  "MACHINES": "Máquinas",
+  "FACILITES": "Fábricas clientes",
+  "TICKET_STATUS": {
+    "title": "Estado de la orden de trabajo",
+    "label": "El estado de la orden de trabajo es:"
+  },
+  "ASSIGNEE": {
+    "title": "Persona asignada",
+    "label": "Persona asignada es:"
+  },
+  "TICKET_TYPE": {
+    "title": "Tipo de orden de trabajo",
+    "label": "El tipo de orden de trabajo es:"
+  },
+  "FACILITY_NAME": {
+    "title": "Nombre cliente",
+    "label": "Nombre cliente es:"
+  },
+  "MACHINE_NAME": {
+    "title": "Nombre máquina",
+    "label": "Nombre máquina es:"
+  },
+  "DATE_RANGE": {
+    "title": "Rango de fechas",
+    "labelStart": "Pick the",
+    "labelJoiner": "for",
+    "label": "Seleccionar el intervalo de fechas para las órdenes de trabajo",
+    "remove": "REMOVER LAS FECHAS",
+    "apply": "APLICAR LAS FECHAS"
+  },
+  "SCHEDULED": {
+    "title": "Scheduled",
+    "label": "Scheduled ist:"
+  },
+  "installation-date": {
+    "title": "Installation date",
+    "label": "Installation date ist:"
+  },
+  "MACHINE_ASSIGNED": {
+    "title": "Machine assigned",
+    "label": "Machine assigned:"
+  },
+  "MACHINE_QR_CODE_ACCESS": {
+    "title": "QR code enabled",
+    "label": "QR code enabled:"
+  }
+}

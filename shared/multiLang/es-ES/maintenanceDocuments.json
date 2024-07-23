@@ -1,0 +1,25 @@
+{
+  "alertMsgSuccess": "El documento ha sido eliminado",
+  "alertMsgError": "Algo salió mal",
+  "loadingDocuments": "...cargando documentos",
+  "confirmationAlertTitle": "Está seguro que desea eliminar este documento?",
+  "accpetButtonText": "Sí, Eliminar",
+  "cancelButtonText": "No, Cancelar",
+  "useTemplate": "Usar template",
+  "useTemplateDrawerTitle": "Usar este template para crear un nuevo documento",
+  "continueButtonText": "Continuar",
+  "documentInfoText": "Una vez que llene este formulario, tiene que clickear en 'Cargar' y el documento sera generado automáticamente.",
+  "formLabel": {
+    "facilityLabel": "Nombre de fábrica",
+    "facilityPlaceholder": "Elegir fábrica",
+    "machineLabel": "Máquina",
+    "machinePlaceholder": "Elegir máquina",
+    "inspectionLabel": "Fecha de inspección"
+  },
+  "thankForSubmingForm": "Gracias por cargar el formulario",
+  "thankForSubmingFormContent": "Documento fue creado y publicado. Todos sus archivos están guardados ",
+  "allDocuments": "Todos los documentos",
+  "documents": "Documentos",
+  "templates": "Templates",
+  "formErrorMsg": "Ups, algo salió mal! Por favor, prueba de vuelta en unos minutos."
+}

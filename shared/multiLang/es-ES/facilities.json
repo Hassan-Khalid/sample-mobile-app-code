@@ -1,0 +1,167 @@
+{
+  "totalFacilityNumber": "Clientes",
+  "searchPlaceholder": "nombre",
+  "newFacilityButton": "Añadir nuevo cliente",
+  "id": "ID",
+  "emptyFacilityList": "No hay cliente.",
+  "facilityDetails": {
+    "titleTabs": {
+      "userAccounts": "Cuentas de usuarios",
+      "machines": "Máquinas de clientes",
+      "details": "Detalles de clientes",
+      "generalInfo": "Información general",
+      "productionLines": "Líneas de producción"
+    },
+    "userAccountsTab": {
+      "userAdded": "Usuario añadido exitosamente",
+      "noNameYet": "No hay nombre aún",
+      "noInfoYet": "No hay información aún",
+      "userUpdated": "Usuario actualizado exitosamente",
+      "emailExistsError": "Este correo ya está en uso",
+      "total": "Usuarios asignados a este cliente",
+      "type": {
+        "facility": "Usuarios de cliente"
+      },
+      "options": {
+        "edit": "Editar usuario",
+        "delete": "Eliminar usuario"
+      },
+      "deleteWindow": {
+        "title": "Estás seguro que deseas eliminar este usuario?",
+        "yes": "Sí, Eliminar",
+        "no": "No, Cancelar"
+      },
+      "deleted": "Usuario fue removido de la lista",
+      "deleteError": "Algo salió mal. No se pudo remover el usuario",
+      "updateError": "Algo salió mal. No se pudo actualizar el usuario",
+      "noUsers": "No hay usuarios asignados a este cliente.",
+      "searchPlaceholder": "nombre"
+    },
+    "machinesTab": {
+      "total": "Máquinas asignadas a este cliente",
+      "serial": "Número de Serie",
+      "added": "Máquina añadida",
+      "addTitle": "Asignar máquinas a fábrica",
+      "selectMachine": "Seleccionar máquina",
+      "chooseMachine": "Elegir máquina",
+      "edit": {
+        "addAnother": "Añadir otra máquina",
+        "addMachine": {
+          "label": "Asignar máquina",
+          "placeholder": "Seleccionar una máquina"
+        },
+        "changes": {
+          "discard": "Descartar cambios",
+          "discardSuccess": "Máquina ya no está asignada",
+          "discardError": "Algo salió mal. No se pudo remover la máquina",
+          "save": "Guardar cambios",
+          "saveSuccess": "Máquina asignada exitosamente",
+          "saveError": "Algo salió mal. No se pudo asignar la máquina",
+          "unassignWindow": {
+            "title": "Estás seguro que deseas remover esta máquina de este cliente? (máquina no será eliminada)",
+            "yes": "Sí, Remover",
+            "no": "No, Cancelar"
+          }
+        }
+      },
+      "select": "Seleccionar",
+      "searchPlaceholder": "nombre/número de serie"
+    },
+    "detailsTab": {
+      "id": {
+        "title": "ID de Cliente:",
+        "message": "El número ID es generado automáticamente y no puede ser cambiado."
+      },
+      "qrCode": {
+        "title": "Código QR de acceso para cliente:",
+        "message": "Esto permite que el cliente acceda a la aplicación utilizando el Código QR asignado en lugar de las credenciales de inicio de sesión proporcionadas.",
+        "status": {
+          "disabled": "DESACTIVADO",
+          "enabled": "ACTIVADO"
+        },
+        "copyUrl": "Copiar url",
+        "copyTooltip": "Copiada"
+      },
+      "edit": {
+        "access": "Acceso",
+        "companyNameLabel": "Nombre de cliente *",
+        "delete": "Eliminar el cliente",
+        "CompanyNameError": "El nombre no puede tener más de 75 caracteres",
+        "qrCodeMessage": "Esto permite a los operarios de máquinas abrir la aplicación Makula Facility escaneando el código QR de la máquina en lugar de usar las credenciales de inicio de sesión.",
+        "changes": {
+          "discard": "Descartar cambios",
+          "save": "Guardar cambios"
+        },
+        "successMsg": "Cliente actualizado exitosamente",
+        "qrStatusSuccessMsgStart": "Código QR de cliente",
+        "qrStatusEnableMsg": "Activado",
+        "qrStatusDisableMsg": "Desactivado"
+      },
+      "updated": "Detalles de cliente actualizados",
+      "address": {
+        "label": "Dirección de cliente",
+        "placeholder": "Buscar la dirección de cliente"
+      },
+      "team": {
+        "label": "Equipo:"
+      },
+      "facilityRemovedSuccess": "Cliente eliminado exitosamente",
+      "unableToRemoveFacility": "Algo salió mal. No se pudo eliminar el cliente"
+    },
+    "productionLinesTab": {
+      "assignTitle": "Asignar línea de producción",
+      "noProductionLine": "No hay ninguna línea de producción asignada a esta instalación.",
+      "searchPlaceHolder": "Búsqueda por nombre/ID",
+      "assignProductionLineModal": {
+        "infoMessage": "Sólo puede asignar líneas de producción que no estén asignadas a ninguna instalación.",
+        "nameTitle": "Nombre de la línea de producción",
+        "idTitle": "Identificación de la línea de producción",
+        "assignProductinLinesSuccess": "Línea(s) de producción asignada(s) con éxito",
+        "searchPlaceHolder": "Buscar en"
+      },
+      "unassignProductionLineModal": {
+      "success": "Línea de producción no asignada con éxito",
+      "error": "Algo ha ido mal. No se puede eliminar la línea de producción",
+      "unassignMessage": "¿Está seguro de que desea desasignar esta línea de producción de esta instalación? (la línea de producción no se eliminará)"
+    }
+      
+    }
+  },
+  "created": "Cliente creado",
+  "createdSuccess": "Cliente creado",
+  "facilityCreationQuitAlert": "Estás seguro que deseas salir sin guardar el cliente?",
+  "facilityAddressQuitAlert": "Estás seguro que deseas salir sin guardar la dirección del cliente?",
+  "acceptButtonText": "Sí, Cancelar",
+  "cancelButtonText": "No, Volver",
+  "facilityDeleteAlert": "Estás seguro que deseas eliminar este cliente?",
+  "deleteAcceptButtonText": "Sí, eliminar",
+  "deleteCancelButtonText": "No, Cancelar",
+  "deleteFacility": "Borrar fábrica",
+  "facilityUpdateSuccess": "Fábrica actualizada correctamente",
+  "facilityUpdateFailed": "Error al actualizar fábrica",
+  "descriptionPlaceholder": "Añadir descripción de fábrica",
+  "createUserBtn": "Crear un usuario",
+  "userListTableColumn": {
+    "name": "Nombre",
+    "email": "Email",
+    "jobTitle": "Título de trabajador",
+    "landLine": "Línea",
+    "phoneNumber": "Número de teléfono",
+    "access": "Acceso",
+    "noAccess": "Sin acceso"
+  },
+  "showQrCode": "Ver Código QR",
+  "useFacilityQrCode": "Usar Código QR",
+  "qrScanSignOutInfo": "Al iniciar sesión es esta fábrica, la sesión en la fábrica actual se cerrará.",
+  "facilityText": "Instalación",
+  "facilityNameText": "Nombre del centro",
+  "facilityAddressText": "Dirección del centro",
+  "facilityTeamText": "Equipo asignado",
+  "pageViews": {
+    "list": "Lista",
+    "board": "Tablero",
+    "map": "Mapa",
+    "calender": "Calendario",
+    "table": "Cuadro"
+  }
+}

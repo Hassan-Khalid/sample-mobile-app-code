@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "strict": true,
+    "jsx": "react-native",
+    "declaration": true,
+    "baseUrl": "./",
+    "paths": {
+      "common/*": ["./packages/common", "./packages/common/*"]
+    },
+    "target": "esnext",
+    "outDir": "artifacts",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "types": ["node", "react", "react-native", "jest","vitest/globals","vitest/jsdom"],
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ],
+    "rootDirs": ["packages", "__tests__"]
+  },
+  "lib": ["es6", "dom"],
+  "include": ["packages/"],
+  "exclude": ["babel.config.js", "metro.config.js", "jest.config.js", "./native-base-theme",],
+  "compileOnSave": false
+}

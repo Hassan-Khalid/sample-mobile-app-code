@@ -1,0 +1,260 @@
+{
+  "newUserForm": {
+    "heroTitle": "Neuen Nutzer hinzufügen",
+    "title": "Nutzer Accounts",
+    "userNumber": "NUTZER",
+    "name": {
+      "label": "Vollständiger Name",
+      "placeholder": "Vollständigen Namen eingeben"
+    },
+    "job": {
+      "label": "Job Bezeichnung oder Funktion",
+      "placeholder": "Info eingeben"
+    },
+    "email": {
+      "label": "E-Mail *",
+      "placeholder": "E-mail eingeben"
+    },
+    "phone": {
+      "label": "Telefonnummer",
+      "placeholder": "Telefonnummer eingeben",
+      "invalidFormatError": "Ungültiges Format für Telefonnummer",
+      "invalidCharacterError": "0-9 und + sind zulässig"
+    },
+    "landline": {
+      "label": "Festnetz",
+      "placeholder": "Festnetz eingeben",
+      "invalidFormatError": "Ungültiges Format für Festnetznummer",
+      "invalidCharacterError": "0-9 und + sind zulässig"
+    },
+    "teams": {
+      "label": "Dem Team zuweisen",
+      "placeholder": "Teams auswählen"
+    },
+    "addAnother": "Weiteren Nutzer hinzufügen",
+    "access": "Zugang",
+    "notify": "Benachrichtigen",
+    "message": "Das Passwort wird per E-mail zugeschickt.",
+    "save": "Nutzer speichern"
+  },
+  "newMachineForm": {
+    "heroTitle": "Neue Maschine erstellen",
+    "name": {
+      "label": "Name der Maschine",
+      "placeholder": "Name der Maschine hinzufügen",
+      "lengthError": "Name darf nicht länger als 75 Zeichen sein"
+    },
+    "serial": {
+      "label": "Seriennummer * (muss innerhalb Ihrer Organisation eindeutig sein)",
+      "labelInputting": "Seriennummer *",
+      "error": "Diese Seriennummer ist bereits einer anderen Maschine in Ihrem Unternehmen zugeordnet",
+      "lengthError": "Seriennummer darf nicht länger als 75 Zeichen sein.",
+      "placeholder": "Seriennummer hinzufügen"
+    },
+    "facility": {
+      "label": "Kundenstandort",
+      "placeholder": "Wähle Kundenstandort"
+    },
+    "decription": {
+      "label": "Maschinenbeschreibung",
+      "placeholder": "Maschinenbeschreibung hinzufügen"
+    },
+    "imageUpload": {
+      "dropImage": {
+        "beforeLink": "Fügen Sie Ihr Bild hier ein, oder ",
+        "link": "Zum Durchsuchen klicken",
+        "afterLink": " auf dem Computer"
+      },
+      "fileRecommendation": "1600 x 1200 (4:3) empfohlen, bis zu 10MB.",
+      "uploaded": {
+        "title": "Dokumentation der Maschine",
+        "label": "Dateien und Ordner können verwaltet werden, sobald die Maschine erstellt ist."
+      }
+    },
+    "exitWindow": {
+      "title": "Sind Sie sicher, dass Sie abbrechen möchten, ohne die neue Maschine zu speichern?",
+      "yes": "Ja, abbrechen",
+      "no": "Nein, weiter bearbeiten"
+    },
+    "submit": "Neue Maschine anlegen"
+  },
+  "newFacilityForm": {
+    "heroTitle": "Neuen Kundenstandort hinzufügen",
+    "name": {
+      "label": "Name des Kundenstandortes *",
+      "placeholder": "Name des Kundenstandortes hinzufügen"
+    },
+    "user": {
+      "title": "Nutzer Accounts",
+      "userNumber": "NUTZER",
+      "name": {
+        "label": "Vollständiger Name",
+        "placeholder": "Vollständigen Namen eingeben"
+      },
+      "job": {
+        "label": "Job Bezeichnung oder Funktion",
+        "placeholder": "Info hinzufügen"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "E-mail hinzufügen"
+      },
+      "addAnother": "Weiteren Nutzer hinzufügen",
+      "access": "Zugang",
+      "message": "Das Passwort wird per Email zugeschickt, wenn der Zugang aktiviert ist."
+    },
+    "machines": {
+      "title": "Maschinen an diesem Kundenstandort",
+      "message": "Maschine kann nur einem Kundenstandort zugeordnet werden.",
+      "assign": {
+        "label": "Maschine zuordnen",
+        "placeholder": "Maschine auswählen"
+      },
+      "addAnother": "Weitere Maschine hinzufügen"
+    },
+    "teams": {
+      "label": "Teams zuweisen",
+      "placeholder": "Wählen Sie ein Team",
+      "infoMessage": "Alle Maschinen, die dieser Einrichtung zugewiesen sind, werden automatisch dem Team zugewiesen.",
+      "dropdownTitle": "Teams auswählen"
+    },
+    "submit": "Kundenstandort anlegen"
+  },
+  "newTicketForm": {
+    "addTicketTitle": "Neuen Arbeitsauftrag hinzufügen",
+    "type": {
+      "label": "Auftragstyp wählen *",
+      "ServiceRequest": "Serviceanfrage",
+      "SparePartOrder": "Ersatzteilanfrage"
+    },
+    "facility": {
+      "label": "Kundenstandort auswählen *",
+      "placeholder": "Kundenstandort auswählen"
+    },
+    "machine": {
+      "label": "Maschine auswählen *",
+      "placeholder": "Maschine auswählen"
+    },
+    "reporter": {
+      "label": "Reporter auswählen",
+      "placeholder": "Reporter auswählen"
+    },
+    "title": {
+      "label": "Titel des Auftrags *",
+      "placeholder": "Titel des Auftrags hinzufügen",
+      "lengthError": "Titel darf nicht länger als 75 Zeichen sein"
+    },
+    "description": {
+      "label": "Auftragsbeschreibung",
+      "placeholder": "Auftragsbeschreibung hinzufügen"
+    },
+    "submit": "Arbeitsauftrag einreichen",
+    "exit": {
+      "title": "Sind Sie sicher, dass Sie den Auftrag beenden möchten, ohne zu speichern?",
+      "yes": "Ja, abbrechen",
+      "no": "Nein, weiter bearbeiten"
+    }
+  },
+  "noOption": "Keine Option verfügbar",
+  "productionLineForm": {
+    "title": "Hinzufügen einer Produktionslinie",
+    "submitButtonText": "Produktionslinie speichern",
+    "nameField": {
+      "label": "Bezeichnung *",
+      "placeholder": "Name eingeben",
+      "lengthError": "Der Name darf nicht länger als 75 Zeichen sein."
+    },
+    "productionLineIdField": {
+      "label": "Produktionslinien-ID *",
+      "placeholder": "Produktionslinien-ID eingeben",
+      "lengthError": "Die ID darf nicht länger als 75 Zeichen sein."
+    },
+    "facility": {
+      "label": "Kundenstandort auswählen",
+      "placeholder": "Kundenstandort auswählen"
+    },
+    "descriptionField": {
+      "label": "Beschreibung",
+      "placeholder": "Geben Sie Ihren Text ein"
+    },
+    "teams": {
+      "label": "Teams zuweisen",
+      "placeholder": "Wählen Sie ein Team",
+      "dropdownTitle": "Teams auswählen:"
+    },
+      "exitWindowTitle": "Sind Sie sicher, dass Sie abbrechen möchten, ohne die neue Produktionslinie zu speichern?"
+  },
+  "componentForm": {
+    "title": "Eine Komponente hinzufügen",
+    "submitButtonText": "Komponente speichern",
+    "nameField": {
+      "label": "Bezeichnung *",
+      "placeholder": "Bezeichnung eingeben",
+      "lengthError": "Der Name darf nicht länger als 75 Zeichen sein."
+    },
+    "componentNumber": {
+      "label": "Komponenten-ID *",
+      "placeholder": "Komponenten-ID eingeben",
+      "lengthError": "Die Komponenten-ID darf nicht länger als 75 Zeichen sein."
+    },
+     "machine": {
+      "label": "Maschine"
+    },
+    "descriptionField": {
+      "label": "Beschreibung",
+      "placeholder": "Geben Sie Ihren Text ein"
+    }, 
+    "imageField": {
+      "label": "Bild der Komponente"
+    }
+  },
+  "machineTemplate": {
+    "addNewHeroTitle": "Neue Vorlage erstellen",
+    "docUploadInfoTitle": "Dokumente der Vorlage",
+    "docUploadInfoDesc": "Sobald die Vorlage erstellt ist, können Dateien und Ordner verwaltet werden.",
+    "exitWindowTitle": "Sind Sie sicher, dass Sie den Vorgang beenden möchten, ohne die neue Vorlage zu speichern?",
+    "chooseTemplateText": "Vorlage wählen",
+    "chooseTemplateTypeText": "Vorlagentyp wählen",
+    "templateTitleText": "Titel der Vorlage",
+    "templateTitlePlaceholder": "Titel der Vorlage hinzufügen",
+    "templateDescText": "Vorlagenbeschreibung",
+    "templateDescWarn": "(nicht für bereits erstellte Maschinen verwendet)",
+    "templateDescPlaceholder": "Vorlagenbeschreibung hinzufügen",
+    "addTemplateBtnText": "Maschinenvorlage speichern",
+    "createFromTemplate": "Neue Maschine aus Vorlage erstellen"
+  },
+  "machineNameLabelWarn": "(wenn leer gelassen, wird der Name der Vorlage verwendet)",
+  "deleteTemplateWarn": "Die Vorlage kann erst gelöscht werden, wenn vorher alle mit dieser Vorlage erstellten Maschinen gelöscht werden.",
+  "editFacilityUserForm": {
+    "title": "Benutzerkonto bearbeiten",
+    "name": {
+      "label": "Benutzername ",
+      "placeholder": "Benutzernamen eingeben"
+    },
+    "email": {
+      "label": "Benutzer Emailadresse",
+      "placeholder": "Emailadresse des Benutzers eingeben"
+    },
+    "jobTitle": {
+      "label": "Berufsbezeichnung",
+      "placeholder": "Berufsbezeichnung eingeben"
+    },
+    "access": {
+      "label": "Zugriff",
+      "options": { "access": "Zugriff", "noAccess": "Kein Zugriff" }
+    },
+    "phone": {
+      "label": "Telefonnummer",
+      "placeholder": "Telefonnummer eingeben"
+    },
+    "landline": { "label": "Festnetz", "placeholder": "Festnetz eingeben" }
+  },
+  "billableOptions": {
+    "billable": "Abrechenbar",
+    "nonBillable": "Nicht abrechenbar"
+  },
+  "customField": {
+    "lengthError": "Der Feldname darf nicht länger als 25 Zeichen sein.",
+    "alreadyOptionExists": "Werte sind bereits vorhanden!"
+  }
+}

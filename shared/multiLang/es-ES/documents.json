@@ -1,0 +1,15 @@
+{
+  "emptyDoc": {
+    "title": "Cómo funciona?",
+    "stepCount1": "1",
+    "stepCount1Title": "Envíanos tu formulario en formato pdf, word, etc.",
+    "stepCount2": "2",
+    "stepCount2Title": "Nosotros digitalizamos tu formulario y creamos un formulario digital en nuestra plataforma.",
+    "stepCount3": "3",
+    "stepCount3Title": "Podrás usar este formulario digital en tu aplicación web o móvil para reunir datos.",
+    "stepCount4": "4",
+    "stepCount4Title": "Una vez que subas/cargues el formulario, vas a poder verlo en Makula. "
+  },
+  "searchPlaceholder": "Título",
+  "templateSearchPlaceholder": "Título"
+}

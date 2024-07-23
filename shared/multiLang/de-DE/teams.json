@@ -1,0 +1,138 @@
+{
+  "welcomeTitle": "Willkommen bei Teams!",
+  "welcomeParagraph1": "Erleichtern Sie Ihren Service- und Wartungsteams auf der ganzen Welt die Arbeit. Geben Sie ihnen nur Zugang zu den Kunden und Anlagen, für die sie zuständig sein sollten, indem Sie sie in Teams mit spezifischen Aufgaben gruppieren.",
+  "welcomeParagraph2": "Verkaufen Sie über Händler? Teilen Sie sie in Teams ein und weisen Sie ihnen bestimmte Kunden und Anlagen zu, damit sie nur das sehen und bearbeiten, was für sie wichtig ist.",
+  "welcomeWorkingTitle": "Wie funktioniert es?",
+  "welcomeWorkingPoints": [
+    "Erstellen Sie ein Team und weisen Sie ihm Mitglieder zu",
+    "Zuweisung von Kunden und Assets, auf die sie Zugriff haben sollen"
+  ],
+  "welcomeWorkingDescription": "Beginnen Sie nun, Arbeitsaufträge für Kunden zu erstellen, für die dieses Team zuständig ist. Diese Arbeitsaufträge sind nur für dieses Team (oder andere, die dem jeweiligen Kunden zugewiesen sind, für den der Arbeitsauftrag bestimmt ist) und für alle Benutzer sichtbar, die keinem Team angehören.",
+  "createTeamButton": "Neues Team erstellen",
+  "addTeamButton": "Neues Team hinzufügen",
+  "createTeamDrawer": {
+    "title": "Neues Team hinzufügen",
+    "submitButton": "Team hinzufügen",
+    "teamTitlePlaceholder": "Teamname hinzufügen",
+    "colorSelectorTitle": "Wählen Sie eine Farbe",
+    "titleLimitError": "Die maximale Zeichenanzahl beträgt {{}} Zeichen",
+    "titleLabel": "Name der Mannschaft*",
+    "descriptionLabel": "Beschreibung des Teams",
+    "descriptionPlaceholder": "Hier tippen",
+    "selectFacility": {
+      "label": "Einrichtungen zuweisen",
+      "placeholder": "Wählen Sie eine Einrichtung",
+      "dropdownTitle": "Einrichtung auswählen:",
+      "infoMessageWithoutProductionLine": "Alle Maschinen, die dieser Einrichtung zugewiesen sind, werden automatisch dem Team zugewiesen.",
+      "infoMessageWithProductionLine": "Dem Team werden auch alle Produktionslinien und Maschinen des Betriebs zugewiesen."
+    },
+    "selectMachine": {
+      "label": "Maschinen zuweisen",
+      "placeholder": "Maschinen auswählen",
+      "dropdownTitle": "Maschine auswählen:"
+    },
+    "selectProductionLine": {
+      "label": "Produktionslinien zuweisen",
+      "placeholder": "Produktionslinien auswählen",
+      "dropdownTitle": "Produktionslinie auswählen:",
+      "infoMessage": "Alle Maschinen der Produktionslinie werden dem Team zugewiesen"
+    },
+    "selectMember": {
+      "label": "Mitglieder zuweisen",
+      "placeholder": "Mitglieder auswählen",
+      "dropdownTitle": "Mitglied auswählen:"
+    }
+  },
+  "teamListHeaderLabels": {
+    "name": "Bezeichnung",
+    "description": "Beschreibung",
+    "teamMembers": "Teammitglieder"
+  },
+  "singleTeam": {
+    "tabs": {
+      "teamMembers": "Teammitglieder",
+      "facilities": "Einrichtungen",
+      "productionLines": "Produktionslinien",
+      "machines": "Maschinen"
+    },
+    "teamMembersTab": {
+      "assignButton": "Mitglied zuweisen",
+      "unassignTitle": "Sind Sie sicher, dass Sie dieses Mitglied entfernen möchten?",
+      "unassignAcceptButton": "Entfernen Sie",
+      "listHeaderLabels": {
+        "name": "Bezeichnung",
+        "jobTitle": "Berufsbezeichnung",
+        "accessLevel": "Zugangsebene"
+      }, 
+      "assignDrawer": {
+        "dropdownTitle": "Teammitglieder:",
+        "submitButton": "Mitglied hinzufügen",
+        "title":  "Mitglied zuweisen"
+      }
+    },
+    "facilitiesTab": {
+      "assignButton": "Einrichtung zuweisen",
+      "unassignTitle": "Einrichtung nicht zuordnen?",
+      "unassignMessage": "Sind Sie sicher, dass Sie die Zuordnung von {{}} zu diesem Team aufheben wollen?",
+      "assignDrawer": {
+        "title":  "Einrichtung zuweisen",
+        "placeholder": "Einrichtung auswählen",
+        "submitButton": "Einrichtung hinzufügen"
+      }
+    },
+    "productionLinesTab": {
+      "assignButton": "Produktionslinie zuordnen",
+      "unassignTitle": "Produktionslinie nicht zuordnen?",
+      "unassignMessage": "Sind Sie sicher, dass Sie die Zuordnung von {{}} zu diesem Team aufheben wollen?",
+      "unassignAcceptButton": "Aufheben der Zuordnung",
+      "assignDrawer": {
+        "submitButton": "Produktionslinie hinzufügen",
+        "title":  "Produktionslinie zuordnen",
+        "label": "Produktionslinie zuordnen",
+        "placeholder": "Produktionslinie auswählen"
+      }
+    },
+    "machinesTab": {
+      "serialNumber": "SN",
+      "assignButton": "Maschine zuweisen",
+      "unassignTitle": "Maschine nicht zuordnen?",
+      "unassignMessage": "Sind Sie sicher, dass Sie die Zuordnung von {{}} zu diesem Team aufheben wollen?",
+      "unassignAcceptButton": "Aufheben der Zuweisung",
+      "assignDrawer": {
+        "submitButton": "Maschine hinzufügen",
+        "title":  "Maschine zuweisen",
+        "placeholder": "Maschine auswählen"
+      }
+    },
+    "actions": {
+      "edit": "Team bearbeiten",
+      "delete": "Team löschen"
+    }, 
+    "deleteAlert": {
+      "title": "Team löschen?",
+      "message1": "Sind Sie sicher, dass Sie das {{}} Team löschen wollen?",
+      "message2": "Nach dem Löschen haben alle Benutzer des {{}}-Teams Zugriff auf alle Arbeitsaufträge, Maschinen und Einrichtungen."
+    }
+  },
+  "createTeamSuccess": "Team erfolgreich hinzugefügt",
+  "createTeamError": "Teamerstellung fehlgeschlagen",
+  "teamDeleteSuccess": "Team erfolgreich gelöscht!",
+  "updateSuccess": "Team erfolgreich aktualisiert",
+  "updateFailed": "Team konnte nicht aktualisiert werden",
+  "unassignMachineSuccess": "Maschine erfolgreich freigegeben",
+  "unassignMachineFail": "Die Zuweisung der Maschine konnte nicht aufgehoben werden",
+  "unassignProductionLineSuccess": "Produktionslinie nicht zugewiesen erfolgreich",
+  "unassignProductionLineFail": "Die Zuordnung der Produktionslinie konnte nicht aufgehoben werden",
+  "unassignFacilitySuccess": "Nicht zugewiesene Einrichtung erfolgreich",
+  "unassignFacilityFail": "Zuweisung der Einrichtung konnte nicht aufgehoben werden",
+  "unassignMemberSuccess": "Mitglied erfolgreich entfernt!",
+  "unassignMemberFail": "Mitglied konnte nicht entfernt werden",
+  "memberAssignedSuccess": "¡Se asignan uno o más nuevos miembros!",
+  "memberAssignedFailed": "Mitglied konnte nicht zugewiesen werden",
+  "facilityAssignedSuccess": "Eine oder mehrere neue Einrichtungen werden zugewiesen!",
+  "facilityAssignedFailed": "Einrichtung konnte nicht zugewiesen werden",
+  "machineAssignedSuccess": "Eine oder mehrere neue Maschinen werden zugewiesen!",
+  "machineAssignedFailed": "Maschine konnte nicht zugewiesen werden",
+  "productionLineAssignedSuccess": "Eine oder mehrere neue Produktionslinien werden zugewiesen!",
+  "productionLineAssignedFailed": "Produktionslinie konnte nicht zugeordnet werden"
+}

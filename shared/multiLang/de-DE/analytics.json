@@ -1,0 +1,12 @@
+{
+  "orgOverview": "Unternehmensübersicht",
+  "avgRespTime": "Durchschnittliche Reaktionszeit",
+  "numberOfAgents": "OEM Nutzer Accounts",
+  "numberOfFacilities": "Anzahl der Kundenstandorte",
+  "numberOfMachines": "Anzahl der Maschinen",
+  "ticketVolume": "Auftragsvolumen",
+  "top10Facilities": "Top 10 Kundenstandorte",
+  "numberSingOfTickets": "# der Aufträge",
+  "coloredLegend": "Legende",
+  "analyticsAccessDeniedModalTitle": "Wenn Sie die Analyse Funktion nutzen möchten, kontaktieren Sie bitte"
+}

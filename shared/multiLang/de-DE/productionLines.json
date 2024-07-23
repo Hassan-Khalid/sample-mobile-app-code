@@ -1,0 +1,51 @@
+{
+  "noProductionLineMachinesFound": "Dieser Produktionslinie sind keine Maschinen zugeordnet",
+  "assignMachinesSuccess": "Maschine(n) erfolgreich zugewiesen",
+  "created": "Produktionslinie erfolgreich erstellt",
+  "creationFailed": "Erstellung einer Produktionslinie fehlgeschlagen",
+  "updateSuccess": "Produktionslinie erfolgreich aktualisiert",
+  "updateFailed": "Aktualisierung der Produktionslinie fehlgeschlagen",
+  "searchPlaceholder": "Suche nach Namen/ID",
+  "deleteButtonText": "Produktionslinie löschen",
+  "id": "ID",
+  "facility": "Kundenstandort",
+  "team": "Mannschaft:",
+  "name": "Name",
+  "descriptionPlaceholder": "Beschreibung der Produktionslinie hinzufügen",
+  "tabs": {
+    "generalInfo": {
+      "title":  "Allgemeine Informationen"
+    },
+    "machines":{
+      "title":  "Maschinen",
+      "unassignMessage": "Sind Sie sicher, dass Sie die Zuordnung dieser Maschine zu dieser Produktionslinie aufheben wollen? (die Maschine wird nicht gelöscht)"
+    }
+  },
+  "assignMachineToProductionLineModal": {
+    "title": "Maschinen zuweisen",
+    "serachMachinePlaceHolder": "Suche",
+    "assignButton": "Maschinen zuweisen",
+    "infoMessage": "Sie können nur Maschinen zuordnen, die keinem Kundenstandort oder Produktionslinie zugeordnet sind. Wenn eine Maschine einem Kundenstandort zugewiesen ist, aber einer Produktionslinie zugewiesen werden soll, heben Sie zunächst die Zuweisung zu dem Kundenstandort auf.",
+    "labels": {
+      "machineName": "Name der Maschine",
+      "serialNumber": "Seriennummer"
+  }
+  },
+  "editProductionLineModal": {
+    "title": "Bearbeiten ",
+    "facilityPlaceholder": "Kundenstandort auswählen",
+    "labels": {
+       "id": "ID der Produktionslinie",
+       "facility": "Kundenstandort",
+       "name": "Name der Produktionslinie"
+    }
+  },
+  "deleteProductionLineModal": {
+    "title": "Produktionslinie löschen?",
+    "message": "Sie sind dabei, diese Produktionslinie zu löschen. Wenn Sie sie löschen, werden alle Maschinen nicht mehr zugewiesen und Sie können sie auf der Registerkarte Maschinen finden. Möchten Sie fortfahren?",
+    "facilityAssignedMessage": "Sie sind dabei, eine Produktionslinie zu löschen, die einem Kundenstandort zugeordnet ist. Wenn Sie sie löschen, werden alle Maschinen der Produktionslinie an diesem Kundenstandort entfernt. Möchten Sie fortfahren?",
+    "success": "Produktionslinie erfolgreich gelöscht"
+  },
+  "assignMachine": "Maschine zuweisen",
+  "duplicateProductionLineIdError": "Produktionslinien-ID bereits vorhanden"
+}

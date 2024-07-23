@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoaderComponent renders correctly 1`] = `
+<View
+  accessibilityLabel="loader-component"
+  style={
+    {
+      "alignItems": "center",
+      "height": 1334,
+      "justifyContent": "center",
+      "position": "absolute",
+      "width": 750,
+      "zIndex": 10000,
+    }
+  }
+  testID="loader-component"
+>
+  <ActivityIndicator
+    color={
+      {
+        "dynamic": {
+          "dark": "#748094",
+          "highContrastDark": undefined,
+          "highContrastLight": undefined,
+          "light": "#8798ad",
+        },
+      }
+    }
+    size="large"
+  />
+</View>
+`;
+
+exports[`LoaderComponent should render empty 1`] = `<View />`;

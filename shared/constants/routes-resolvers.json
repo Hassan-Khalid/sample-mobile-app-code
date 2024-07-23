@@ -1,0 +1,25 @@
+{
+  "CLIENT": {
+    "ROUTES": {
+      "CMS_LOGIN": "/login",
+      "FACILITY_LOGIN": "/facility",
+      "OEM_LOGIN": "/oem",
+      "LOGOUT": "/logout"
+    }
+  },
+  "SERVER": {
+    "RESOLVERS": {
+      "WITH_TOKEN_HEADERS": [
+        "login",
+        "register",
+        "loginOemDashboard",
+        "loginCmsDashboard",
+        "loginFacilityApp",
+        "machineQrcFacilityView"
+      ]
+    },
+    "ROUTES": {
+      "LOGOUT": "logout"
+    }
+  }
+}

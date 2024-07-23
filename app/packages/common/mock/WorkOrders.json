@@ -1,0 +1,254 @@
+[
+  {
+    "__typename": "Ticket",
+    "_id": "65f02658a820c1ba50beb4f9",
+    "ticketId": "89002A4F91",
+    "title": "my work order 1",
+    "status": "65d3319c44f97ac2b4721f55",
+   "ticketType":{"_id":"34fe34r43", "nam,e":"SparePartOrder"},
+    "createdAt": "2024-03-12T09:54:32.244Z",
+    "updatedAt": "2024-03-12T18:19:35.321Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": true,
+    "assignee": {
+      "__typename": "User",
+      "_id": "65d3319c44f97ac2b4721f51",
+      "name": "admin"
+    },
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65ec2ed7249833bcb57127e6",
+      "name": "Test Machine 2",
+      "serialNumber": "00232"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65ec23d1249833bcb57125c4",
+      "name": "test facility 2",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65ec23d1249833bcb57125c4-65f02658a820c1ba50beb4f9"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65f02658a820c1ba50beb4f9-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": null,
+    "schedule": null
+  },
+  {
+    "__typename": "Ticket",
+    "_id": "65f026a5a820c1ba50beb6bb",
+    "ticketId": "WKKRISSQN2",
+    "title": "my work order 2 spare part order",
+    "status": "65d3319c44f97ac2b4721f55",
+    "ticketType": "SparePartOrder",
+    "createdAt": "2024-03-12T09:55:49.967Z",
+    "updatedAt": "2024-03-12T18:19:35.321Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": true,
+    "assignee": {
+      "__typename": "User",
+      "_id": "65d3319c44f97ac2b4721f51",
+      "name": "admin"
+    },
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65e84e5c249833bcb57118db",
+      "name": "Test Machine",
+      "serialNumber": "0001"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65e84e34249833bcb5711880",
+      "name": "Test Facility 1 ",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84e34249833bcb5711880-65f026a5a820c1ba50beb6bb"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65f026a5a820c1ba50beb6bb-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": {
+      "__typename": "User",
+      "_id": "65e85031249833bcb5711d0c",
+      "name": "ubaid"
+    },
+    "schedule": null
+  },
+  {
+    "__typename": "Ticket",
+    "_id": "65ec2ef8249833bcb5712848",
+    "ticketId": "9XWF64PQVB",
+    "title": "Test Service Request",
+    "status": "65d3319c44f97ac2b4721f57",
+   "ticketType":{"_id":"34fe34r43", "nam,e":"SparePartOrder"},
+    "createdAt": "2024-03-09T09:42:16.176Z",
+    "updatedAt": "2024-03-09T09:42:28.056Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": false,
+    "assignee": null,
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65ec2ed7249833bcb57127e6",
+      "name": "Test Machine 2",
+      "serialNumber": "00232"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65ec23d1249833bcb57125c4",
+      "name": "test facility 2",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65ec23d1249833bcb57125c4-65ec2ef8249833bcb5712848"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65ec2ef8249833bcb5712848-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": null,
+    "schedule": null
+  },
+  {
+    "__typename": "Ticket",
+    "_id": "65ec2eaa249833bcb5712731",
+    "ticketId": "LATC7TFFZK",
+    "title": "Spare part required",
+    "status": "65d3319c44f97ac2b4721f55",
+    "ticketType": "SparePartOrder",
+    "createdAt": "2024-03-09T09:40:58.162Z",
+    "updatedAt": "2024-03-09T09:41:00.465Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": true,
+    "assignee": null,
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65e84e5c249833bcb57118db",
+      "name": "Test Machine",
+      "serialNumber": "0001"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65e84e34249833bcb5711880",
+      "name": "Test Facility 1 ",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84e34249833bcb5711880-65ec2eaa249833bcb5712731"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65ec2eaa249833bcb5712731-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": null,
+    "schedule": null
+  },
+  {
+    "__typename": "Ticket",
+    "_id": "65e84f7a249833bcb5711bf7",
+    "ticketId": "RGZ6AR66BS",
+    "title": "work order 2",
+    "status": "65d3319c44f97ac2b4721f56",
+    "ticketType": "SparePartOrder",
+    "createdAt": "2024-03-06T11:11:54.854Z",
+    "updatedAt": "2024-03-09T09:36:53.609Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": false,
+    "assignee": null,
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65e84e5c249833bcb57118db",
+      "name": "Test Machine",
+      "serialNumber": "0001"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65e84e34249833bcb5711880",
+      "name": "Test Facility 1 ",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84e34249833bcb5711880-65e84f7a249833bcb5711bf7"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84f7a249833bcb5711bf7-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": null,
+    "schedule": null
+  },
+  {
+    "__typename": "Ticket",
+    "_id": "65e85056249833bcb5711d32",
+    "ticketId": "6WWPO6J434",
+    "title": "Work Order 3",
+    "status": "65d3319c44f97ac2b4721f55",
+    "ticketType": "SparePartOrder",
+    "createdAt": "2024-03-06T11:15:34.222Z",
+    "updatedAt": "2024-03-09T08:47:23.307Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": false,
+    "assignee": null,
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65e84e5c249833bcb57118db",
+      "name": "Test Machine",
+      "serialNumber": "0001"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65e84e34249833bcb5711880",
+      "name": "Test Facility 1 ",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84e34249833bcb5711880-65e85056249833bcb5711d32"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e85056249833bcb5711d32-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": {
+      "__typename": "User",
+      "_id": "65e85031249833bcb5711d0c",
+      "name": "ubaid"
+    },
+    "schedule": null
+  },
+  {
+    "__typename": "Ticket",
+    "_id": "65e84f04249833bcb5711ab0",
+    "ticketId": "IKR1AD4RH4",
+    "title": "Work Order 1",
+    "status": "65d3319c44f97ac2b4721f55",
+   "ticketType":{"_id":"34fe34r43", "nam,e":"SparePartOrder"},
+    "createdAt": "2024-03-06T11:09:56.100Z",
+    "updatedAt": "2024-03-06T11:10:16.061Z",
+    "maintenanceOn": null,
+    "hasOriginalEventBeenDeleted": null,
+    "unread": false,
+    "assignee": {
+      "__typename": "User",
+      "_id": "65e84ed2249833bcb5711a3b",
+      "name": "hassan"
+    },
+    "followers": [],
+    "machine": {
+      "__typename": "Machine",
+      "_id": "65e84e5c249833bcb57118db",
+      "name": "Test Machine",
+      "serialNumber": "0001"
+    },
+    "facility": {
+      "__typename": "Customer",
+      "_id": "65e84e34249833bcb5711880",
+      "name": "Test Facility 1 ",
+      "customFields": []
+    },
+    "ticketChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84e34249833bcb5711880-65e84f04249833bcb5711ab0"],
+    "ticketInternalNotesChatChannels": ["channel-65d3319c44f97ac2b4721f54-65e84f04249833bcb5711ab0-internal-notes"],
+    "customFields": [],
+    "procedures": [],
+    "user": null,
+    "schedule": null
+  }
+]
+

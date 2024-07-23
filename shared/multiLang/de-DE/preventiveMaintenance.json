@@ -1,0 +1,53 @@
+{
+  "noPreventiveMaintenanceTitle": "Für diese Maschine sind keine vorbeugenden Wartungsmaßnahmen geplant",
+  "noPreventiveMaintenanceContent": "Fügen Sie Ereignisse für die Maschine hinzu. Automatische Arbeitsaufträge werden rechtzeitig erstellt, sodass Sie keine vorbeugende Wartung und keinen Ersatzteilservice verpassen.",
+  "noPreventiveMaintenanceAddButton": "Fügen Sie Ereignisse hinzu",
+  "noPMAlertTitle": "Wenn Sie die vorbeugende Wartungsfunktion nutzen möchten, kontaktieren Sie uns bitte",
+  "noPMAlertTitleEmail": "support@makula.io",
+  "createEventButtonText": "Neues Ereignis erstellen",
+  "repeatEvery": "Wiederhole",
+  "maintenanceOn": "Nächste Wartung am",
+  "frequency": {
+    "day": "Tag",
+    "week": "Woche",
+    "month": "Monat",
+    "year": "Jahr"
+  },
+  "drawerTitle": "Neue Wartung planen",
+  "createButton": "Neues Ereignis erstellen",
+  "form": {
+    "eventName": "Wartungsmaßnahme",
+    "eventNamePlaceholder": "Beschreibung der Wartung",
+    "eventDate": "Startdatum",
+    "startDatePlaceholder": "Datum hinzufügen",
+    "frequencyLabel": "Frequenz: ",
+    "frequencyRepeat": "Wiederhole",
+    "frequencyNoRepeat": "Nicht wiederholen",
+    "description": "Beschreibung der Wartung",
+    "descriptionPlaceholder": "Neue Beschreibung hinzufügen",
+    "ticketCreationInfo": "Automatisch Arbeitsauftrag erstellen {{}} vor Ereignis: ",
+    "repeatEventEvery": "Ereignis in diesem Rhytmus wiederholen:"
+  },
+  "previewEvent": {
+    "ticketCreationText": "Automatische Arbeitsauftragserstellung",
+    "ticketCreationEnd": "vor dem Ereignis",
+    "ticketCreationDate": "Nächster Arbeitsauftrag wird automatisch erstellt am",
+    "ticketBeforeCreationDate": "Arbeitsauftrag wurde automatisch erstellt am",
+    "viewTicket": "Arbeitsauftrag anzeigen",
+    "buttonDelete": "Löschen",
+    "buttonEdit": "Bearbeiten"
+  },
+  "eventNameCharacterLimitError": "Name des Ereignisses darf nicht länger als 75 Zeichen sein",
+  "editEventTitleText": "Bearbeiten Geplante Wartungen",
+  "buttonCancelText": "Abbrechen",
+  "buttonUpdateText": "Aktualisieren",
+  "noPMAlertOkayButton": "Okay",
+  "error": {
+    "invalidTicketCreationDate": "Erstellungsdatum des Arbeitsauftrags kann nicht heute oder vor dem heutigen Tag gewählt werden",
+    "zeroOrEmptyNotAllowed": "Null oder Leerzeichen sind nicht zulässig"
+  },
+  "eventProgressText": "Fortschritt",
+  "deleteModalAcceptBtnText": "Ja, löschen",
+  "deleteModalCancelBtnText": "Nein, abbrechen",
+  "deleteModalTitle": "Sind Sie sicher, dass Sie dieses vorbeugende Wartungsereignis löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+}

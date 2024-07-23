@@ -1,0 +1,25 @@
+{
+  "alertMsgSuccess": "Dokument wurde gelöscht",
+  "alertMsgError": "Etwas ist schiefgelaufen",
+  "loadingDocuments": "...Dokumente werden geladen",
+  "confirmationAlertTitle": "Sind Sie sicher, dass Sie dieses Dokument löschen möchten?",
+  "accpetButtonText": "Ja, Löschen",
+  "cancelButtonText": "Nein, Zurück",
+  "useTemplate": "Vorlage verwenden",
+  "useTemplateDrawerTitle": "Diese Vorlage verwenden um ein neues Dokument zu erstellen",
+  "continueButtonText": "Fortfahren",
+  "documentInfoText": "Sobald Sie das Formular ausgefüllt haben, klicken Sie auf fortfahren und das Dokument wird automatisch generiert.",
+  "formLabel": {
+    "facilityLabel": "Name Kundenstandort",
+    "facilityPlaceholder": "Kundenstandort auswählen",
+    "machineLabel": "Maschine",
+    "machinePlaceholder": "Maschine auswählen",
+    "inspectionLabel": "Inspektionsdatum"
+  },
+  "thankForSubmingForm": "Vielen Dank!",
+  "thankForSubmingFormContent": "Dokument wurde erstellt und veröffentlicht. Alle Ihre Dokumente werden in xxx gespeichert",
+  "allDocuments": "Alle Dokumente",
+  "documents": "Dokumente",
+  "templates": "Vorlagen",
+  "formErrorMsg": "Entschuldigung, Etwas ist schiefgelaufen! Bitte versuchen Sie es in ein paar Minuten erneut."
+}

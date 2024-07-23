@@ -1,0 +1,55 @@
+{
+  "editTitle": "Bearbeiten",
+  "searchComponent": "Suche nach Name/ID",
+  "deleteButtonText": "Komponente löschen",
+  "imageDeleteSuccess": "Komponentenbild erfolgreich gelöscht",
+  "descriptionPlaceholder": "Komponentenbeschreibung hinzufügen",
+  "updateSuccess": "Komponente erfolgreich aktualisiert",
+  "updateFailed": "Komponente konnte nicht aktualisiert werden",
+  "noMachineComponentsFound": "Dieser Maschine ist keine Komponente zugewiesen.",
+  "noComponents": "Es ist keine Komponente zur Verwendung verfügbar.",
+  "created": "Komponente erfolgreich erstellt",
+  "creationFailed": "Komponentenerstellung fehlgeschlagen",
+  "labels": {
+    "componentId": "Komponenten-ID",
+    "ID": "ID",
+    "machine": "Maschine"
+  },
+  "deleteAlert": {
+    "success": "Komponente erfolgreich gelöscht",
+    "title": "Komponente löschen?",
+    "message": "Sind Sie sicher, dass Sie diese Komponente löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+  },
+  "unassignMessage": "Sind Sie sicher, dass Sie die Zuordnung dieser Komponente zu dieser Maschine aufheben möchten? (die Komponente wird nicht gelöscht)",
+  "unassignSuccess": "Zuweisung der Komponente erfolgreich aufgehoben",
+  "unassignError": "Etwas ist schief gelaufen. Komponente kann nicht entfernt werden",
+  "assignComponentToMachineModal": {
+     "success": "Erfolgreich zugewiesene Komponente(n)",
+    "title": "Komponenten zuordnen",
+    "serachComponentePlaceHolder": "Suche",
+    "assignButton": "Komponenten zuordnen",
+    "labels": {
+      "componentName": "Bezeichnung der Komponente",
+      "componentId": "Komponenten-ID"
+  }
+},
+   "noComponentPartsFound": "Dieser Komponente sind keine Ersatzteile zugewiesen",
+  "unassignConfirmationFromComponentTitle": "Sind Sie sicher, dass Sie die Zuweisung von {{}} für diese Komponente aufheben möchten?",
+  "componentPartsAdded": "Ersatzteile erfolgreich hinzugefügt",
+  "componentPartsAddFailed": "Ersatzteile für diese Komponente konnten nicht hinzugefügt werden",
+  "componentPartRemoved": "Zuweisung des Ersatzteils erfolgreich aufgehoben",
+  "componentPartRemoveFailed": "Das Entfernen von Ersatzteilen aus dieser Komponente ist fehlgeschlagen",
+  "assignPart": "Ersatzteil zuweisen",
+  "searchPartPlaceholder": "Suche nach Name/Artikel",
+  "assignPartToComponentModal": {
+    "title": "Ersatzteile zuweisen",
+    "searchPartPlaceHolder": "Suche",
+    "assignButton": "Ersatzteile zuweisen"
+  },
+  "tabs": {
+    "generalInfo": "Allgemeine Informationen",
+    "parts": "Ersatzteile"
+  },
+  "duplicateComponentIdError": "Komponenten-ID existiert bereits",
+  "noAccess": "Kein Zugang"
+}
